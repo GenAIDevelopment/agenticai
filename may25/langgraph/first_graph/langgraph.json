@@ -1,0 +1,6 @@
+{
+    "graphs": {
+        "first": "./first.py:graph"
+    },
+    "dependencies": ["."]
+}
