@@ -3,7 +3,8 @@
         "first": "./first.py:graph",
         "llm": "./basicllm.py:graph",
         "llm-2": "./llm_interactions.py:graph",
-        "tools": "./tools.py:graph"
+        "tools": "./tools.py:graph",
+        "math" : "./mymath.py:graph"
     },
     "dependencies": ["."]
 }
