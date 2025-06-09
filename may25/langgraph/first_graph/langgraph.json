@@ -5,7 +5,8 @@
         "llm-2": "./llm_interactions.py:graph",
         "tools": "./tools.py:graph",
         "math" : "./mymath.py:graph",
-        "reducer": "./reducer.py:my_graph"
+        "reducer": "./reducer.py:my_graph",
+        "summary": "./summarization.py:summary_graph"
     },
     "dependencies": ["."]
 }
