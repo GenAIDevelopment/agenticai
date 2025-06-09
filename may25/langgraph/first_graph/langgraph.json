@@ -4,7 +4,8 @@
         "llm": "./basicllm.py:graph",
         "llm-2": "./llm_interactions.py:graph",
         "tools": "./tools.py:graph",
-        "math" : "./mymath.py:graph"
+        "math" : "./mymath.py:graph",
+        "reducer": "./reducer.py:my_graph"
     },
     "dependencies": ["."]
 }
