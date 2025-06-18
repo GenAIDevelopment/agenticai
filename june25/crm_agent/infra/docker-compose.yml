@@ -1,0 +1,19 @@
+---
+services:
+  studentsdb:
+    image: mysql:lts
+    environment:
+      - MYSQL_ROOT_PASSWORD=rootroot
+      - MYSQL_USER=ltgenai
+      - MYSQL_PASSWORD=rootroot
+      - MYSQL_DATABASE=genaideveloper
+    ports:
+      - 3306:3306
+    networks:
+      - crm-net
+
+networks:
+  crm-net:
+
+
+  
