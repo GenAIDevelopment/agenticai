@@ -6,7 +6,8 @@
         "tools": "./tools.py:graph",
         "math" : "./mymath.py:graph",
         "reducer": "./reducer.py:my_graph",
-        "summary": "./summarization.py:summary_graph"
+        "summary": "./summarization.py:summary_graph",
+        "human": "./hitl.py:my_graph"
     },
     "dependencies": ["."]
 }
