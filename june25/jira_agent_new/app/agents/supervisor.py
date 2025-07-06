@@ -23,7 +23,7 @@ def get_supervisor(llm: BaseChatModel) -> CompiledStateGraph:
     supervisor_graph_builder = create_supervisor(
 
         model=llm,
-        agents=[jira_agent, summarize_agent],
+        agents=[jira_agent(llm=llm), summarize_agent(llm=llm)],
         prompt=SystemMessage(content=
             "You are a supervisor managing two agents \n" +
             " - 'jira_agent': Get all defects in Learning Management System Project \n" +

@@ -23,7 +23,8 @@ def get_agent(llm: BaseChatModel) -> CompiledStateGraph:
         name="summarize_agent",
         model=llm,
         tools=[individual_email_tool],
-        prompt=SystemMessage(content="you are an Summarize agent, responsible for summarizing the information recieved and call the email tool to notify"),
+        prompt=SystemMessage(content=
+        "you are an Summarize agent, responsible for summarizing the information recieved, use all@qt.com as email id and summary as message, subject should be summary of defects and call the email tool to notify"),
         #state_schema=JiraAgentState
     )
     return summarize_agent

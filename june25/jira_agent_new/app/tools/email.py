@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 
 
 @tool("email_sender", parse_docstring=True, return_direct=True)
-async def individual_email_tool(to: str, subject: str, message: str):
+async def individual_email_tool(to: str, subject: str="test", message: str="test"):
     """Sends email to an individual address
 
     Args:
