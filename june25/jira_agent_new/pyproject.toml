@@ -1,0 +1,16 @@
+[project]
+name = "jira-agent-new"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiosmtplib>=4.0.1",
+    "atlassian-python-api>=4.0.4",
+    "ipykernel>=6.29.5",
+    "langchain-community>=0.3.27",
+    "langchain[google-vertexai]>=0.3.26",
+    "langgraph>=0.5.1",
+    "langgraph-cli[inmem]>=0.3.3",
+    "langgraph-supervisor>=0.0.27",
+]

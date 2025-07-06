@@ -1,0 +1,6 @@
+{
+    "graphs": {
+        "supervisor": "main.py:graph"
+    },
+    "dependencies": [".."]
+}
