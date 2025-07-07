@@ -75,6 +75,17 @@ def get_latest_notes() -> str:
         return lines[-1]
 
 
+@mcp.prompt(name="summaryprompt")
+def summary_prompt() -> str:
+    """This method has a summary prompt
+
+    Returns:
+        str: prompt to summarize the notes
+    """
+    content = get_all_notes()
+    return f"Summarize notes: {content}"
+
+
 
 if __name__ == '__main__':
     mcp.run(transport='stdio')
