@@ -55,6 +55,25 @@ def get_all_notes() -> str:
         content = ""
     finally:
         return content
+    
+
+@mcp.resource(name="latest", uri="resource://latest")
+def get_latest_notes() -> str:
+    """This function gets the latest notes
+
+    Returns:
+        str: latest notes if found else No Notes Yet
+    """
+    ensure_file_exists()
+    lines = []
+    try:
+        with open(FILE_LOCATION,mode='r') as notes:
+            lines = notes.readlines()
+    except Exception as e:
+        return "No Notes Yet"
+    finally:
+        return lines[-1]
+
 
 
 if __name__ == '__main__':
