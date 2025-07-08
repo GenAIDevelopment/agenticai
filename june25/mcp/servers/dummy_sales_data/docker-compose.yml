@@ -1,18 +1,23 @@
 ---
 services:
   mysql:
-    image: mysql:8.0
-    container_name: mysql
-    restart: always
+    image: mysql:8.0 # Using MySQL 8.0 image
+    container_name: genaicommerce_db
     environment:
       MYSQL_ROOT_PASSWORD: qtgenai
       MYSQL_DATABASE: genaicommerce
       MYSQL_USER: qtgenai
       MYSQL_PASSWORD: qtgenai
-    ports:
-      - "3306:3306"
     volumes:
-      - mysql_data:/var/lib/mysql
+      - mysql_data:/var/lib/mysql # Persistent volume for database data
+      - ./ecommerce_db.sql:/docker-entrypoint-initdb.d/ecommerce_db.sql # Mount your SQL script for auto-import
+    ports:
+      - "3306:3306" # Expose MySQL port
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      timeout: 20s
+      retries: 10
+    restart: always
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
