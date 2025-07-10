@@ -55,6 +55,35 @@ def get_products():
     message = f"{product[1]}, {product[2]}"
     return message
 
+@mcp.resource(uri="product://selected/{product_id}")
+def get_selected_product(product_id: int):
+    """This method gets the selected product
+    """
+    connection = get_database_connection()
+    cursor = connection.cursor()
+    latest_product_sql = f"SELECT * FROM `products` Where product_id = {product_id};"
+    cursor.execute(latest_product_sql)
+    products = cursor.fetchall()
+    product = products[0]
+    message = f"{product[1]} => {product[2]}"
+    return message
+
+
+@mcp.resource(uri="categories://{name}")
+def get_category_by_name(name:str):
+    """Get the category by name
+    """
+    connection = get_database_connection()
+    cursor = connection.cursor()
+    latest_product_sql = f"SELECT * FROM `categories` WHERE name LIKE '%{name}%';"
+    cursor.execute(latest_product_sql)
+    categories = cursor.fetchall()
+    message = ""
+    for category in categories:
+        message = f"id => {category[0]} \n name => {category[1]}"
+    return message
+
+
 
 
 # @mcp.resource(uri="users://latest")
