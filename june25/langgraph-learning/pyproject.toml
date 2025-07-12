@@ -1,0 +1,10 @@
+[project]
+name = "langgraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "langchain[google-vertexai,openai]>=0.3.26",
+]
