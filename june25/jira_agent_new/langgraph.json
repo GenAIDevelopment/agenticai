@@ -1,0 +1,7 @@
+{
+    "graphs": {
+        "supervisor": "app/main.py:graph"
+    },
+    "dependencies": ["."],
+    "env": "./.env"
+}

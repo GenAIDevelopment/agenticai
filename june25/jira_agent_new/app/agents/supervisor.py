@@ -4,14 +4,14 @@
 from langgraph_supervisor import create_supervisor
 from langgraph.graph.state import CompiledStateGraph
 from langchain.chat_models.base import BaseChatModel
-from agents.fetch import get_agent as jira_agent
-from agents.summarize import get_agent as summarize_agent
+from app.agents.fetch import get_agent as jira_agent
+from app.agents.summarize import get_agent as summarize_agent
 from langchain_core.messages import SystemMessage
-from common.state import JiraAgentState
+from app.common.state import JiraAgentState
 
 
 
-def get_supervisor(llm: BaseChatModel) -> CompiledStateGraph:
+async def get_supervisor(llm: BaseChatModel) -> CompiledStateGraph:
     """This function creates a supervisor agent
 
     Args:
@@ -23,7 +23,7 @@ def get_supervisor(llm: BaseChatModel) -> CompiledStateGraph:
     supervisor_graph_builder = create_supervisor(
 
         model=llm,
-        agents=[jira_agent(llm=llm), summarize_agent(llm=llm)],
+        agents=[await jira_agent(llm=llm), await summarize_agent(llm=llm)],
         prompt=SystemMessage(content=
             "You are a supervisor managing two agents \n" +
             " - 'jira_agent': Get all defects in Learning Management System Project \n" +

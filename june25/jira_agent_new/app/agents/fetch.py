@@ -7,11 +7,11 @@ from langchain_community.utilities.jira import JiraAPIWrapper
 from langchain.chat_models.base import BaseChatModel
 from langgraph.prebuilt import create_react_agent
 from langgraph.graph.state import CompiledStateGraph
-from common.state import JiraAgentState
+from app.common.state import JiraAgentState
 from langchain_core.messages import SystemMessage
 
 
-def get_agent(llm: BaseChatModel) -> CompiledStateGraph:
+async def get_agent(llm: BaseChatModel) -> CompiledStateGraph:
     """This agent is used to communicate with jira and get the information
 
     Args:
