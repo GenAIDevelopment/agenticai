@@ -6,5 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "ipykernel>=6.29.5",
+    "langchain-mcp-adapters>=0.1.9",
     "langchain[google-vertexai,openai]>=0.3.26",
+    "mcp[cli]>=1.11.0",
 ]
