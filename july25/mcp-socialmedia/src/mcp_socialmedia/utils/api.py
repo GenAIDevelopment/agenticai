@@ -20,8 +20,8 @@ async def fetch(url: str) -> Any:
 
 async def post(
         url: str,
-        payload: Optional[Dict[str, Any]],
-        headers: Optional[Dict[str, str]],
+        payload: Optional[Dict[str, Any]] ,
+        headers: Optional[Dict[str, str]] = None,
         timeout: float = 10.0,
         expected_status: Tuple[int, int] = (200, 299)) -> Union[Dict[str, Any], Dict[str, str]]:
     """This method posts the api
