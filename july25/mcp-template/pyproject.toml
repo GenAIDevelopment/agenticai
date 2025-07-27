@@ -1,0 +1,19 @@
+[project]
+name = "mcp-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "shaikkhajaibrahim", email = "shaikkhajaibrahim@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.12.2",
+]
+
+[project.scripts]
+mcp-template = "mcp_template:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

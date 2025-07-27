@@ -1,0 +1,10 @@
+services:
+  mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 9002:9002
+    environment:
+      - HOST=0.0.0.0
+      - PORT=9002
