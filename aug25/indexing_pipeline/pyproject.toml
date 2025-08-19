@@ -9,4 +9,5 @@ dependencies = [
     "langchain>=0.3.27",
     "langchain-community>=0.3.27",
     "pypdf>=6.0.0",
+    "tqdm>=4.67.1",
 ]
