@@ -7,4 +7,10 @@ requires-python = ">=3.13"
 dependencies = [
     "langchain[google-vertexai]>=0.3.27",
     "langchain-community>=0.3.27",
+    "tqdm>=4.67.1",
+    "unstructured>=0.18.13",
+    "libmagic>=1.0",
+    "langchain-text-splitters>=0.3.9",
+    "langchain-google-vertexai>=2.0.28",
+    "langchain-chroma>=0.2.5",
 ]
