@@ -1,0 +1,9 @@
+Title: GDPR Compliance Basics
+
+Overview:
+GDPR regulates how organizations handle personal data of EU citizens.
+
+Requirements:
+1. Obtain explicit consent.
+2. Allow data access and deletion.
+3. Report breaches within 72 hours.

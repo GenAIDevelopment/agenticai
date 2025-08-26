@@ -1,0 +1,101 @@
+Learning Thoughts Knowledge Base
+=================================
+Article Title: Code Review Checklist
+Category: Engineering / Development
+Last Updated: August 26, 2025
+
+---------------------------------
+Overview
+---------------------------------
+This article provides a standardized Code Review Checklist for Learning Thoughts. The purpose is to ensure consistency, maintainability, performance, and security in all code submissions.
+
+---------------------------------
+1. Readability & Style
+---------------------------------
+- Code follows the agreed-upon coding standards and naming conventions.
+- Proper indentation and formatting are applied.
+- Variable, function, and class names are meaningful and self-explanatory.
+- Code avoids unnecessary complexity and is easy to understand.
+
+---------------------------------
+2. Functionality & Correctness
+---------------------------------
+- The code implements the intended feature or bug fix correctly.
+- All requirements from the specification or task ticket are met.
+- Edge cases and error scenarios are handled properly.
+- There are no logical errors or broken functionality.
+
+---------------------------------
+3. Performance & Efficiency
+---------------------------------
+- Code avoids unnecessary computations or database queries.
+- Loops and iterations are optimized.
+- Large datasets are handled efficiently with appropriate data structures.
+- Performance trade-offs are justified and documented.
+
+---------------------------------
+4. Security & Privacy
+---------------------------------
+- No hardcoded credentials, API keys, or secrets in the codebase.
+- Input validation and sanitization are implemented to prevent injection attacks.
+- Sensitive data is encrypted and never logged.
+- Access control and authentication checks are in place.
+
+---------------------------------
+5. Testing & Quality
+---------------------------------
+- Unit tests are written for new functions and modules.
+- Existing tests are updated if necessary.
+- Code coverage is maintained or improved.
+- All automated tests pass successfully in the CI/CD pipeline.
+
+---------------------------------
+6. Documentation & Comments
+---------------------------------
+- Code is self-explanatory, with comments where necessary.
+- Functions and classes include docstrings for clarity.
+- README or related documentation is updated if the change impacts usage.
+- Inline comments explain complex logic but do not state the obvious.
+
+---------------------------------
+7. Version Control & Git Practices
+---------------------------------
+- Commits are small, frequent, and focused on a single change.
+- Commit messages are clear, concise, and descriptive.
+- No unnecessary files (logs, build outputs, environment files) are committed.
+- Branch naming follows the defined convention (e.g., feature/, bugfix/).
+
+---------------------------------
+8. Maintainability & Scalability
+---------------------------------
+- Code adheres to DRY (Don’t Repeat Yourself) and KISS (Keep It Simple, Stupid) principles.
+- No dead or commented-out code is left behind.
+- Modules and functions are reusable and modular.
+- Code changes are future-proof and scalable for growth.
+
+---------------------------------
+9. Review Process
+---------------------------------
+- Reviewer confirms code runs successfully in a local environment (if applicable).
+- Feedback is constructive, specific, and actionable.
+- Both author and reviewer ensure clarity in communication.
+- Code is approved only when all checklist items are satisfied.
+
+---------------------------------
+Troubleshooting / FAQs
+---------------------------------
+Q1: What if I find minor issues that don’t block merging?
+A1: Approve with comments, so the author can fix them later.
+
+Q2: How do I handle disagreements in review feedback?
+A2: Discuss openly with the team lead or architect. Prioritize team standards over personal preference.
+
+Q3: Should I prioritize speed or thoroughness in reviews?
+A3: Aim for balance. Avoid rushing, but ensure reviews don’t block delivery unnecessarily.
+
+---------------------------------
+Related Articles
+---------------------------------
+- Clean Code and Maintainable Code Guidelines
+- Version Control Guidelines
+- Testing Strategy at Learning Thoughts

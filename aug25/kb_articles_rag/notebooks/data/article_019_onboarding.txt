@@ -1,0 +1,9 @@
+Title: Employee Onboarding Process
+
+Overview:
+Onboarding introduces new employees to company policies, tools, and culture.
+
+Steps:
+1. Provide system access and equipment.
+2. Conduct orientation sessions.
+3. Assign a mentor or buddy.

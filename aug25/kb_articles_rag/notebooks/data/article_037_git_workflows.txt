@@ -1,0 +1,9 @@
+Title: Git Workflow Strategies
+
+Overview:
+Git workflows define how developers collaborate on code.
+
+Common Workflows:
+1. GitFlow – Structured branching model.
+2. Feature Branch – Isolated feature development.
+3. Trunk-Based Development – Frequent commits to main branch.

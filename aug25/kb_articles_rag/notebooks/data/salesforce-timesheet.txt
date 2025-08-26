@@ -1,0 +1,41 @@
+1. How to Update Salesforce Weekly Timesheet
+
+Purpose: To ensure accurate reporting of hours worked for billing, payroll, and project tracking.
+
+Frequency: Every Friday before 6:00 PM
+
+Steps:
+
+Login to Salesforce
+
+Open your browser and go to: https://login.salesforce.com
+
+Enter your credentials (username and password).
+
+Complete any multi-factor authentication if prompted.
+
+Navigate to Timesheet Section
+
+From the main dashboard, click on the “App Launcher” (grid icon).
+
+Search for and click on “Time Tracking” or “Weekly Timesheet” (depending on your org setup).
+
+Enter Time for the Week
+
+Select the current week from the calendar dropdown.
+
+Fill in the Project Name, Task, and Hours for each day (Mon–Fri).
+
+Use the Comments section to briefly describe the work done.
+
+Save and Submit
+
+Click “Save” to draft your timesheet.
+
+Once reviewed, click “Submit for Approval”.
+
+Confirm Submission
+
+Check the submission status. If it shows “Submitted”, you're done.
+
+If any errors appear, correct them and re-submit.

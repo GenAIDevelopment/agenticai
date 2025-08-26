@@ -1,0 +1,9 @@
+Title: Best Practices for API Design
+
+Overview:
+APIs should be intuitive, consistent, and easy to consume.
+
+Best Practices:
+1. Use RESTful principles or GraphQL when suitable.
+2. Version APIs properly.
+3. Provide clear documentation.

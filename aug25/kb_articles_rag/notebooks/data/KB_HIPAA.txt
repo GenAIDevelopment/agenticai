@@ -1,0 +1,26 @@
+
+HIPAA
+HIPAA, or the Health Insurance Portability and Accountability Act, is a United States federal law that sets national standards for the protection of individuals’ medical records and other personal health information (PHI). HIPAA applies primarily to healthcare providers, health plans, and healthcare clearinghouses, as well as their business associates, whenever they handle PHI electronically, physically, or verbally.
+
+Core Components of HIPAA
+Privacy Rule: This governs the use and disclosure of PHI, limiting who can access and share a patient’s health information and under what circumstances.
+
+Security Rule: This establishes protocols for securing electronic PHI (ePHI) through administrative, technical, and physical safeguards, such as controlled facility access, encrypted communications, audit controls, and regular risk assessments.
+
+Administrative Safeguards: These require policies for workforce training, risk assessment, incident reporting, and sanctions for non-compliance. A Security Officer must be designated to oversee these areas.
+
+Physical Safeguards: Organizations must limit physical access to workstations, devices, and facilities storing PHI, using measures like secure doors, security badges, and surveillance.
+
+Technical Safeguards: These include user authentication, role-based access controls, encryption in transit and at rest, and automatic logoff to ensure only authorized personnel can access ePHI.
+
+HIPAA in the Workplace
+Access Control: Only authorized employees may access PHI, and their access must be limited to what is necessary for their role.
+
+Training: Annual HIPAA training is required for all employees who handle PHI, with updates as regulations evolve.
+
+Reporting: Employees must have a clear way to report security incidents or PHI breaches, and organizations must respond promptly.
+
+Documentation: Organizations must maintain thorough documentation of their HIPAA compliance policies and technical infrastructure, and be prepared to present these for government review.
+
+HIPAA and Accessibility
+HIPAA's primary focus is the security and privacy of health information, but organizations are encouraged to ensure the accessibility of information and digital services for all individuals,

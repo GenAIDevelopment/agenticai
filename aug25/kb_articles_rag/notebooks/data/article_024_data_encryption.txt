@@ -1,0 +1,9 @@
+Title: Importance of Data Encryption
+
+Overview:
+Encryption protects sensitive information from unauthorized access.
+
+Types:
+1. Symmetric encryption (AES).
+2. Asymmetric encryption (RSA).
+3. Encryption in transit and at rest.

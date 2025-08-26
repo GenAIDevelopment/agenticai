@@ -1,0 +1,257 @@
+KB ARTICLE: MCP Dummy Sales Data Generator
+=========================================
+
+OVERVIEW
+--------
+The MCP Dummy Sales Data Generator is a full‑stack tool that creates realistic, large‑scale e‑commerce sales data and exposes it via a simple REST API.
+It is designed to speed up development and testing by eliminating manual test‑data creation.
+The system uses:
+- MCP Server (runs in Docker Desktop) to generate and manage data tasks
+- MCP Client (Claude Desktop) to orchestrate/trigger MCP commands
+- MySQL as the primary datastore
+- phpMyAdmin for DB management and inspection
+- Python (FastAPI/Flask) server to provide API endpoints for CRUD and bulk generation
+
+INTENDED AUDIENCE
+-----------------
+- Developers and QA engineers who need quick, consistent test datasets
+- Data engineers creating demo pipelines
+- Recruiters and reviewers evaluating the project
+
+KEY FEATURES
+------------
+- Synthetic e‑commerce entities: products, customers, orders, order_items, payments, shipments
+- Configurable volume (rows, distributions, date ranges, locales)
+- Idempotent generation: safe re‑runs with seed support
+- REST API for data retrieval and refresh
+- Dockerized infra: one‑command spin‑up
+- MCP workflow: trigger generation directly from an MCP Client (Claude Desktop)
+
+SYSTEM ARCHITECTURE (HIGH LEVEL)
+--------------------------------
+[Claude Desktop MCP Client]  -->  [MCP Server in Docker]  -->  [Python API]  -->  [MySQL DB]
+                                            |                        |
+                                        [phpMyAdmin] <---------------+
+
+PREREQUISITES
+-------------
+- Docker Desktop installed and running
+- Python 3.10+ (if running the API locally outside Docker)
+- Claude Desktop (for MCP Client)
+- (Optional) Make or GNU utilities for helper scripts
+
+REPOSITORY LAYOUT (TYPICAL)
+---------------------------
+/ (project root)
+  ├─ docker-compose.yml
+  ├─ api/
+  │   ├─ app.py               (FastAPI/Flask entrypoint)
+  │   ├─ requirements.txt
+  │   ├─ mcp/
+  │   │   ├─ server.py        (MCP Server implementation)
+  │   │   └─ tools/           (MCP tools: generate_data, reset_db, etc.)
+  │   └─ data_gen/
+  │       ├─ faker_profiles.py
+  │       ├─ orders.py
+  │       └─ seeders.py
+  ├─ db/
+  │   ├─ init.sql             (DDL + seed)
+  │   └─ migrations/          (optional)
+  ├─ .env.example
+  └─ README.md
+
+ENVIRONMENT VARIABLES (.env)
+----------------------------
+Copy .env.example to .env and set values:
+- MYSQL_HOST=localhost
+- MYSQL_PORT=3306
+- MYSQL_USER=root
+- MYSQL_PASSWORD=your_password
+- MYSQL_DATABASE=mcp_dummy
+- API_PORT=8000
+- DATA_SEED=42
+- DEFAULT_BATCH_SIZE=1000
+
+QUICK START (DOCKER-FIRST)
+--------------------------
+1) Clone the repository:
+   git clone <repo-url>
+   cd mcp-dummy-sales-data
+
+2) Create .env:
+   cp .env.example .env
+   # edit passwords/ports as needed
+
+3) Start services:
+   docker compose up -d
+
+   Services expected:
+   - MySQL (port 3306)
+   - phpMyAdmin (port 8080)
+   - API server (port 8000)
+   - MCP server (exposed internally to Claude Desktop)
+
+4) Verify database:
+   Open http://localhost:8080 and log into phpMyAdmin using MYSQL_USER/MYSQL_PASSWORD.
+   Ensure the schema and tables exist (see DB SCHEMA section).
+
+5) Test API health:
+   curl http://localhost:8000/health
+   Should return: {"status":"ok"}
+
+6) Trigger generation via API:
+   curl -X POST "http://localhost:8000/generate?rows=5000&seed=42"
+
+7) (Optional) Configure Claude Desktop MCP Client to point at the MCP server socket/port and run tool:
+   "Generate Sales Data" -> provide rows, date range, and seed.
+
+RUNNING LOCALLY (WITHOUT DOCKER)
+--------------------------------
+1) Install MySQL and create database:
+   CREATE DATABASE mcp_dummy;
+
+2) (Optional) Run init.sql to create tables:
+   mysql -u root -p mcp_dummy < db/init.sql
+
+3) Create and activate a virtual environment:
+   python -m venv .venv
+   source .venv/bin/activate  (Windows: .venv\Scripts\activate)
+
+4) Install API dependencies:
+   pip install -r api/requirements.txt
+
+5) Export environment variables (or use .env loader):
+   export MYSQL_HOST=localhost
+   export MYSQL_USER=root
+   export MYSQL_PASSWORD=your_password
+   export MYSQL_DATABASE=mcp_dummy
+   export API_PORT=8000
+
+6) Start the API:
+   python api/app.py
+
+7) Start the MCP server (if separate script):
+   python api/mcp/server.py
+
+DATABASE SCHEMA (ESSENTIAL TABLES)
+----------------------------------
+- products(id, sku, name, category, price, active, created_at)
+- customers(id, external_id, first_name, last_name, email, phone, city, country, created_at)
+- orders(id, customer_id, order_date, status, subtotal, tax, shipping_fee, total)
+- order_items(id, order_id, product_id, quantity, unit_price, line_total)
+- payments(id, order_id, method, amount, currency, paid_at, txn_ref)
+- shipments(id, order_id, carrier, tracking_no, shipped_at, delivered_at, status)
+
+INDEXING GUIDELINES
+-------------------
+- orders(customer_id), orders(order_date)
+- order_items(order_id), order_items(product_id)
+- payments(order_id), shipments(order_id)
+- customers(email) UNIQUE, products(sku) UNIQUE
+
+API REFERENCE (EXAMPLES)
+------------------------
+GET  /health
+  - Returns API status.
+  - 200: {"status":"ok"}
+
+POST /generate
+  - Query/body params: rows:int (default 1000), seed:int, start_date, end_date
+  - Generates synthetic data across tables with referential integrity.
+  - 202: {"message":"generation_started","rows":5000}
+
+POST /reset
+  - Truncates tables in safe order; keeps schema.
+  - 200: {"message":"reset_complete"}
+
+GET  /products?limit=50&offset=0
+GET  /customers?limit=50&offset=0
+GET  /orders?limit=50&offset=0&from=2023-01-01&to=2023-12-31
+GET  /orders/{id}
+  - Standard pagination (limit, offset). Date range filters where applicable.
+
+MCP WORKFLOWS (CLAUDE DESKTOP)
+------------------------------
+- Tool: "generate_data"
+  Inputs: rows (int), start_date (ISO), end_date (ISO), seed (int)
+  Effect: Calls internal API /generate and streams progress.
+- Tool: "reset_db"
+  Inputs: confirm (bool)
+  Effect: Calls /reset and returns table counts post-reset.
+- Tool: "summary_snapshot"
+  Effect: Returns counts by table and last generated window.
+
+DATA QUALITY & REALISM
+----------------------
+- Uses Faker-based profiles with regional locales for names/addresses.
+- Product prices/quantities follow configurable distributions.
+- Orders respect inventory and realistic status flows (PLACED -> PAID -> SHIPPED -> DELIVERED).
+- Timestamps are generated within the requested date range with weekday/weekend skew.
+
+SECURITY NOTES
+--------------
+- DO NOT commit real credentials. Use .env.
+- Use hashed secrets in CI/CD. Rotate DB passwords on shared machines.
+- CORS: restrict to allowed origins if exposing API publicly.
+- Rate limit POST /generate in shared environments.
+
+OBSERVABILITY
+-------------
+- Structured logs (JSON) with request_id and latency.
+- /metrics endpoint (optional) for Prometheus scraping.
+- Health checks for API and DB connectivity.
+
+CI/CD (OPTIONAL)
+----------------
+- Lint & test on PRs
+- Build and push Docker images to registry
+- Deploy via Docker Compose/Swarm or Kubernetes manifests
+- Tag releases with semantic versioning
+
+TROUBLESHOOTING
+---------------
+1) API returns 500 on /generate
+   - Check DB connectivity (MYSQL_HOST/PORT/USER/PASSWORD)
+   - Verify tables exist (run db/init.sql)
+   - Inspect logs: docker compose logs api
+
+2) Cannot reach phpMyAdmin at :8080
+   - Port conflict; change host port in docker-compose.yml
+   - Ensure service is healthy: docker ps
+
+3) MCP Client cannot reach MCP Server
+   - Verify socket/port mapping in Claude Desktop settings
+   - Ensure MCP server process is running (container or script)
+   - Network mode and firewalls can block local sockets on some OSes
+
+4) Duplicate email or SKU errors
+   - Ensure generator uses uniqueness constraints with retries
+   - Increase randomness or change seed
+
+5) Very slow generation for large rows
+   - Use batch inserts (DEFAULT_BATCH_SIZE)
+   - Disable verbose logging during bulk ops
+   - Consider MySQL tuned params (innodb_buffer_pool_size)
+
+FAQ
+---
+Q: Can I target PostgreSQL instead of MySQL?
+A: Yes. Replace the driver, update init.sql/migrations, and adjust connection strings.
+
+Q: Is the data GDPR-safe?
+A: Yes. All data is synthetic (faker). No PII from real users is stored.
+
+Q: How do I visualize data quickly?
+A: Use phpMyAdmin or connect a BI tool (e.g., Metabase) to the MySQL container.
+
+Q: Can I seed deterministic datasets?
+A: Set DATA_SEED in .env or pass seed to /generate for reproducible runs.
+
+RELATED LINKS
+-------------
+- FastAPI/Flask Docs (for API)
+- Faker Docs
+- Claude Desktop MCP Docs
+- Docker & Docker Compose Docs
+
+

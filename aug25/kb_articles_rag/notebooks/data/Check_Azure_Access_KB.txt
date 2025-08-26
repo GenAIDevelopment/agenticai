@@ -1,0 +1,57 @@
+How to Check Access to Azure Cloud Environment
+
+Overview
+When working in Azure, it is essential to know whether you have the correct permissions and access to resources. Azure provides multiple ways to verify access, including the Azure Portal, Azure CLI, and PowerShell. This guide walks you through methods to check and confirm access to your Azure cloud environment.
+
+Key Concepts
+- Azure Active Directory (AAD): Manages identities and access to Azure resources.
+- Role-Based Access Control (RBAC): Determines what resources you can access and actions you can perform.
+- Subscriptions: Containers that hold resources. Your access is tied to specific subscriptions.
+
+Methods to Check Access
+
+1. Using Azure Portal
+- Log in to the Azure Portal (https://portal.azure.com).
+- Go to Subscriptions → Select the subscription you want to check.
+- Under Access Control (IAM), click View my access.
+- You will see your assigned role(s) and permissions.
+- To check access to a specific resource (e.g., VM, Storage Account):
+  Navigate to the resource → Access Control (IAM) → View my access.
+
+2. Using Azure CLI
+Run the following commands after installing and logging in with 'az login':
+
+- List subscriptions you can access:
+  az account list --output table
+
+- Check your role in a subscription:
+  az role assignment list --assignee <your-user-email> --output table
+
+- Check access for a specific resource group:
+  az role assignment list --assignee <your-user-email> --scope /subscriptions/<subscription-id>/resourceGroups/<resource-group-name> --output table
+
+3. Using Azure PowerShell
+- Install and log in:
+  Connect-AzAccount
+
+- List subscriptions you can access:
+  Get-AzSubscription
+
+- Check role assignments for your account:
+  Get-AzRoleAssignment -SignInName <your-user-email>
+
+Common Access Issues
+- No subscriptions found → You might not have been assigned to any subscription. Contact your admin.
+- Insufficient permissions → Your role may be limited (e.g., Reader vs Contributor). Request elevated access if needed.
+- MFA/Conditional Access required → Ensure compliance with your organization’s security policies.
+
+Best Practices
+- Always check your subscription context before running commands.
+- Use least privilege principle – only request the access you need.
+- For production environments, confirm your role before making changes.
+- Keep a record of assigned roles for audit purposes.
+
+Related Topics
+- Understanding Azure RBAC roles
+- Assigning roles in Azure Portal
+- Troubleshooting Azure login issues

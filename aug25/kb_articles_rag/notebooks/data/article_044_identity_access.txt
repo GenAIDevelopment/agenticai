@@ -1,0 +1,9 @@
+Title: Identity and Access Management
+
+Overview:
+IAM manages access to systems and resources securely.
+
+Practices:
+1. Principle of least privilege.
+2. Multi-factor authentication (MFA).
+3. Role-based access control (RBAC).

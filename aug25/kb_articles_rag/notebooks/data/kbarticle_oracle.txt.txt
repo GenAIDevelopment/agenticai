@@ -1,0 +1,76 @@
+KB001: Oracle Database Installation on Linux
+-------------------------------------------------
+Summary:
+Steps to install Oracle Database 19c on Linux (RHEL/CentOS).
+
+Steps:
+1. Prepare Linux server with required packages (binutils, gcc, libaio).
+2. Set kernel parameters in /etc/sysctl.conf.
+3. Create oracle user and groups (oinstall, dba).
+4. Install Oracle Preinstall RPM.
+5. Run Oracle Universal Installer (OUI).
+6. Configure database using DBCA.
+7. Verify installation with SQL*Plus.
+
+References:
+Oracle Docs - https://docs.oracle.com/en/database/
+
+-------------------------------------------------
+
+KB002: Oracle Listener Not Starting
+-------------------------------------------------
+Problem:
+Oracle Listener fails to start with error "TNS-12541: TNS:no listener".
+
+Solution:
+1. Check listener.ora configuration file.
+2. Ensure correct hostname and port are specified.
+3. Run: lsnrctl status (to check status).
+4. Start listener: lsnrctl start
+5. Verify with: netstat -tulnp | grep 1521
+
+-------------------------------------------------
+
+KB003: Backup & Recovery using RMAN
+-------------------------------------------------
+Summary:
+RMAN commands for backup and restore.
+
+Full Backup:
+RMAN> BACKUP DATABASE PLUS ARCHIVELOG;
+
+Restore & Recover:
+RMAN> RESTORE DATABASE;
+RMAN> RECOVER DATABASE;
+
+List Backups:
+RMAN> LIST BACKUP SUMMARY;
+
+-------------------------------------------------
+
+KB004: Resolving ORA-01555 Snapshot Too Old
+-------------------------------------------------
+Cause:
+Undo tablespace is too small or poorly configured.
+
+Resolution:
+1. Increase size of undo tablespace:
+   ALTER DATABASE DATAFILE '/u01/oradata/UNDOTBS01.dbf' RESIZE 1G;
+2. Set proper undo retention:
+   ALTER SYSTEM SET UNDO_RETENTION=900;
+3. Tune queries to avoid long-running transactions.
+
+-------------------------------------------------
+
+KB005: Query to Find Locked Sessions
+-------------------------------------------------
+SQL:
+SELECT s.sid, s.serial#, s.username, l.type, l.id1, l.id2, l.block
+FROM v$session s, v$lock l
+WHERE s.sid = l.sid
+AND l.block = 1;
+
+Kill session if needed:
+ALTER SYSTEM KILL SESSION 'sid,serial#' IMMEDIATE;
+
+-------------------------------------------------

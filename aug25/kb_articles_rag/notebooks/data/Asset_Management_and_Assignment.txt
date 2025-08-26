@@ -1,0 +1,82 @@
+Learning Thoughts Knowledge Base
+=================================
+Article Title: Asset Management and Assignment
+Category: Administration / IT
+Last Updated: August 26, 2025
+
+---------------------------------
+Overview
+---------------------------------
+This article explains the Asset Management and Assignment process at Learning Thoughts. Proper asset tracking ensures accountability, reduces misuse, and helps maintain an updated inventory of company resources.
+
+---------------------------------
+1. Types of Assets Covered
+---------------------------------
+- IT Equipment: Laptops, desktops, monitors, mobile devices, peripherals.
+- Office Equipment: Furniture, projectors, telephones, access cards.
+- Software Assets: Licensed software, subscriptions, development tools.
+- Miscellaneous: Company vehicles, ID cards, safety gear.
+
+---------------------------------
+2. Asset Procurement
+---------------------------------
+- Assets are procured based on approved requests from department heads.
+- All purchases must go through the Admin/Procurement team.
+- Vendor invoices and warranty details are recorded in the asset register.
+
+---------------------------------
+3. Asset Assignment Process
+---------------------------------
+- Each asset is tagged with a unique Asset ID.
+- Employees receiving assets must sign an Asset Assignment Form.
+- Details (employee name, asset type, serial number, assignment date) are recorded in the Asset Register.
+- HR/IT maintains digital records for easy tracking.
+
+---------------------------------
+4. Employee Responsibilities
+---------------------------------
+- Employees must take proper care of assigned assets.
+- Assets must only be used for official work purposes.
+- Any loss, theft, or damage must be reported immediately to HR/Admin.
+- Employees must not transfer assets to others without approval.
+
+---------------------------------
+5. Asset Return Process
+---------------------------------
+- On resignation, transfer, or role change, employees must return all assigned assets.
+- Returned assets are inspected for condition and updated in the Asset Register.
+- Any missing or damaged assets may be subject to recovery charges.
+
+---------------------------------
+6. Periodic Audits
+---------------------------------
+- Quarterly audits are conducted to verify asset records against physical inventory.
+- Discrepancies are reported to management and corrective actions are taken.
+- Expired or unusable assets are marked for disposal as per company policy.
+
+---------------------------------
+7. Software License Management
+---------------------------------
+- All software installations must be approved by IT.
+- License keys and subscriptions are centrally managed.
+- Unauthorized software installations are prohibited.
+- License renewals are tracked to avoid disruptions.
+
+---------------------------------
+Troubleshooting / FAQs
+---------------------------------
+Q1: How do I request a new asset?
+A1: Raise an Asset Request Form via HR/Admin and get manager approval.
+
+Q2: What happens if I lose my assigned asset?
+A2: Report it immediately. Depending on the situation, replacement costs may be recovered.
+
+Q3: Who maintains the Asset Register?
+A3: The IT and Admin teams maintain the centralized Asset Register.
+
+---------------------------------
+Related Articles
+---------------------------------
+- HR Policies
+- Workplace Safety Guidelines
+- IT Security Policy

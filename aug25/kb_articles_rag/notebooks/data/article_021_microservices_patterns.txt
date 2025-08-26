@@ -1,0 +1,9 @@
+Title: Microservices Design Patterns
+
+Overview:
+Microservices architecture uses patterns to manage complexity.
+
+Examples:
+1. API Gateway.
+2. Saga pattern.
+3. Circuit breaker.

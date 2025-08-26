@@ -1,0 +1,75 @@
+Learning Thoughts Knowledge Base
+=================================
+Article Title: Payroll & Benefits FAQ
+Category: Human Resources
+Last Updated: August 26, 2025
+
+---------------------------------
+Overview
+---------------------------------
+This article provides answers to frequently asked questions related to payroll and employee benefits at Learning Thoughts. It helps employees understand salary disbursement, benefits, and related policies.
+
+---------------------------------
+Payroll FAQs
+---------------------------------
+
+Q1: When is the salary credited?
+A1: Salaries are credited on the last working day of each month.
+
+Q2: What should I do if I don’t receive my salary on time?
+A2: Contact the HR Payroll Officer at payroll@learningthoughts.com immediately.
+
+Q3: How are salary slips provided?
+A3: Salary slips are available through the HR portal and sent via email each month.
+
+Q4: How are taxes deducted?
+A4: Taxes are deducted as per government regulations under TDS (Tax Deducted at Source).
+
+Q5: Can I update my bank details?
+A5: Yes, submit a bank detail change form to HR with valid proof.
+
+---------------------------------
+Benefits FAQs
+---------------------------------
+
+Q1: What health insurance benefits are available?
+A1: Learning Thoughts provides group health insurance covering employees and their dependents.
+
+Q2: Am I eligible for Provident Fund (PF)?
+A2: Yes, all eligible employees are enrolled as per statutory requirements.
+
+Q3: Does the company provide gratuity?
+A3: Employees completing 5 years of continuous service are eligible for gratuity as per law.
+
+Q4: Are there any performance incentives?
+A4: Yes, performance-based incentives and bonuses are provided as per appraisal results.
+
+Q5: Does the company provide training and learning support?
+A5: Yes, employees have access to skill development programs, online courses, and workshops.
+
+---------------------------------
+Leave & Attendance FAQs
+---------------------------------
+
+Q1: How many leaves do I get annually?
+A1: Employees receive a fixed number of Casual, Sick, and Earned leaves as per HR policy.
+
+Q2: Can unused leaves be carried forward?
+A2: Certain leave types may be carried forward or encashed, depending on company policy.
+
+Q3: What is the process for applying for leave?
+A3: Submit your request through the HR portal with manager approval.
+
+---------------------------------
+Troubleshooting / Support
+---------------------------------
+- For payroll-related issues: payroll@learningthoughts.com
+- For benefits and insurance queries: benefits@learningthoughts.com
+- For leave and attendance: hr@learningthoughts.com
+
+---------------------------------
+Related Articles
+---------------------------------
+- HR Policies
+- Employee Onboarding Process
+- Workplace Safety Guidelines

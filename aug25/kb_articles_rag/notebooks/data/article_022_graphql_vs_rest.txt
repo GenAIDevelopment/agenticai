@@ -1,0 +1,9 @@
+Title: GraphQL vs REST
+
+Overview:
+GraphQL and REST are two approaches to building APIs.
+
+Comparison:
+1. GraphQL – Flexible queries, single endpoint.
+2. REST – Simpler, widely adopted.
+3. Choose based on project needs.

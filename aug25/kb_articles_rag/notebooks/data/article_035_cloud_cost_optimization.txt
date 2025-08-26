@@ -1,0 +1,9 @@
+Title: Cloud Cost Optimization
+
+Overview:
+Cloud cost optimization ensures efficient use of cloud resources.
+
+Strategies:
+1. Rightsizing instances.
+2. Using reserved or spot instances.
+3. Implementing auto-scaling.

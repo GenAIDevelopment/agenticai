@@ -1,0 +1,9 @@
+Title: Role of API Gateways
+
+Overview:
+An API Gateway manages API requests between clients and services.
+
+Functions:
+1. Authentication and authorization.
+2. Rate limiting and throttling.
+3. Request routing and transformation.

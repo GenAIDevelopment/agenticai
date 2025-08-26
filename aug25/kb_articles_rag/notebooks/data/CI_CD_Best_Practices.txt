@@ -1,0 +1,80 @@
+Learning Thoughts Knowledge Base
+=================================
+Article Title: CI/CD Best Practices
+Category: Engineering / DevOps
+Last Updated: August 26, 2025
+
+---------------------------------
+Overview
+---------------------------------
+This article describes the CI/CD (Continuous Integration and Continuous Deployment) best practices at Learning Thoughts. The goal is to ensure faster, reliable, and automated delivery of software with minimal risk.
+
+---------------------------------
+1. Continuous Integration (CI) Best Practices
+---------------------------------
+- **Frequent Commits**: Developers should commit small changes frequently to reduce integration issues.
+- **Automated Builds**: Every commit triggers an automated build to validate code integrity.
+- **Automated Testing**: Unit, integration, and regression tests must run automatically in the CI pipeline.
+- **Static Code Analysis**: Integrate tools like SonarQube or ESLint for code quality checks.
+- **Fail Fast Principle**: Builds must fail immediately upon detecting errors, preventing faulty code from progressing.
+- **Test Coverage Enforcement**: Maintain minimum 80% code coverage for critical services.
+
+---------------------------------
+2. Continuous Deployment (CD) Best Practices
+---------------------------------
+- **Staged Environments**: Use separate environments (dev, staging, production) for controlled deployments.
+- **Infrastructure as Code (IaC)**: Use tools like Terraform or Ansible for environment consistency.
+- **Automated Rollbacks**: Implement rollback strategies in case of deployment failures.
+- **Blue-Green / Canary Deployments**: Reduce downtime and risk by gradually rolling out changes.
+- **Database Migration Strategy**: Automate schema migrations with version control (e.g., Flyway, Liquibase).
+
+---------------------------------
+3. Security in CI/CD
+---------------------------------
+- **Secrets Management**: Store credentials and API keys securely (e.g., Vault, AWS Secrets Manager).
+- **Dependency Scanning**: Scan third-party libraries for vulnerabilities.
+- **Access Control**: Restrict pipeline access based on roles and enforce MFA.
+- **Audit Logs**: Maintain logs of all pipeline executions and deployments for compliance.
+
+---------------------------------
+4. Monitoring & Feedback
+---------------------------------
+- **Pipeline Monitoring**: Track build times, failure rates, and bottlenecks.
+- **Application Monitoring**: Integrate APM tools (e.g., Prometheus, Grafana, New Relic).
+- **Alerting**: Set up alerts for failed builds, test failures, or deployment issues.
+- **Feedback Loop**: Provide quick feedback to developers to improve quality and speed.
+
+---------------------------------
+5. Collaboration & Governance
+---------------------------------
+- **Code Reviews**: All changes must pass peer review before merging into main branches.
+- **Branch Protection Rules**: Protect `main` and `develop` branches with mandatory checks.
+- **Documentation**: Maintain pipeline documentation for setup, usage, and troubleshooting.
+- **Training**: Conduct periodic training for developers and DevOps engineers on CI/CD best practices.
+
+---------------------------------
+6. Tools Commonly Used at Learning Thoughts
+---------------------------------
+- **CI/CD Platforms**: GitHub Actions, GitLab CI, Jenkins
+- **Testing**: Jest, Cypress, Postman, PyTest
+- **Infrastructure**: Docker, Kubernetes, Terraform, Ansible
+- **Monitoring**: Prometheus, Grafana, ELK Stack
+
+---------------------------------
+Troubleshooting / FAQs
+---------------------------------
+Q1: What happens if my build fails?
+A1: The pipeline stops, and the developer must fix the issue before merging code.
+
+Q2: Can I deploy directly to production?
+A2: No. All deployments must go through the staging environment unless approved by management.
+
+Q3: How are secrets managed in pipelines?
+A3: Secrets are stored in secure vaults and injected into pipelines only when required.
+
+---------------------------------
+Related Articles
+---------------------------------
+- Testing Strategy at Learning Thoughts
+- Version Control Guidelines
+- IT Security Policy

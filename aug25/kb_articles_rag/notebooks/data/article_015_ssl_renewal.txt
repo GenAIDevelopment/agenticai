@@ -1,0 +1,10 @@
+Title: SSL Certificate Renewal Process
+
+Overview:
+Renewing SSL certificates ensures secure communication.
+
+Steps:
+1. Generate a new CSR.
+2. Submit to Certificate Authority.
+3. Install the renewed certificate.
+4. Verify installation.

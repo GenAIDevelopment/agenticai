@@ -1,0 +1,9 @@
+Title: API Versioning Strategies
+
+Overview:
+API versioning ensures backward compatibility.
+
+Strategies:
+1. URI versioning (/v1/, /v2/).
+2. Header-based versioning.
+3. Query parameter versioning.

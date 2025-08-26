@@ -1,0 +1,92 @@
+KB Article: PYTHON-ERR-001
+Title: How to Resolve ImportError: No module named 'xyz'
+Summary: This article provides steps to diagnose and fix the common ImportError that occurs when the Python interpreter cannot find a required module.
+Applicable Versions:
+ * Python 3.6 and above
+ * All operating systems (Windows, macOS, Linux)
+Symptoms:
+ * Your script fails to run.
+ * The traceback shows the following error: ImportError: No module named 'xyz'.
+ * You are certain that you installed the module correctly.
+Cause:
+The Python interpreter is unable to locate the installed module, which can be due to several reasons, including:
+ * Incorrect Virtual Environment: The module was installed in a different virtual environment than the one you are currently using.
+ * Incorrect Interpreter: Your IDE or command line is using a different Python interpreter than the one where the module was installed.
+ * Typo in Module Name: There is a spelling error in the import statement.
+ * Path Issues: The module is not in a directory included in Python's sys.path.
+Resolution:
+Step 1: Verify the Module is Installed in the Correct Environment
+ * For virtual environments:
+   * Activate the virtual environment you intend to use.
+   * Run pip list or pip freeze to check if the module (xyz) is present in the list of installed packages. If not, install it with pip install xyz.
+ * For system-wide installs:
+   * Run pip list or pip freeze to check if the module is installed.
+Step 2: Check Your Python Interpreter Path
+ * In your terminal or command prompt, run which python (macOS/Linux) or where python (Windows) to see which Python executable you are running.
+ * In your IDE (e.g., VS Code, PyCharm), check the project settings to ensure the correct Python interpreter is selected for your project. The interpreter path should correspond to the location where your module is installed.
+Step 3: Correct Your import Statement
+ * Double-check the spelling of the module name in your code. The module name in your import statement must exactly match the package name (e.g., import requests and not import request).
+Step 4: Manually Add the Module Path (Advanced)
+ * If the above steps don't resolve the issue, you can inspect and manually add the module's installation directory to your sys.path. This is generally not recommended as a permanent solution but can be useful for debugging.
+   import sys
+   import os
+
+   # Assuming the module is in a subdirectory called 'my_modules'
+   module_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'my_modules'))
+   if module_path not in sys.path:
+       sys.path.append(module_path)
+
+   import xyz # The import should now work
+
+-------------------------------------------------------------
+KB Article: PYTHON-BP-001
+Title: Python Best Practices: An Introduction to PEP 8
+Summary: This article introduces the core principles of the PEP 8 style guide for writing readable and consistent Python code.
+Key Principles of PEP 8:
+ * Indentation: Use 4 spaces per indentation level. Never use tabs.
+ * Line Length: Limit all lines to a maximum of 79 characters to improve readability on most screens.
+ * Blank Lines:
+   * Surround top-level function and class definitions with two blank lines.
+   * Surround method definitions inside a class with a single blank line.
+ * Imports:
+   * Place imports at the top of the file, after any module docstrings and __future__ statements.
+   * Import modules on separate lines (e.g., import os, import sys).
+   * Group imports in the following order:
+     * Standard library imports.
+     * Third-party imports.
+     * Local application/library specific imports.
+ * Naming Conventions:
+   * Variables, functions, and modules: Use lowercase_with_underscores.
+   * Classes: Use CapitalCase.
+   * Constants: Use UPPERCASE_WITH_UNDERSCORES.
+   * Private/Internal members: Use a single leading underscore (e.g., _my_variable).
+Additional Notes:
+ * Using a code linter (like flake8 or pylint) and an autoformatter (like Black or autopep8) can automate the process of adhering to PEP 8 standards.
+ * Consistency is key. If a project already has a different style guide, it's better to stick with that guide than to introduce new inconsistencies.
+
+-------------------------------------------------------------
+KB Article: PYTHON-CORE-001
+Title: Understanding Python Lists vs. Tuples
+Summary: This article explains the key differences between Python's list and tuple data structures, including their use cases and performance implications.
+Lists
+ * Definition: Lists are ordered, mutable collections of items.
+ * Syntax: Defined with square brackets [] (e.g., my_list = [1, 2, 'a']).
+ * Mutability: You can add, remove, or change elements after the list has been created.
+   * my_list.append(3)
+   * my_list[0] = 0
+ * Best Use Cases:
+   * When the number of items is unknown or will change.
+   * When you need to modify the collection frequently.
+Tuples
+ * Definition: Tuples are ordered, immutable collections of items.
+ * Syntax: Defined with parentheses () (e.g., my_tuple = (1, 2, 'a')).
+ * Immutability: Once a tuple is created, you cannot change its contents. Attempting to do so will raise a TypeError.
+ * Best Use Cases:
+   * When the collection of items should not change.
+   * For returning multiple values from a function.
+   * As keys in a dictionary (since they are immutable).
+Performance Differences:
+ * Memory: Tuples generally consume less memory than lists because they are immutable and require less overhead.
+ * Speed: Tuples can be slightly faster to iterate over than lists, but the difference is negligible for most applications.
+Conclusion:
+Choose lists when you need a flexible, dynamic collection. Choose tuples when you need a fixed, unchangeable collection of items.

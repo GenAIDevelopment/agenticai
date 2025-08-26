@@ -1,0 +1,9 @@
+Title: Business Continuity Planning
+
+Overview:
+BCP ensures organizations continue operations during disruptions.
+
+Steps:
+1. Risk assessment.
+2. Develop recovery strategies.
+3. Test and update the plan regularly.

@@ -1,0 +1,9 @@
+Title: Patch Management Process
+
+Overview:
+Patch management ensures systems stay updated and secure.
+
+Steps:
+1. Identify available patches.
+2. Test patches in staging environments.
+3. Deploy and verify patches.

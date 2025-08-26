@@ -1,0 +1,9 @@
+Title: API Testing Approaches
+
+Overview:
+API testing validates endpoints for functionality and performance.
+
+Approaches:
+1. Functional testing.
+2. Load testing.
+3. Security testing.

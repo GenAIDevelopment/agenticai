@@ -1,0 +1,76 @@
+Learning Thoughts Knowledge Base
+=================================
+Article Title: Employee Onboarding Process
+Category: Human Resources
+Last Updated: August 26, 2025
+
+---------------------------------
+Overview
+---------------------------------
+This article describes the Employee Onboarding Process at Learning Thoughts. The onboarding process ensures new employees integrate smoothly into the organization, understand company culture, and are set up for success in their roles.
+
+---------------------------------
+1. Pre-Onboarding
+---------------------------------
+- Offer letter and employment contract are shared with the new hire.
+- HR collects required documents (ID proof, educational certificates, bank details, etc.).
+- IT team prepares necessary equipment (laptop, email ID, software access).
+- New employee receives a Welcome Kit and Onboarding Schedule.
+
+---------------------------------
+2. First Day Orientation
+---------------------------------
+- Introduction to company vision, mission, and values.
+- Overview of HR policies, code of conduct, and workplace guidelines.
+- Team introduction and buddy/mentor assignment.
+- Walkthrough of tools, systems, and communication channels.
+
+---------------------------------
+3. HR & Compliance Formalities
+---------------------------------
+- Completion of joining forms and submission of documents.
+- Payroll setup and benefits enrollment.
+- Explanation of attendance, leave policies, and performance appraisal cycle.
+- Compliance training (e.g., workplace safety, data privacy).
+
+---------------------------------
+4. Training & Role Setup
+---------------------------------
+- Initial role-specific training sessions are scheduled.
+- Access to project repositories, documentation, and knowledge base.
+- Assignment of first tasks under supervisor guidance.
+- Ongoing training for tools, processes, and soft skills.
+
+---------------------------------
+5. Performance & Feedback During Onboarding
+---------------------------------
+- Regular check-ins with HR and reporting manager during the first 90 days.
+- Feedback sessions to understand challenges and clarify expectations.
+- Formal probation review at the end of the onboarding period.
+- Confirmation of employment upon successful completion.
+
+---------------------------------
+6. Employee Engagement
+---------------------------------
+- Introduction to employee engagement activities, events, and communities.
+- Inclusion in company-wide communication channels.
+- Access to wellness, mentorship, and learning initiatives.
+
+---------------------------------
+Troubleshooting / FAQs
+---------------------------------
+Q1: How long is the onboarding period?
+A1: Typically 90 days, but may vary depending on the role.
+
+Q2: Who should I contact for IT setup issues?
+A2: Reach out to the IT Support team at it-support@learningthoughts.com.
+
+Q3: What happens if I miss the orientation session?
+A3: HR will schedule a makeup session and provide necessary resources.
+
+---------------------------------
+Related Articles
+---------------------------------
+- HR Policies
+- Payroll & Benefits FAQ
+- Workplace Safety Guidelines

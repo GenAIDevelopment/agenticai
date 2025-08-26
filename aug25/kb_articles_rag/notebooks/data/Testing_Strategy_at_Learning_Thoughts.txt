@@ -1,0 +1,92 @@
+Learning Thoughts Knowledge Base
+=================================
+Article Title: Testing Strategy at Learning Thoughts
+Category: Engineering / Quality Assurance
+Last Updated: August 26, 2025
+
+---------------------------------
+Overview
+---------------------------------
+This article outlines the testing strategy at Learning Thoughts. The purpose of this strategy is to ensure product quality, reliability, and scalability by implementing standardized testing practices across all projects.
+
+---------------------------------
+1. Testing Objectives
+---------------------------------
+- Detect defects early in the development cycle.
+- Ensure software meets functional and non-functional requirements.
+- Maintain high test coverage and prevent regressions.
+- Provide confidence in delivering stable releases.
+
+---------------------------------
+2. Types of Testing
+---------------------------------
+- **Unit Testing**: Validates individual functions or modules in isolation.
+- **Integration Testing**: Ensures different modules work together correctly.
+- **System Testing**: Validates the complete application against requirements.
+- **Regression Testing**: Ensures new changes do not break existing functionality.
+- **Performance Testing**: Measures response time, scalability, and resource usage.
+- **Security Testing**: Identifies vulnerabilities and ensures compliance with security standards.
+- **User Acceptance Testing (UAT)**: Conducted with end-users to validate usability and business requirements.
+
+---------------------------------
+3. Testing Process
+---------------------------------
+- Follow Test-Driven Development (TDD) where applicable.
+- Define clear test cases before implementation.
+- Automate repetitive and critical tests using testing frameworks.
+- Use Continuous Integration (CI) pipelines to run automated tests on every commit.
+- Perform manual exploratory testing for scenarios difficult to automate.
+
+---------------------------------
+4. Tools & Frameworks
+---------------------------------
+- **Unit Testing**: Jest, Mocha, JUnit, PyTest (depending on language).
+- **Integration & E2E Testing**: Selenium, Cypress, Playwright.
+- **API Testing**: Postman, Newman, Supertest.
+- **Performance Testing**: JMeter, Locust, k6.
+- **Security Testing**: OWASP ZAP, Burp Suite.
+- **CI/CD Integration**: GitHub Actions, GitLab CI, Jenkins.
+
+---------------------------------
+5. Test Coverage & Metrics
+---------------------------------
+- Minimum 80% code coverage required for critical projects.
+- Track test execution rate, defect density, and defect resolution time.
+- Maintain traceability between test cases and requirements.
+- Generate automated reports for transparency.
+
+---------------------------------
+6. Responsibilities
+---------------------------------
+- **Developers**: Write unit and integration tests for their code.
+- **QA Engineers**: Design and execute test plans, manage test automation, and conduct system/regression testing.
+- **DevOps**: Ensure CI/CD pipelines execute tests and maintain environments.
+- **Product Owners**: Participate in UAT and validate business requirements.
+
+---------------------------------
+7. Best Practices
+---------------------------------
+- Keep tests deterministic (results should not vary on repeated execution).
+- Write small, modular, and reusable test cases.
+- Prioritize automation for high-risk and repetitive tasks.
+- Involve QA early in the development lifecycle.
+- Document all critical test scenarios in the knowledge base.
+
+---------------------------------
+Troubleshooting / FAQs
+---------------------------------
+Q1: What if a test fails during CI/CD?
+A1: The build should be blocked until the issue is fixed. Developers must investigate and resolve failures immediately.
+
+Q2: Should all tests be automated?
+A2: Not necessarily. Automate repetitive, high-value tests. Keep exploratory and usability testing manual.
+
+Q3: Who approves test cases?
+A3: Test cases are reviewed and approved by QA Leads and Project Managers.
+
+---------------------------------
+Related Articles
+---------------------------------
+- Version Control Guidelines
+- Code Review Checklist
+- Clean Code and Maintainable Code Guidelines

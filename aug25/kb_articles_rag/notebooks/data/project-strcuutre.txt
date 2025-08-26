@@ -1,0 +1,49 @@
+Purpose: To maintain a consistent, organized, and scalable folder structure for all company projects — making it easier for team members to find, collaborate, and back up project-related files.
+
+Applies to: All project teams (development, design, marketing, operations, etc.)
+
+📁 Standard Project Folder Layout
+Project-Name/
+│
+├── 01_Documents/
+│   ├── Requirements/
+│   ├── Meeting_Notes/
+│   └── Reports/
+│
+├── 02_Design/
+│   ├── Wireframes/
+│   ├── Mockups/
+│   └── Final_Designs/
+│
+├── 03_Development/
+│   ├── Source_Code/
+│   ├── Builds/
+│   └── Scripts/
+│
+├── 04_Testing/
+│   ├── Test_Cases/
+│   ├── Bug_Reports/
+│   └── QA_Feedback/
+│
+├── 05_Delivery/
+│   ├── Client_Deliverables/
+│   └── Deployment_Packages/
+│
+├── 06_Archive/
+│   └── Deprecated_Files/
+│
+└── README.md
+
+📌 Guidelines
+
+Use numbers to keep folders in logical order.
+
+Keep naming consistent — use underscores _ or PascalCase.
+
+README.md should explain the purpose of the project and folder contents.
+
+Move outdated or unused files to the 06_Archive folder to reduce clutter.
+
+Backups should be scheduled weekly and stored securely.
+
+🛠 Example Use Case

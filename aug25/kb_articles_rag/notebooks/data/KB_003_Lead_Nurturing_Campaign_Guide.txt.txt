@@ -1,0 +1,39 @@
+======================================================================
+KB Article #003: Guide to Launching a Lead Nurturing Campaign in Marketo
+======================================================================
+
+**Purpose:**
+To provide the marketing team with a standard procedure for creating and launching a new lead nurturing email campaign using our marketing automation platform, Marketo. This ensures brand consistency and effective tracking.
+
+**Target Audience:** Marketing Associates, Campaign Managers
+
+**Sections:**
+
+1.  **Campaign Setup:**
+    * Log in to Marketo and navigate to the "Marketing Activities" section.
+    * Create a new program and select the "Nurture" channel.
+    * Use the naming convention: `[Region]_[YYYY-MM]_[Campaign Objective]` (e.g., `NA_2025-08_New_Trial_Nurture`).
+
+2.  **Building Your Smart List:**
+    * Define the criteria for leads who will enter this nurture stream.
+    * Example filters: "Filled out 'Free Trial' form," "Lead Status is 'New'," "Country is 'USA' or 'Canada'."
+
+3.  **Creating Emails:**
+    * Use one of the pre-approved XYZ email templates from the "Design Studio".
+    * Write compelling copy that aligns with the campaign's goal and the brand voice.
+    * Personalize emails using tokens like `{{lead.FirstName}}`.
+    * Set up A/B tests for subject lines to optimize open rates. One test per campaign is mandatory.
+
+4.  **Designing the Nurture Flow:**
+    * Use the visual flow editor to map out the email sequence.
+    * Set the cadence: standard is one email every 3 business days.
+    * Use "Wait" steps and "Choice" steps based on lead engagement (e.g., if they clicked a link, send them a different follow-up).
+
+5.  **Activation and Reporting:**
+    * Before activating, send a test run to the marketing test list.
+    * Activate the campaign.
+    * Monitor performance using the campaign dashboard. Key metrics to watch: Open Rate, Click-Through Rate (CTR), and MQL (Marketing Qualified Lead) conversion rate.
+
+**Related Articles:**
+* KB_015_XYZ_Brand_Voice_Guidelines.txt
+* KB_031_MQL_and_SQL_Criteria.txt

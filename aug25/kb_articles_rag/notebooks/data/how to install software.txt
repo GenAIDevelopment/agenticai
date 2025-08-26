@@ -1,0 +1,50 @@
+How to Install a List of Software from Google Drive Link
+
+Purpose: Quickly install essential company software from a shared Google Drive folder.
+
+Requirements:
+
+Google Drive access (use company email)
+
+Administrator privileges on your computer
+
+Stable internet connection
+
+Steps:
+
+Access the Google Drive Link
+
+Open your browser and paste the provided link (e.g., https://drive.google.com/drive/folders/abc123XYZ)
+
+Log in using your company email if required.
+
+Download the Software Package
+
+Locate the folder named “Essential Software”.
+
+Right-click on the folder or files > Click “Download”.
+
+This will create a ZIP file of the contents.
+
+Extract the ZIP File
+
+Go to your Downloads folder.
+
+Right-click the ZIP file > Select “Extract All…” or use extraction tools like 7-Zip/WinRAR.
+
+Install Each Software
+
+Open the extracted folder.
+
+For each software file:
+a. Double-click the installer (.exe or .msi)
+b. Follow on-screen instructions
+c. Use default settings unless instructed otherwise in README or IT instructions
+
+Complete Setup
+
+Restart your system if prompted.
+
+Notify IT support if any errors occur during installation.
+
+Note: Some software may require license keys or admin access — contact IT Support if needed.

@@ -1,0 +1,96 @@
+Learning Thoughts Knowledge Base
+=================================
+Article Title: Incident Management & Postmortem Guidelines
+Category: Engineering / DevOps / Compliance
+Last Updated: August 26, 2025
+
+---------------------------------
+Overview
+---------------------------------
+This article provides guidelines for Incident Management and Postmortems at Learning Thoughts. The purpose is to minimize downtime, ensure rapid recovery, and learn from incidents to prevent future occurrences.
+
+---------------------------------
+1. Objectives
+---------------------------------
+- Detect and respond to incidents quickly and efficiently.
+- Reduce Mean Time to Detect (MTTD) and Mean Time to Resolve (MTTR).
+- Communicate effectively during incidents.
+- Conduct blameless postmortems to learn from failures.
+
+---------------------------------
+2. Incident Definition
+---------------------------------
+An **incident** is any unplanned disruption to a service, system, or process that impacts business operations, customers, or employees. Examples include:
+- Application downtime
+- Data breaches or security threats
+- Performance degradation
+- Infrastructure failures
+
+---------------------------------
+3. Incident Severity Levels
+---------------------------------
+- **Critical (P1)**: Complete outage or severe impact on business-critical systems.
+- **High (P2)**: Major functionality is broken but partial workarounds exist.
+- **Medium (P3)**: Minor service disruption with limited business impact.
+- **Low (P4)**: Cosmetic issues or non-urgent bugs.
+
+---------------------------------
+4. Incident Management Process
+---------------------------------
+- **Detection**: Automated monitoring or user-reported.
+- **Triage**: Classify severity and assign ownership.
+- **Response**: Contain, mitigate, and resolve the incident.
+- **Communication**: Notify stakeholders and update status channels.
+- **Resolution**: Restore service and validate normal operations.
+
+---------------------------------
+5. Roles & Responsibilities
+---------------------------------
+- **Incident Commander (IC)**: Coordinates response, assigns tasks, ensures communication.
+- **Technical Lead**: Diagnoses technical root causes and leads resolution efforts.
+- **Communications Lead**: Provides timely updates to stakeholders and customers.
+- **Scribe/Recorder**: Maintains incident timeline, actions, and key decisions.
+
+---------------------------------
+6. Communication Protocol
+---------------------------------
+- Use predefined channels (Slack, Teams, email) for incident updates.
+- Send status updates every 30–60 minutes for critical incidents.
+- Maintain transparency with customers through status pages when applicable.
+- Escalate to management if incident exceeds defined thresholds.
+
+---------------------------------
+7. Postmortem Guidelines
+---------------------------------
+- **Blameless Culture**: Focus on process and system improvements, not individuals.
+- **Timeline Documentation**: Record incident start, detection, actions taken, and resolution time.
+- **Root Cause Analysis (RCA)**: Identify underlying cause(s), not just symptoms.
+- **Action Items**: Define preventive measures, assign owners, and set deadlines.
+- **Knowledge Sharing**: Document postmortems in the KB for learning across teams.
+
+---------------------------------
+8. Preventive Measures
+---------------------------------
+- Improve monitoring and alert thresholds to catch issues early.
+- Regularly test disaster recovery and failover systems.
+- Automate repetitive recovery tasks where possible.
+- Conduct periodic incident response drills.
+
+---------------------------------
+Troubleshooting / FAQs
+---------------------------------
+Q1: How soon should a postmortem be conducted?
+A1: Within 5 business days of incident resolution.
+
+Q2: Who attends the postmortem meeting?
+A2: Incident Commander, technical leads, DevOps, QA, and relevant stakeholders.
+
+Q3: Where are postmortems stored?
+A3: All postmortems are documented in the internal Knowledge Base for future reference.
+
+---------------------------------
+Related Articles
+---------------------------------
+- DevOps Monitoring & Alerting Guidelines
+- CI/CD Best Practices
+- IT Security Policy

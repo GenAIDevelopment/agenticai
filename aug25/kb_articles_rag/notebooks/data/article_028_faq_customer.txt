@@ -1,0 +1,9 @@
+Title: Customer FAQs
+
+Overview:
+Frequently asked questions help customers find quick answers.
+
+Examples:
+1. How to reset password?
+2. How to update billing information?
+3. How to contact support?

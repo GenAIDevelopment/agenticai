@@ -1,0 +1,9 @@
+Title: Introduction to Terraform
+
+Overview:
+Terraform is an Infrastructure as Code (IaC) tool that allows developers to define and provision data center infrastructure using configuration files.
+
+Key Concepts:
+1. Providers – Plugins to interact with cloud platforms.
+2. State Files – Maintain infrastructure state.
+3. Modules – Reusable sets of Terraform configuration.

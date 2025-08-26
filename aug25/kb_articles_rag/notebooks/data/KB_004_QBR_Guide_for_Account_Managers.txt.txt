@@ -1,0 +1,40 @@
+======================================================================
+KB Article #004: How to Conduct an Effective Quarterly Business Review (QBR)
+======================================================================
+
+**Purpose:**
+To provide Account Managers with a structured framework for preparing and conducting successful Quarterly Business Reviews (QBRs) with our enterprise clients. A well-executed QBR demonstrates value, strengthens partnerships, and uncovers growth opportunities.
+
+**Target Audience:** Account Managers, Customer Success Managers
+
+**Sections:**
+
+1.  **Preparation (2 Weeks Prior):**
+    * Schedule the meeting with the client's key stakeholders.
+    * Pull usage data from our internal analytics platform, Looker.
+    * Review all support tickets and communications from the last quarter in Salesforce.
+    * Collaborate with the customer's assigned support engineer for technical insights.
+
+2.  **The Standard QBR Deck:**
+    * Download the official "XYZ QBR Presentation Template" from the shared drive.
+    * **Slide 1: Agenda & Objectives.**
+    * **Slide 2: Executive Summary.** A high-level recap of the past quarter.
+    * **Slide 3: Value Realization.** Showcase KPIs that demonstrate ROI for the client.
+    * **Slide 4: Usage & Adoption Metrics.** Highlight power users and underutilized features.
+    * **Slide 5: Support Review.** Summarize tickets and resolution times.
+    * **Slide 6: Upcoming Product Roadmap.** Share relevant new features.
+    * **Slide 7: Strategic Discussion.** Open-ended questions about their business goals for the next quarter.
+    * **Slide 8: Action Items.** Define next steps for both XYZ and the client.
+
+3.  **During the Meeting:**
+    * Focus on a two-way conversation, not a one-way presentation.
+    * Ask probing questions to understand their evolving needs.
+    * Listen for pain points that could be solved with additional XYZ products or services.
+
+4.  **Post-QBR Follow-up:**
+    * Within 24 hours, send a summary email with the agreed-upon action items.
+    * Update the client's record in Salesforce with notes and any new opportunities identified.
+
+**Related Articles:**
+* KB_045_Accessing_Looker_Data.txt
+* KB_052_Identifying_Upsell_Opportunities.txt

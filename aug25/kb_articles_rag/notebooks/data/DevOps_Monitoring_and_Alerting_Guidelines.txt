@@ -1,0 +1,87 @@
+Learning Thoughts Knowledge Base
+=================================
+Article Title: DevOps Monitoring & Alerting Guidelines
+Category: Engineering / DevOps
+Last Updated: August 26, 2025
+
+---------------------------------
+Overview
+---------------------------------
+This article defines the Monitoring & Alerting Guidelines at Learning Thoughts. The goal is to ensure system reliability, quick detection of issues, and proactive incident management for applications and infrastructure.
+
+---------------------------------
+1. Objectives
+---------------------------------
+- Ensure high availability and reliability of systems.
+- Detect anomalies and failures in real-time.
+- Reduce Mean Time to Detect (MTTD) and Mean Time to Resolve (MTTR).
+- Provide actionable alerts to the right teams.
+
+---------------------------------
+2. Monitoring Best Practices
+---------------------------------
+- **Infrastructure Monitoring**: Track CPU, memory, disk usage, and network traffic using tools like Prometheus, Grafana, or CloudWatch.
+- **Application Monitoring**: Monitor response times, error rates, and throughput with APM tools (e.g., New Relic, Datadog).
+- **Log Monitoring**: Centralize logs using ELK Stack or Graylog for faster debugging.
+- **Database Monitoring**: Track query performance, replication lag, and connection pools.
+- **Business Metrics**: Monitor KPIs such as user signups, transactions, and revenue-impacting metrics.
+
+---------------------------------
+3. Alerting Best Practices
+---------------------------------
+- **Threshold-Based Alerts**: Define thresholds for CPU usage, error rates, or latency.
+- **Anomaly Detection**: Use machine learning-based anomaly detection for dynamic workloads.
+- **Severity Levels**: Classify alerts into Critical, High, Medium, and Low.
+- **Reduce Noise**: Avoid alert fatigue by fine-tuning alert thresholds and eliminating duplicates.
+- **Escalation Policies**: Ensure critical alerts reach the right on-call engineer immediately.
+
+---------------------------------
+4. Incident Management
+---------------------------------
+- **On-Call Rotation**: Maintain an on-call schedule for DevOps and support teams.
+- **Alert Channels**: Use Slack, Microsoft Teams, or PagerDuty for alert notifications.
+- **Incident Response**: Document steps for diagnosing and resolving incidents.
+- **Postmortems**: Conduct blameless postmortems for critical incidents to identify root causes and preventive measures.
+
+---------------------------------
+5. Dashboards & Visualization
+---------------------------------
+- Create dashboards for real-time visibility into system health.
+- Use Grafana or Kibana for visualization of metrics and logs.
+- Ensure dashboards display critical KPIs, error trends, and latency over time.
+- Provide role-based dashboards (DevOps, QA, Business Owners).
+
+---------------------------------
+6. Security Monitoring
+---------------------------------
+- Monitor unauthorized access attempts and suspicious activities.
+- Track API usage, firewall logs, and intrusion detection systems (IDS).
+- Enable audit logging for compliance and regulatory requirements.
+- Integrate alerts with Security Information and Event Management (SIEM) tools.
+
+---------------------------------
+7. Best Practices for Teams
+---------------------------------
+- Review monitoring and alerting rules regularly.
+- Conduct mock incident drills to improve response times.
+- Document monitoring setup and alert policies for each service.
+- Foster a culture of proactive monitoring rather than reactive firefighting.
+
+---------------------------------
+Troubleshooting / FAQs
+---------------------------------
+Q1: What tools are recommended for monitoring at Learning Thoughts?
+A1: Prometheus + Grafana for infrastructure, ELK Stack for logs, and New Relic/Datadog for APM.
+
+Q2: How do we prevent false alarms?
+A2: Fine-tune thresholds, use anomaly detection, and validate alerts before escalation.
+
+Q3: What should I do when I receive a critical alert?
+A3: Acknowledge immediately, investigate logs and metrics, and follow the incident response playbook.
+
+---------------------------------
+Related Articles
+---------------------------------
+- CI/CD Best Practices
+- IT Security Policy
+- Testing Strategy at Learning Thoughts

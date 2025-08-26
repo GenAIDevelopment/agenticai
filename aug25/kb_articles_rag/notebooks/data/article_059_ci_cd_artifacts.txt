@@ -1,0 +1,9 @@
+Title: Managing CI/CD Artifacts
+
+Overview:
+Artifacts are build outputs stored for deployment.
+
+Practices:
+1. Store in artifact repositories (Nexus, Artifactory).
+2. Version artifacts consistently.
+3. Automate artifact cleanup.

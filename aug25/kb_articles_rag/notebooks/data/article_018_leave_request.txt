@@ -1,0 +1,9 @@
+Title: Leave Request Process
+
+Overview:
+Employees must follow the official process for leave requests.
+
+Steps:
+1. Submit leave request via HR portal.
+2. Manager approval required.
+3. HR updates leave balance.

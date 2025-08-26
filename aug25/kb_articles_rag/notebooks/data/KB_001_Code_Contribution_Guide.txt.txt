@@ -1,0 +1,47 @@
+======================================================================
+KB Article #001: Developer's Guide to Submitting Code to the 'Phoenix' Project
+======================================================================
+
+**Purpose:**
+This guide provides new software developers at XYZ with a comprehensive, step-by-step walkthrough for making their first code contribution to our flagship 'Phoenix' project. Following these steps ensures code quality, consistency, and a smooth integration process.
+
+**Target Audience:** Junior Developers, New Hires in Engineering
+
+**Sections:**
+
+1.  **Prerequisites:**
+    * Ensure you have Git installed on your local machine.
+    * Confirm you have been granted 'Developer' access to the Phoenix repository on our internal GitLab instance.
+    * Make sure your local development environment is set up according to the guide in KB Article #005: "Setting Up a Local Phoenix Dev Environment".
+
+2.  **Step 1: Cloning the Repository**
+    * Navigate to your development directory in your terminal.
+    * Use the command: `git clone git@gitlab.xyz-internal.com:phoenix/phoenix-main.git`
+    * `cd phoenix-main` to enter the project directory.
+
+3.  **Step 2: Creating a New Branch**
+    * Always work on a new branch, never directly on `main`.
+    * Pull the latest changes to ensure you are up to date: `git pull origin main`
+    * Create your branch using the naming convention `feature/[JIRA-TICKET-ID]-[brief-description]`.
+    * Example: `git checkout -b feature/PHX-123-add-user-login-validation`
+
+4.  **Step 3: Writing Code and Adhering to Standards**
+    * Write your code to address the requirements of the JIRA ticket.
+    * Refer to our XYZ Coding Standards document for guidelines on formatting, commenting, and naming conventions.
+    * Ensure you run the local test suite (`npm test`) and that all tests pass before committing.
+
+5.  **Step 4: Committing and Pushing Your Changes**
+    * Stage your changes: `git add .`
+    * Commit with a clear message following our commit convention: `git commit -m "feat(login): PHX-123 Add front-end validation for login form"`
+    * Push your branch to the remote repository: `git push origin feature/PHX-123-add-user-login-validation`
+
+6.  **Step 5: Submitting a Pull Request (PR)**
+    * Navigate to the Phoenix repository in GitLab.
+    * You will see a prompt to create a new Pull Request from your recently pushed branch.
+    * Fill out the PR template, linking the JIRA ticket and providing a summary of your changes and testing performed.
+    * Assign at least two senior developers as reviewers.
+
+**Related Articles:**
+* KB_005_Local_Dev_Environment_Setup.txt
+* KB_011_Git_Branching_Strategy.txt
+* KB_024_Writing_Effective_Unit_Tests.txt

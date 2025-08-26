@@ -1,0 +1,9 @@
+Title: Serverless vs Containers
+
+Overview:
+Both serverless and containers enable modern app deployments but differ in management.
+
+Comparison:
+1. Serverless – Event-driven, managed infrastructure.
+2. Containers – More control, suitable for long-running services.
+3. Use case decides the approach.

@@ -1,0 +1,9 @@
+Title: Support Ticket Triage Process
+
+Overview:
+Ticket triage ensures customer issues are handled efficiently.
+
+Steps:
+1. Categorize tickets (urgent, normal, low).
+2. Assign to appropriate team.
+3. Track resolution progress.

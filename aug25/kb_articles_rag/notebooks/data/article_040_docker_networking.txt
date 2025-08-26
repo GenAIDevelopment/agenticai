@@ -1,0 +1,9 @@
+Title: Docker Networking Basics
+
+Overview:
+Docker networking allows communication between containers and external systems.
+
+Types:
+1. Bridge network (default).
+2. Host network.
+3. Overlay network (multi-host).

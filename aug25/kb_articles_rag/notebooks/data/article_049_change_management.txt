@@ -1,0 +1,9 @@
+Title: Change Management Process
+
+Overview:
+Change management controls modifications to IT systems.
+
+Steps:
+1. Request and document changes.
+2. Review and approve changes.
+3. Implement and monitor outcomes.

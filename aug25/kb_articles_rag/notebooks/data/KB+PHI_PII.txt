@@ -1,0 +1,19 @@
+PHI (Protected Health Information) and PII (Personally Identifiable Information) are both types of sensitive data, but they differ in scope, context, and regulatory protection. PHI is always a subset of PII, focused specifically on information related to health, healthcare services, or healthcare payments.
+
+Meaning and Key Differences
+PII includes any information that can identify an individual either alone or when combined with other data. Common examples are full name, address, email, Social Security number, driver’s license number, and date of birth. PII can be found in banking, education, employment, and many other contexts.
+
+PHI is PII in a healthcare context, protected under laws like HIPAA (in the US). It includes medical records, diagnoses, treatment information, insurance details, lab results, and any other data tied to an individual's health that are created, received, or maintained by healthcare providers or related entities.
+
+The main distinction is that PHI always involves health-related data tied to an individual and triggers HIPAA’s legal protections, while PII is broader, context-dependent, and regulated by different laws depending on the jurisdiction and sector.
+
+Examples Table
+Type	Example Data Points	Protection Context
+PII	Full name, address, email, ID number, phone, date of birth	General data privacy
+PHI	Medical records, diagnoses, prescriptions, lab results, health insurance numbers, appointment dates	Health sector (HIPAA)
+A person’s address in a customer database is PII; if the same address appears in a medical file with health info, it is PHI.
+
+All PHI is PII, but not all PII is PHI.
+
+Understanding the distinction helps ensure proper data handling, compliance, and protection against privacy breaches in both general and healthcare contexts.
+

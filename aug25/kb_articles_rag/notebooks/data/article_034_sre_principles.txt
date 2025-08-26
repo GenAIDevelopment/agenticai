@@ -1,0 +1,9 @@
+Title: Site Reliability Engineering Principles
+
+Overview:
+SRE combines software engineering and operations to create reliable, scalable systems.
+
+Principles:
+1. Service Level Objectives (SLOs).
+2. Error budgets.
+3. Toil reduction through automation.

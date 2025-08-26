@@ -1,0 +1,113 @@
+KB Article: RS-Bank – A Simple Banking Application
+
+Overview
+
+RS-Bank is a desktop-based banking application built with Python’s
+tkinter for the user interface and pymysql for database interactions. It
+allows users to manage their bank accounts, perform transactions, and
+securely store data.
+
+This article provides installation instructions, usage details, and
+troubleshooting tips for RS-Bank.
+
+------------------------------------------------------------------------
+
+Purpose
+
+-   Provide users with a simple banking system to manage deposits,
+    withdrawals, and account details.
+-   Demonstrate integration between Python GUI and MySQL database.
+-   Help developers understand and extend the application.
+
+------------------------------------------------------------------------
+
+Prerequisites
+
+Before running RS-Bank, ensure you have the following installed:
+
+-   Python 3.8+
+-   MySQL Server
+-   pymysql (install using pip install pymysql)
+-   Basic understanding of Python and databases
+
+------------------------------------------------------------------------
+
+Setup & Installation
+
+1. Clone the Project
+
+    git clone <repository-url>
+    cd RS-Bank
+
+2. Install Dependencies
+
+    pip install pymysql
+
+3. Configure Database
+
+-   Open MySQL and create a new database:
+
+    CREATE DATABASE rsbank;
+
+-   Import the provided SQL script (if available) or manually create
+    tables:
+
+    CREATE TABLE users (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        username VARCHAR(50) NOT NULL,
+        password VARCHAR(50) NOT NULL,
+        balance DECIMAL(10,2) DEFAULT 0.00
+    );
+
+4. Update DB Connection in Code
+
+In the db_config.py file, update MySQL credentials:
+
+    host = "localhost"
+    user = "root"
+    password = "your_password"
+    database = "rsbank"
+
+5. Run the Application
+
+    python main.py
+
+------------------------------------------------------------------------
+
+Features
+
+-   User Registration & Login
+-   Deposit & Withdraw Money
+-   Check Balance
+-   Secure MySQL Storage
+-   Simple Tkinter GUI
+
+------------------------------------------------------------------------
+
+Usage
+
+1.  Launch the application with python main.py.
+2.  Register a new account or log in with existing credentials.
+3.  Perform actions (Deposit, Withdraw, Balance Check) via the GUI.
+4.  All changes are reflected in the MySQL database.
+
+------------------------------------------------------------------------
+
+Troubleshooting
+
+  --------------------------------------------------------------------------------------
+  Issue                          Cause                Solution
+  ------------------------------ -------------------- ----------------------------------
+  pymysql.err.OperationalError   Wrong DB credentials Check db_config.py and update
+                                                      MySQL username/password
+
+  GUI not loading                Missing tkinter      Install Tkinter
+                                                      (sudo apt-get install python3-tk
+                                                      on Linux)
+
+  Transactions not updating      Table missing        Run the SQL script to create
+                                                      tables correctly
+  --------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+

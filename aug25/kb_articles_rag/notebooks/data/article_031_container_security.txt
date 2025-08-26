@@ -1,0 +1,9 @@
+Title: Container Security Best Practices
+
+Overview:
+Container security ensures that applications deployed in containers remain safe from vulnerabilities.
+
+Best Practices:
+1. Use minimal base images.
+2. Regularly update container images.
+3. Scan images for vulnerabilities before deployment.

@@ -1,0 +1,9 @@
+Title: Zero Trust Architecture
+
+Overview:
+Zero Trust assumes no user or system is trusted by default.
+
+Principles:
+1. Verify explicitly.
+2. Least privilege access.
+3. Continuous monitoring.

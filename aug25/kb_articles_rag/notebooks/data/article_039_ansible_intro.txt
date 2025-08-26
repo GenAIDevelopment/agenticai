@@ -1,0 +1,9 @@
+Title: Introduction to Ansible
+
+Overview:
+Ansible is an open-source automation tool for configuration management and application deployment.
+
+Features:
+1. Agentless architecture.
+2. YAML-based playbooks.
+3. Strong integration with cloud providers.

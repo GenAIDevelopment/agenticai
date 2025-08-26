@@ -1,0 +1,95 @@
+Learning Thoughts Knowledge Base
+=================================
+Article Title: IT Security Policy
+Category: IT / Compliance
+Last Updated: August 26, 2025
+
+---------------------------------
+Overview
+---------------------------------
+This article defines the IT Security Policy at Learning Thoughts. It establishes guidelines to protect company systems, networks, and data from unauthorized access, misuse, and security threats.
+
+---------------------------------
+1. Purpose
+---------------------------------
+- Ensure confidentiality, integrity, and availability of company information.
+- Protect employees, customers, and partners from cyber threats.
+- Define employee responsibilities for maintaining IT security.
+
+---------------------------------
+2. Scope
+---------------------------------
+This policy applies to all employees, contractors, interns, and third parties who have access to Learning Thoughts’ IT systems, data, and infrastructure.
+
+---------------------------------
+3. Access Control
+---------------------------------
+- Employees must use unique credentials for all systems and platforms.
+- Strong passwords (minimum 8 characters with complexity) must be used.
+- Multi-Factor Authentication (MFA) is mandatory for critical systems.
+- Access rights are assigned based on job role (principle of least privilege).
+
+---------------------------------
+4. Data Protection & Privacy
+---------------------------------
+- Sensitive company and customer data must be encrypted in storage and transit.
+- Personal Identifiable Information (PII) must be handled as per privacy laws.
+- Employees must not copy company data to personal devices without approval.
+- Data disposal must follow secure deletion practices.
+
+---------------------------------
+5. Device & Network Security
+---------------------------------
+- Company laptops and devices must have up-to-date antivirus and security patches.
+- Employees must not install unauthorized software or applications.
+- Public Wi-Fi should be avoided for official work; use VPN when necessary.
+- USB drives and external devices require IT approval before use.
+
+---------------------------------
+6. Email & Communication Security
+---------------------------------
+- Do not open suspicious emails, links, or attachments.
+- Company email must not be used for personal communications.
+- Confidential information should only be shared through secure channels.
+- Phishing or social engineering attempts must be reported immediately.
+
+---------------------------------
+7. Incident Reporting
+---------------------------------
+- All security incidents (data breach, malware infection, suspicious login) must be reported to IT immediately.
+- The IT team will investigate and take corrective measures.
+- Employees must cooperate during incident response activities.
+
+---------------------------------
+8. Remote Work Security
+---------------------------------
+- Remote employees must use secure VPN connections.
+- Devices must be password-protected and auto-lock enabled.
+- Company-approved collaboration tools must be used for work communication.
+- Employees must not share company data over personal email or messaging apps.
+
+---------------------------------
+9. Compliance & Disciplinary Actions
+---------------------------------
+- Violations of this policy may lead to disciplinary action, including termination.
+- Non-compliance with legal and regulatory IT requirements may result in penalties.
+- Regular IT security audits ensure compliance and identify vulnerabilities.
+
+---------------------------------
+Troubleshooting / FAQs
+---------------------------------
+Q1: What should I do if I forget my password?
+A1: Contact the IT Helpdesk to reset your password securely.
+
+Q2: How do I know if an email is a phishing attempt?
+A2: Look for suspicious links, spelling errors, or requests for sensitive data. When in doubt, report to IT.
+
+Q3: Can I use my personal laptop for work?
+A3: Only if approved by IT and with proper security configurations.
+
+---------------------------------
+Related Articles
+---------------------------------
+- Asset Management and Assignment
+- Workplace Safety Guidelines
+- Clean Code and Maintainable Code Guidelines

@@ -1,0 +1,9 @@
+Title: Testing in CI/CD Pipelines
+
+Overview:
+Automated testing in CI/CD ensures code quality before deployment.
+
+Types:
+1. Unit tests.
+2. Integration tests.
+3. End-to-end tests.

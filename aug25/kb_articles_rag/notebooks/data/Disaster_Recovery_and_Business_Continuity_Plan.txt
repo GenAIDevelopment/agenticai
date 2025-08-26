@@ -1,0 +1,106 @@
+Learning Thoughts Knowledge Base
+=================================
+Article Title: Disaster Recovery & Business Continuity Plan
+Category: Engineering / Compliance / Risk Management
+Last Updated: August 26, 2025
+
+---------------------------------
+Overview
+---------------------------------
+This article outlines the Disaster Recovery (DR) and Business Continuity Plan (BCP) at Learning Thoughts. The goal is to ensure that critical business operations can continue with minimal disruption during and after unexpected incidents such as natural disasters, cyber-attacks, or infrastructure failures.
+
+---------------------------------
+1. Objectives
+---------------------------------
+- Protect employee safety and company assets.
+- Minimize downtime and data loss during disasters.
+- Ensure critical business functions remain operational.
+- Establish recovery procedures and accountability.
+
+---------------------------------
+2. Scope
+---------------------------------
+This plan applies to:
+- All company offices, infrastructure, and cloud environments.
+- Critical business applications, databases, and communication systems.
+- Employees, contractors, and third-party service providers.
+
+---------------------------------
+3. Risk Assessment
+---------------------------------
+Potential risks include:
+- Natural disasters (earthquakes, floods, fires)
+- Cybersecurity incidents (data breaches, ransomware attacks)
+- Infrastructure outages (power failure, network downtime)
+- Human errors or malicious actions
+
+Each risk is assessed for impact and likelihood, and mitigation strategies are defined.
+
+---------------------------------
+4. Business Impact Analysis (BIA)
+---------------------------------
+- Identify critical business functions (e.g., payroll, customer support, production systems).
+- Define **Recovery Time Objective (RTO)** – maximum downtime allowed.
+- Define **Recovery Point Objective (RPO)** – maximum acceptable data loss.
+- Prioritize recovery efforts based on business impact.
+
+---------------------------------
+5. Disaster Recovery Strategy
+---------------------------------
+- **Data Backup**: Daily backups stored securely in multiple regions.
+- **Redundancy**: Critical systems hosted in multi-zone/multi-region infrastructure.
+- **Failover Mechanisms**: Automated failover to backup systems during outages.
+- **Cloud Services**: Use of AWS/GCP/Azure for scalable and resilient infrastructure.
+- **Testing**: Regular DR drills to validate recovery processes.
+
+---------------------------------
+6. Business Continuity Measures
+---------------------------------
+- **Remote Work Readiness**: Employees can work remotely with secure VPN access.
+- **Alternate Locations**: Secondary office or co-working space identified for emergencies.
+- **Vendor Continuity**: SLAs with third-party vendors to ensure service availability.
+- **Communication Plans**: Predefined templates for internal and external communication during crises.
+
+---------------------------------
+7. Roles & Responsibilities
+---------------------------------
+- **Crisis Management Team (CMT)**: Coordinates disaster response and recovery.
+- **IT & Infrastructure Team**: Executes DR plans, restores systems, and verifies data integrity.
+- **HR & Admin**: Ensures employee safety and welfare during disruptions.
+- **Communications Lead**: Provides timely updates to employees, customers, and stakeholders.
+
+---------------------------------
+8. Incident Response & Escalation
+---------------------------------
+- Detect and classify the incident severity.
+- Escalate to Crisis Management Team immediately.
+- Activate Disaster Recovery procedures.
+- Communicate status updates at regular intervals.
+- Perform root cause analysis post-recovery.
+
+---------------------------------
+9. Testing & Continuous Improvement
+---------------------------------
+- Conduct at least two DR drills per year.
+- Test data recovery, failover systems, and communication effectiveness.
+- Update the plan regularly to reflect changes in infrastructure or business needs.
+- Document lessons learned from incidents and incorporate improvements.
+
+---------------------------------
+Troubleshooting / FAQs
+---------------------------------
+Q1: How often are backups taken?
+A1: Critical systems are backed up daily, with additional incremental backups as required.
+
+Q2: What happens if the primary office becomes unusable?
+A2: Employees will shift to remote work or the designated alternate office.
+
+Q3: How do we know if the DR plan is effective?
+A3: Regular DR drills and audits validate the effectiveness of the plan.
+
+---------------------------------
+Related Articles
+---------------------------------
+- Incident Management & Postmortem Guidelines
+- DevOps Monitoring & Alerting Guidelines
+- IT Security Policy

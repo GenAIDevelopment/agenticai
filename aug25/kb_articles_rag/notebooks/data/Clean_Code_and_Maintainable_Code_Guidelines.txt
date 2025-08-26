@@ -1,0 +1,100 @@
+Learning Thoughts Knowledge Base
+=================================
+Article Title: Clean Code and Maintainable Code Guidelines
+Category: Engineering / Development
+Last Updated: August 26, 2025
+
+---------------------------------
+Overview
+---------------------------------
+This article outlines the best practices for writing clean and maintainable code at Learning Thoughts. The goal is to ensure code readability, scalability, and long-term maintainability across all projects.
+
+---------------------------------
+1. General Principles
+---------------------------------
+- Write code that is easy to read and understand.
+- Optimize for clarity rather than cleverness.
+- Follow consistent coding standards and style guides.
+- Prioritize simplicity and avoid unnecessary complexity.
+
+---------------------------------
+2. Naming Conventions
+---------------------------------
+- Use meaningful and descriptive names for variables, functions, classes, and files.
+- Follow camelCase for variables and functions, PascalCase for classes, and snake_case for database fields.
+- Avoid abbreviations unless universally accepted (e.g., `id`, `URL`).
+
+---------------------------------
+3. Code Structure & Organization
+---------------------------------
+- Keep functions small and focused on a single responsibility.
+- Break large files into smaller, logical modules.
+- Group related files and functions into well-defined directories.
+- Maintain proper indentation and formatting.
+
+---------------------------------
+4. Comments & Documentation
+---------------------------------
+- Write self-explanatory code; use comments only when necessary.
+- Document complex algorithms, business logic, and edge cases.
+- Maintain up-to-date README files for repositories.
+- Use docstrings for functions, classes, and APIs.
+
+---------------------------------
+5. Error Handling & Logging
+---------------------------------
+- Handle exceptions gracefully with meaningful error messages.
+- Avoid silent failures; log errors for debugging.
+- Use standardized logging frameworks instead of custom print statements.
+- Ensure sensitive data is never logged.
+
+---------------------------------
+6. Testing & Quality Assurance
+---------------------------------
+- Write unit tests for all critical functions and modules.
+- Follow Test-Driven Development (TDD) when possible.
+- Use automated testing tools and Continuous Integration (CI) pipelines.
+- Maintain high code coverage without writing unnecessary tests.
+
+---------------------------------
+7. Version Control Practices
+---------------------------------
+- Use Git for all projects.
+- Commit frequently with clear, concise messages.
+- Use feature branches for new development and pull requests for code reviews.
+- Avoid committing sensitive data (API keys, passwords, etc.).
+
+---------------------------------
+8. Maintainability Practices
+---------------------------------
+- Refactor code regularly to improve structure without changing functionality.
+- Remove dead code, unused functions, and outdated comments.
+- Follow DRY (Don’t Repeat Yourself) and KISS (Keep It Simple, Stupid) principles.
+- Ensure backward compatibility where applicable.
+
+---------------------------------
+9. Code Reviews
+---------------------------------
+- All code must be reviewed before merging into main branches.
+- Reviews should focus on correctness, readability, and maintainability.
+- Provide constructive feedback, not criticism.
+- Encourage pair programming when necessary.
+
+---------------------------------
+Troubleshooting / FAQs
+---------------------------------
+Q1: How do I ensure my code is “clean”?
+A1: Ask yourself: Can another developer understand my code without asking me questions? If yes, it’s clean.
+
+Q2: What if performance conflicts with clean code?
+A2: Always prioritize readability first. Optimize performance only after identifying bottlenecks.
+
+Q3: Who is responsible for enforcing guidelines?
+A3: Every developer is responsible. Leads and reviewers ensure compliance during reviews.
+
+---------------------------------
+Related Articles
+---------------------------------
+- Version Control Guidelines
+- Testing Strategy at Learning Thoughts
+- Code Review Checklist

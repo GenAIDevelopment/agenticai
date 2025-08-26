@@ -1,0 +1,9 @@
+Title: Release Management Process
+
+Overview:
+Release management ensures smooth software delivery.
+
+Steps:
+1. Plan release scope and schedule.
+2. Deploy in staging before production.
+3. Monitor and roll back if necessary.

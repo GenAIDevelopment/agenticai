@@ -1,0 +1,9 @@
+Title: IT Data Backup Policies
+
+Overview:
+Backup policies safeguard organizational data.
+
+Practices:
+1. Define retention periods.
+2. Follow 3-2-1 backup strategy.
+3. Regularly test recovery procedures.

@@ -1,0 +1,76 @@
+Title
+
+IT & Security Policy of Learning Thoughts
+
+Overview
+
+The IT & Security Policy defines the guidelines for the responsible use of company IT resources, data protection, and information security. It ensures the confidentiality, integrity, and availability of corporate data while mitigating risks associated with cyber threats and unauthorized access.
+
+Steps / Guidelines
+Step 1: Acceptable Use of IT Resources
+
+Company-provided devices (laptops, desktops, mobile devices) must be used primarily for official work purposes.
+
+Avoid installing unauthorized software or applications on company devices.
+
+Internet usage must comply with company standards; prohibited activities include illegal downloads, streaming unrelated content, or visiting malicious websites.
+
+Step 2: Data Security and Confidentiality
+
+Protect all sensitive company, client, and employee data.
+
+Use strong, unique passwords and change them periodically.
+
+Do not share passwords, access credentials, or confidential files with unauthorized individuals.
+
+Store sensitive data in approved cloud platforms or company servers.
+
+Step 3: Email and Communication Security
+
+Avoid opening suspicious emails or attachments to prevent phishing attacks.
+
+Use corporate email accounts for official communication only.
+
+Report any potential security breaches or phishing attempts to the IT department immediately.
+
+Step 4: Device and Network Security
+
+Ensure antivirus and security software are installed and updated.
+
+Lock devices when unattended and enable encryption if applicable.
+
+Connect to secure Wi-Fi networks; avoid public or untrusted networks for company work.
+
+Step 5: Incident Reporting
+
+Report lost or stolen devices, data breaches, or suspicious activity immediately to the IT department.
+
+Follow IT instructions for containment, recovery, and mitigation.
+
+Step 6: Compliance and Monitoring
+
+The company monitors IT usage to ensure compliance with this policy.
+
+Violations may result in disciplinary action, including termination and legal proceedings.
+
+Notes
+
+All employees must acknowledge and adhere to the IT & Security Policy upon joining.
+
+Regular security awareness training will be conducted to minimize cyber risks.
+
+Employees should consult the IT department before making changes to company devices or networks.
+
+FAQ
+
+Q1: Can I use my personal device for company work?
+A1: Personal devices may be used only with explicit manager and IT approval and proper security measures.
+
+Q2: What should I do if I suspect a phishing email?
+A2: Do not click any links or attachments and report it immediately to the IT department.
+
+Q3: Are there restrictions on using cloud services?
+A3: Yes, only approved cloud platforms may be used for company data storage or sharing.
+
+Q4: What happens if I violate the IT & Security Policy?
+A4: Violations may result in warnings, suspension, termination, or legal action depending on severity.

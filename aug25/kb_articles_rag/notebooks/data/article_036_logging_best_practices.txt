@@ -1,0 +1,9 @@
+Title: Logging Best Practices
+
+Overview:
+Good logging improves observability and troubleshooting.
+
+Practices:
+1. Use structured logging formats (JSON).
+2. Standardize log levels.
+3. Avoid sensitive data in logs.

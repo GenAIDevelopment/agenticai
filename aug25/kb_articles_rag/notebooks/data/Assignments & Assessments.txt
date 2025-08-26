@@ -1,0 +1,112 @@
+﻿Learning Thoughts - Knowledge Base
+Assignments & Assessments
+Submitting Assignments Online
+Overview: Guidance on how to upload and submit assignments via the portal.
+Steps:
+    1. Log in to your Learning Thoughts account.
+    2. Navigate to 'Assignments' under the course menu.
+    3. Click on the assignment title.
+    4. Upload the required file and click 'Submit'.
+Best Practices: Submit assignments at least a day before the deadline to avoid last-minute issues.
+Troubleshooting: If upload fails, check file size and format requirements.
+Related Articles: Handling Assignment Resubmissions, Requesting Deadline Extensions
+
+Viewing Instructor Feedback
+Overview: Explains how to check feedback and grades provided by instructors.
+Steps:
+    5. Open the submitted assignment.
+    6. Scroll down to the 'Feedback' section.
+    7. Read comments and view grade points.
+    8. Download feedback if available as a PDF.
+Best Practices: Review feedback before starting your next assignment.
+Troubleshooting: If feedback is missing, contact your instructor directly.
+Related Articles: Understanding Grading Rubrics, Submitting Assignments Online
+
+Checking Assignment Deadlines
+Overview: Steps to track assignment deadlines and due dates.
+Steps:
+    9. Go to the 'Calendar' from the sidebar.
+    10. Filter events to display assignments only.
+    11. Click on the assignment deadline for details.
+    12. Set a reminder to avoid missing deadlines.
+Best Practices: Sync the calendar with your mobile device for real-time reminders.
+Troubleshooting: If deadlines aren’t showing, refresh the page or recheck enrollment.
+Related Articles: Requesting Deadline Extensions, Submitting Assignments Online
+
+Retaking Quizzes
+Overview: Instructions for retaking quizzes when multiple attempts are allowed.
+Steps:
+    13. Go to the course menu and click 'Quizzes'.
+    14. Select the quiz you want to retake.
+    15. Click 'Retake Quiz' if the instructor has enabled multiple attempts.
+    16. Complete and submit your answers.
+Best Practices: Review previous feedback before retaking quizzes.
+Troubleshooting: If the retake option is unavailable, confirm attempt limits with your instructor.
+Related Articles: Viewing Quiz Results, Handling Assignment Resubmissions
+
+Viewing Quiz Results
+Overview: Explains how to check quiz scores and performance analytics.
+Steps:
+    17. Navigate to 'Quizzes' under the course menu.
+    18. Click on the completed quiz.
+    19. View your score and detailed results.
+    20. Check explanations for correct/incorrect answers if provided.
+Best Practices: Use quiz analytics to identify areas for improvement.
+Troubleshooting: If results are missing, contact support or your instructor.
+Related Articles: Retaking Quizzes, Understanding Grading Rubrics
+
+Understanding Grading Rubrics
+Overview: Provides insight into how assignments and projects are graded.
+Steps:
+    21. Open the assignment details page.
+    22. Locate the 'Grading Rubric' section.
+    23. Review the criteria and scoring levels.
+    24. Compare rubric expectations with your submission.
+Best Practices: Review the rubric before starting your assignment.
+Troubleshooting: If rubrics are unclear, request clarification from your instructor.
+Related Articles: Viewing Instructor Feedback, Submitting Assignments Online
+
+Submitting Group Projects
+Overview: Explains the process of submitting collaborative group projects.
+Steps:
+    25. Go to 'Assignments' and select the group project.
+    26. Upload the group’s final submission file.
+    27. Ensure all group members are listed before submission.
+    28. Click 'Submit on behalf of group'.
+Best Practices: Coordinate with group members early to avoid last-minute confusion.
+Troubleshooting: If group details are incorrect, update member list in course settings.
+Related Articles: Handling Assignment Resubmissions, Requesting Deadline Extensions
+
+Requesting Deadline Extensions
+Overview: Covers how to request an extension for assignment deadlines.
+Steps:
+    29. Go to the assignment details page.
+    30. Click on 'Request Extension'.
+    31. Provide a valid reason and select a proposed new date.
+    32. Submit the request for instructor approval.
+Best Practices: Request extensions well before the due date.
+Troubleshooting: If request option is unavailable, email your instructor directly.
+Related Articles: Checking Assignment Deadlines, Submitting Assignments Online
+
+Handling Assignment Resubmissions
+Overview: Instructions for resubmitting assignments after feedback or errors.
+Steps:
+    33. Open the graded assignment.
+    34. Click on 'Resubmit Assignment' if allowed.
+    35. Upload revised file and confirm submission.
+    36. Check updated feedback after review.
+Best Practices: Incorporate instructor feedback before resubmission.
+Troubleshooting: If resubmission option is missing, verify resubmission policy.
+Related Articles: Viewing Instructor Feedback, Submitting Assignments Online
+
+Troubleshooting Quiz Submission Issues
+Overview: Guidance on resolving common quiz submission problems.
+Steps:
+    37. Ensure stable internet before starting the quiz.
+    38. Use a supported browser (Chrome/Firefox recommended).
+    39. If quiz freezes, refresh and re-login to resume if allowed.
+    40. Clear browser cache if submission fails.
+Best Practices: Take quizzes in a distraction-free environment with stable internet.
+Troubleshooting: If issues persist, contact support with a screenshot.
+Related Articles: Retaking Quizzes, Viewing Quiz Results
+

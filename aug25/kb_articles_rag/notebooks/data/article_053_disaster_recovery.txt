@@ -1,0 +1,9 @@
+Title: Disaster Recovery Plan
+
+Overview:
+A DRP outlines how to restore IT systems after catastrophic events.
+
+Steps:
+1. Define RTO and RPO.
+2. Backup and replicate critical data.
+3. Conduct regular DR drills.

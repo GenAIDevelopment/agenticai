@@ -1,0 +1,96 @@
+Learning Thoughts Knowledge Base
+=================================
+Article Title: Version Control Guidelines
+Category: Engineering / Development
+Last Updated: August 26, 2025
+
+---------------------------------
+Overview
+---------------------------------
+This article provides guidelines for using Version Control Systems (VCS) at Learning Thoughts. Git is the standard version control tool used across all projects. These guidelines ensure consistency, traceability, and collaboration in software development.
+
+---------------------------------
+1. Repository Structure
+---------------------------------
+- Each project must have a dedicated Git repository.
+- Use clear and meaningful repository names.
+- Organize repositories by project type (e.g., frontend, backend, mobile, infrastructure).
+- Maintain a README.md file at the root with setup and usage instructions.
+
+---------------------------------
+2. Branching Strategy
+---------------------------------
+- **main**: Stable production-ready code only.
+- **develop**: Ongoing development, integrates features before release.
+- **feature/**: For new features (e.g., feature/user-authentication).
+- **bugfix/**: For bug fixes (e.g., bugfix/login-error).
+- **hotfix/**: For urgent production fixes (e.g., hotfix/payment-issue).
+- **release/**: For preparing production releases.
+
+---------------------------------
+3. Commit Practices
+---------------------------------
+- Commit small, logical units of work frequently.
+- Write clear and descriptive commit messages:
+  - Format: `<type>(<scope>): <short description>`
+  - Example: `fix(auth): correct password reset issue`
+- Types include: feat (feature), fix (bug fix), docs (documentation), style (formatting), refactor, test, chore.
+- Do not commit generated files, secrets, or sensitive data.
+
+---------------------------------
+4. Pull Requests (PRs)
+---------------------------------
+- All changes must be submitted via PRs to `develop` or appropriate branches.
+- PR titles and descriptions must summarize the change clearly.
+- Ensure code is reviewed and approved before merging.
+- PRs must pass automated tests and checks in CI/CD pipelines.
+
+---------------------------------
+5. Code Review Standards
+---------------------------------
+- Review code for readability, correctness, and maintainability.
+- Check for compliance with coding standards and security practices.
+- Provide constructive feedback with actionable suggestions.
+- Approve PRs only when all review criteria are met.
+
+---------------------------------
+6. Tagging & Releases
+---------------------------------
+- Use semantic versioning: `vMAJOR.MINOR.PATCH` (e.g., v1.2.0).
+- Tag releases in Git for tracking deployment versions.
+- Maintain a `CHANGELOG.md` file for documenting changes.
+
+---------------------------------
+7. Collaboration Best Practices
+---------------------------------
+- Sync your branch with `develop` regularly to avoid conflicts.
+- Resolve merge conflicts locally before creating a PR.
+- Delete merged branches to keep the repository clean.
+- Use Git hooks or linters to enforce consistency.
+
+---------------------------------
+8. Backup & Security
+---------------------------------
+- Repositories must be hosted on approved platforms (e.g., GitHub, GitLab).
+- Enable branch protection for `main` and `develop` branches.
+- Use SSH keys or approved authentication methods.
+- Access permissions must be role-based (read/write/maintainer).
+
+---------------------------------
+Troubleshooting / FAQs
+---------------------------------
+Q1: What branch should I use for urgent production fixes?
+A1: Use a `hotfix/` branch and merge it into both `main` and `develop` after approval.
+
+Q2: How do I handle large binary files?
+A2: Use Git LFS (Large File Storage) or store them in external storage solutions.
+
+Q3: Can I commit directly to `main`?
+A3: No, all changes must go through PRs for review and approval.
+
+---------------------------------
+Related Articles
+---------------------------------
+- Code Review Checklist
+- Clean Code and Maintainable Code Guidelines
+- Testing Strategy at Learning Thoughts

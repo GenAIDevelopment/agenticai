@@ -1,0 +1,9 @@
+Title: Network Security Basics
+
+Overview:
+Network security protects systems from unauthorized access.
+
+Practices:
+1. Use firewalls and intrusion detection systems.
+2. Encrypt traffic with TLS/SSL.
+3. Implement network segmentation.

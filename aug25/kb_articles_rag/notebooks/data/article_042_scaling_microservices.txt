@@ -1,0 +1,9 @@
+Title: Scaling Microservices
+
+Overview:
+Scaling microservices improves performance and availability.
+
+Strategies:
+1. Horizontal scaling with replicas.
+2. Auto-scaling based on metrics.
+3. Database sharding and caching.

@@ -1,0 +1,9 @@
+Title: Log Management Best Practices
+
+Overview:
+Effective log management improves security and troubleshooting.
+
+Practices:
+1. Centralize log storage.
+2. Use log rotation and retention policies.
+3. Monitor logs for anomalies.

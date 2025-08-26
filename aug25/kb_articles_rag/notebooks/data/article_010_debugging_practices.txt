@@ -1,0 +1,9 @@
+Title: Effective Debugging Practices
+
+Overview:
+Debugging is the process of identifying and resolving defects in software.
+
+Tips:
+1. Reproduce the bug consistently.
+2. Use logs and debuggers effectively.
+3. Fix root causes, not symptoms.

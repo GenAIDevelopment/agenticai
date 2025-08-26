@@ -1,0 +1,11 @@
+Title: Incident Response Process
+
+Overview:
+Incident response ensures security incidents are handled effectively.
+
+Steps:
+1. Identification.
+2. Containment.
+3. Eradication.
+4. Recovery.
+5. Lessons learned.

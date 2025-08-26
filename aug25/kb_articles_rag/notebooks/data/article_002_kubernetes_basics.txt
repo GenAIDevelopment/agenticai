@@ -1,0 +1,9 @@
+Title: Kubernetes Basics
+
+Overview:
+Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications.
+
+Key Concepts:
+1. Pods – The smallest deployable units in Kubernetes.
+2. Services – Define networking and communication rules.
+3. Deployments – Manage application lifecycle and scaling.

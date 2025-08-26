@@ -1,0 +1,10 @@
+Title: Company Core Values
+
+Overview:
+Our company is guided by core values that shape culture and decision-making.
+
+Values:
+1. Integrity.
+2. Innovation.
+3. Collaboration.
+4. Customer success.

@@ -1,0 +1,39 @@
+Goods and Services Tax (GST) Knowledge Base
+==========================================
+
+1. What is GST?
+- GST is the Goods and Services Tax, a comprehensive, multi-stage, destination-based tax levied on the supply of goods and services in India. It replaced various indirect taxes like excise duty, VAT, and service tax with a single unified tax structure. Introduced on July 1, 2017, it aims for “One Nation, One Tax.”
+
+2. Key Principles of GST
+- Multi-stage: Tax is applied at each stage in the supply chain – production, warehousing, wholesaling, retailing.
+- Value addition: GST is charged on the added value at every stage, not on the total transaction value.
+- Destination-based: Tax is levied at the location where goods or services are consumed, not where produced.
+
+3. Types of GST
+- Central GST (CGST): Levied by the Central Government on intra-state transactions.
+- State GST (SGST): Levied by State Governments on intra-state transactions.
+- Integrated GST (IGST): Levied by the Central Government on inter-state transactions and imports/exports, credited to both Centre and importing State.
+- Union Territory GST (UTGST): Levied by Union Territory Governments on intra-UT transactions.
+
+4. Calculation of GST
+- GST applies to the taxable value, calculated as the transaction amount minus any discounts or abatements.
+- Example: If a product’s taxable value is ₹1,000 and GST rate is 18%, total GST = ₹180 (split between CGST and SGST for intra-state, or IGST for inter-state).
+
+5. Input Tax Credit (ITC)
+- Businesses can offset the GST paid on inputs (raw materials, services used) against the GST collected on sales, thereby reducing tax cost and preventing tax cascading.
+- ITC conditions: Registration under GST, valid tax invoice, and business use of inputs.
+
+6. Uniformity and Transparency
+- GST brings uniform tax rates across India by replacing multiple central/state taxes. The main GST slabs are 5%, 12%, 18%, and 28%.
+- Online GST processes (such as registration, filing returns) further streamline compliance and transparency.
+
+7. Compliance Basics
+- GST registration can be done online at gst.gov.in.
+- Regular returns (monthly, quarterly, annual) are required.
+- Timely payment and filing avoid penalties.
+
+8. FAQs
+- Who pays GST? The consumer ultimately bears the tax, but businesses are responsible for payment and remittance to the government.
+- Where does GST revenue go? Shared between Central and State Governments; vital for national operations.
+- Can I apply for GST myself? Yes, via government portals.
+- What is Dual GST? Both Centre and State levy GST on a common base (CGST+SGST/IGST).

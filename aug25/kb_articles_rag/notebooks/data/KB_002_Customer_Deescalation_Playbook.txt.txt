@@ -1,0 +1,36 @@
+======================================================================
+KB Article #002: Playbook for De-escalating Tier 1 Customer Support Issues
+======================================================================
+
+**Purpose:**
+This document provides Customer Support agents with a structured playbook for handling difficult or emotionally charged customer interactions. The goal is to de-escalate the situation, resolve the issue efficiently, and maintain a positive customer relationship.
+
+**Target Audience:** Tier 1 Customer Support Agents
+
+**Sections:**
+
+1.  **The A.C.T. Methodology (Acknowledge, Clarify, Take Ownership)**
+    * **Acknowledge:** Start by acknowledging the customer's frustration. Use approved phrases like, "I understand how frustrating that must be," or "Thank you for bringing this to our attention. I can see why you're upset."
+    * **Clarify:** Ask clarifying questions to fully understand the issue. Example: "So I can be sure I understand, could you walk me through the steps you took?"
+    * **Take Ownership:** Reassure the customer you are there to help. Example: "I'm going to personally handle this for you to get it resolved."
+
+2.  **Approved De-escalation Phrases:**
+    * "I want to assure you that getting this fixed is my top priority."
+    * "Let's work together to find a solution."
+    * "I appreciate your patience as we sort this out."
+
+3.  **When to Escalate to Tier 2:**
+    * If the issue involves a confirmed bug that requires technical investigation.
+    * If the customer explicitly requests to speak with a manager or senior technician.
+    * If you have exhausted all Tier 1 troubleshooting steps outlined in the product-specific guides.
+    * If the customer becomes verbally abusive (follow the "Zero Tolerance Policy" outlined in KB #098).
+
+4.  **Documentation Standards:**
+    * In the Zendesk ticket, use the "De-escalation" tag.
+    * Summarize the customer's issue and emotional state in an internal note.
+    * Log every troubleshooting step you took.
+    * If escalating, provide a clear, concise summary for the Tier 2 agent.
+
+**Related Articles:**
+* KB_098_Zero_Tolerance_Policy.txt
+* KB_104_Documenting_in_Zendesk.txt

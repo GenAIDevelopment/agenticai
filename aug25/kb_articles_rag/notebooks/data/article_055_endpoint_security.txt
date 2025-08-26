@@ -1,0 +1,9 @@
+Title: Endpoint Security
+
+Overview:
+Endpoint security protects devices that connect to a corporate network.
+
+Practices:
+1. Use antivirus and EDR tools.
+2. Apply regular patches.
+3. Enforce device encryption.

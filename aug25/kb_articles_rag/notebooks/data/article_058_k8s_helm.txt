@@ -1,0 +1,9 @@
+Title: Helm in Kubernetes
+
+Overview:
+Helm is a package manager for Kubernetes applications.
+
+Concepts:
+1. Charts – Collections of YAML files.
+2. Releases – Installed chart instances.
+3. Repositories – Stores charts.

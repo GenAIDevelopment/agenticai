@@ -1,0 +1,9 @@
+Title: AWS Lambda Best Practices
+
+Overview:
+AWS Lambda is a serverless compute service that runs code in response to events.
+
+Best Practices:
+1. Keep functions small and focused.
+2. Use environment variables securely.
+3. Monitor performance with CloudWatch.

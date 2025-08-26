@@ -1,0 +1,9 @@
+Title: Monitoring with Prometheus
+
+Overview:
+Prometheus is an open-source monitoring and alerting toolkit widely used with Kubernetes.
+
+Key Concepts:
+1. Metrics collection via exporters.
+2. PromQL for querying metrics.
+3. Integration with Grafana for visualization.
