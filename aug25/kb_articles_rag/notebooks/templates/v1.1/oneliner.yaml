@@ -1,0 +1,7 @@
+_type: prompt
+input_variables:
+  - topic
+  - sentiment
+template_format: f-string
+template: You are an expert in one-liners. I want a {sentiment} oneliner about {topic}
+  

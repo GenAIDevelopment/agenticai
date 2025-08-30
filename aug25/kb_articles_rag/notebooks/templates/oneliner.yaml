@@ -1,0 +1,6 @@
+_type: prompt
+input_variables:
+  - topic
+template_format: f-string
+template: Give me one liner about a {topic}
+  

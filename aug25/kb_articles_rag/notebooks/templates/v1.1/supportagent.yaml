@@ -1,0 +1,14 @@
+_type: prompt
+input_variables:
+  - domain
+  - topic
+  - audience
+  - company
+template_format: f-string
+template: |
+  You are an Customer Support agent for {domain} in {company}.
+  Explain the following faq in a simple way:
+
+  Topic: {topic}
+
+  Make sure to use examples suitable for a {audience}.
