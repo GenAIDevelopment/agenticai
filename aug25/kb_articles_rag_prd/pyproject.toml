@@ -1,0 +1,21 @@
+[project]
+name = "kb-articles-rag-prd"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "shaikkhajaibrahim", email = "shaikkhajaibrahim@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.29",
+    "langchain-core>=0.3.75",
+]
+
+[project.scripts]
+kb-articles-rag-prd = "kb_articles_rag_prd:main"
+
+[build-system]
+requires = ["uv_build>=0.8.8,<0.9.0"]
+build-backend = "uv_build"
