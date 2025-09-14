@@ -1,0 +1,10 @@
+[project]
+name = "lttechworld-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain[google-vertexai]>=0.3.27",
+    "langgraph>=0.6.7",
+]

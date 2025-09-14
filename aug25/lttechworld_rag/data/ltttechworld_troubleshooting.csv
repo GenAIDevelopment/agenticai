@@ -1,0 +1,201 @@
+issue_title,product_id,symptoms
+Overheating desktop,P1119,Fan running loud; High CPU temps
+WiFi not connecting,P1090,Unable to detect networks; Frequent disconnections
+Battery draining too fast,P1185,Slow charging; Overheating
+USB port not working,P1169,Port loose; Device not detected
+Motherboard not booting,P1266,No POST; Beeping sound
+Keyboard keys not responding,P1063,Sticky keys; Some keys unresponsive
+Keyboard keys not responding,P1114,Sticky keys; Multiple characters typed
+External HDD not detected,P1261,LED blinking; Clicking noise
+Overheating desktop,P1215,System shuts down suddenly; High CPU temps
+SSD not recognized,P1247,Not visible in BIOS; Drive missing in Disk Manager
+Blue screen error,P1246,System freeze; Windows stop code displayed
+Keyboard keys not responding,P1162,Some keys unresponsive; Multiple characters typed
+Headset no sound,P1291,Audio not detected; Mic working but no sound
+Mouse lagging,P1025,Cursor stuttering; Random disconnections
+Headset no sound,P1176,Mic working but no sound; Distorted sound
+Mouse lagging,P1172,Unresponsive clicks; Random disconnections
+Graphics card driver crash,P1291,Driver stopped responding; Artifacts on screen
+Keyboard keys not responding,P1055,Multiple characters typed; Some keys unresponsive
+Battery draining too fast,P1228,Battery lasts less than 1 hour; Slow charging
+Laptop not powering on,P1201,Unresponsive power button; No fan sound
+Battery draining too fast,P1292,Battery lasts less than 1 hour; Overheating
+Keyboard keys not responding,P1117,Sticky keys; Multiple characters typed
+Battery draining too fast,P1214,Overheating; Battery lasts less than 1 hour
+Mouse lagging,P1245,Random disconnections; Unresponsive clicks
+Blue screen error,P1177,System freeze; Windows stop code displayed
+Mouse lagging,P1228,Random disconnections; Cursor stuttering
+USB port not working,P1280,Port loose; Power but no data transfer
+Battery draining too fast,P1288,Slow charging; Battery lasts less than 1 hour
+Keyboard keys not responding,P1291,Some keys unresponsive; Multiple characters typed
+Fan making noise,P1176,High RPM constantly; Rattling inside case
+Battery draining too fast,P1056,Slow charging; Battery lasts less than 1 hour
+WiFi not connecting,P1081,Unable to detect networks; Frequent disconnections
+Headset no sound,P1273,Audio not detected; Distorted sound
+Laptop not powering on,P1235,Unresponsive power button; No fan sound
+Mouse lagging,P1274,Random disconnections; Cursor stuttering
+Headset no sound,P1054,Distorted sound; Mic working but no sound
+Monitor flickering,P1165,Visible scan lines; Screen flickers intermittently
+Overheating desktop,P1023,Fan running loud; High CPU temps
+Blue screen error,P1131,Windows stop code displayed; Unexpected shutdown
+Blue screen error,P1044,System freeze; Unexpected shutdown
+Battery draining too fast,P1187,Slow charging; Battery lasts less than 1 hour
+Keyboard keys not responding,P1154,Some keys unresponsive; Sticky keys
+Fan making noise,P1071,Grinding sound; High RPM constantly
+External HDD not detected,P1218,LED blinking; Clicking noise
+Overheating desktop,P1288,High CPU temps; Fan running loud
+Keyboard keys not responding,P1295,Multiple characters typed; Sticky keys
+Blue screen error,P1276,Unexpected shutdown; Windows stop code displayed
+Blue screen error,P1121,System freeze; Windows stop code displayed
+Laptop not powering on,P1242,Unresponsive power button; No fan sound
+Laptop not powering on,P1264,Unresponsive power button; No lights
+Keyboard keys not responding,P1191,Multiple characters typed; Some keys unresponsive
+Battery draining too fast,P1236,Slow charging; Overheating
+SSD not recognized,P1152,No boot device found; Not visible in BIOS
+Monitor flickering,P1076,Visible scan lines; Flicker at higher refresh rates
+Motherboard not booting,P1268,LED indicators flashing; No POST
+Mouse lagging,P1136,Random disconnections; Cursor stuttering
+Battery draining too fast,P1065,Overheating; Battery lasts less than 1 hour
+Mouse lagging,P1300,Unresponsive clicks; Random disconnections
+Blue screen error,P1118,Unexpected shutdown; System freeze
+Headset no sound,P1030,Distorted sound; Mic working but no sound
+Mouse lagging,P1095,Random disconnections; Unresponsive clicks
+USB port not working,P1297,Port loose; Power but no data transfer
+Motherboard not booting,P1249,No POST; Beeping sound
+Fan making noise,P1290,High RPM constantly; Grinding sound
+Blue screen error,P1092,System freeze; Unexpected shutdown
+Fan making noise,P1200,High RPM constantly; Grinding sound
+Keyboard keys not responding,P1108,Multiple characters typed; Some keys unresponsive
+SSD not recognized,P1022,No boot device found; Not visible in BIOS
+Overheating desktop,P1038,High CPU temps; System shuts down suddenly
+External HDD not detected,P1081,Drive not showing in File Explorer; Clicking noise
+Keyboard keys not responding,P1222,Some keys unresponsive; Sticky keys
+Keyboard keys not responding,P1028,Sticky keys; Some keys unresponsive
+Headset no sound,P1039,Audio not detected; Distorted sound
+USB port not working,P1175,Device not detected; Port loose
+Overheating desktop,P1103,System shuts down suddenly; Fan running loud
+WiFi not connecting,P1281,Weak signal; Unable to detect networks
+Fan making noise,P1002,Rattling inside case; High RPM constantly
+Battery draining too fast,P1117,Battery lasts less than 1 hour; Overheating
+Mouse lagging,P1086,Cursor stuttering; Random disconnections
+Battery draining too fast,P1109,Overheating; Battery lasts less than 1 hour
+Fan making noise,P1145,Rattling inside case; Grinding sound
+Monitor flickering,P1135,Screen flickers intermittently; Visible scan lines
+Graphics card driver crash,P1172,Screen goes black; Driver stopped responding
+Monitor flickering,P1102,Visible scan lines; Flicker at higher refresh rates
+External HDD not detected,P1112,LED blinking; Clicking noise
+Monitor flickering,P1154,Visible scan lines; Flicker at higher refresh rates
+WiFi not connecting,P1004,Unable to detect networks; Frequent disconnections
+Battery draining too fast,P1153,Slow charging; Battery lasts less than 1 hour
+Blue screen error,P1137,Windows stop code displayed; Unexpected shutdown
+Overheating desktop,P1032,High CPU temps; System shuts down suddenly
+External HDD not detected,P1073,Clicking noise; LED blinking
+USB port not working,P1218,Power but no data transfer; Port loose
+Headset no sound,P1297,Distorted sound; Mic working but no sound
+Motherboard not booting,P1275,LED indicators flashing; Beeping sound
+Fan making noise,P1294,Grinding sound; Rattling inside case
+Mouse lagging,P1279,Unresponsive clicks; Random disconnections
+Blue screen error,P1019,Unexpected shutdown; System freeze
+External HDD not detected,P1207,LED blinking; Clicking noise
+Headset no sound,P1037,Audio not detected; Mic working but no sound
+Keyboard keys not responding,P1026,Sticky keys; Multiple characters typed
+Fan making noise,P1195,Grinding sound; Rattling inside case
+Monitor flickering,P1146,Visible scan lines; Screen flickers intermittently
+Monitor flickering,P1137,Visible scan lines; Screen flickers intermittently
+Mouse lagging,P1071,Unresponsive clicks; Random disconnections
+SSD not recognized,P1270,Drive missing in Disk Manager; Not visible in BIOS
+SSD not recognized,P1261,No boot device found; Drive missing in Disk Manager
+Graphics card driver crash,P1042,Driver stopped responding; Screen goes black
+Graphics card driver crash,P1131,Screen goes black; Artifacts on screen
+Graphics card driver crash,P1028,Artifacts on screen; Screen goes black
+Headset no sound,P1253,Mic working but no sound; Audio not detected
+USB port not working,P1037,Port loose; Device not detected
+Blue screen error,P1167,Unexpected shutdown; System freeze
+Keyboard keys not responding,P1240,Sticky keys; Multiple characters typed
+Battery draining too fast,P1057,Overheating; Slow charging
+Keyboard keys not responding,P1255,Sticky keys; Some keys unresponsive
+Overheating desktop,P1214,Fan running loud; System shuts down suddenly
+SSD not recognized,P1140,Not visible in BIOS; No boot device found
+Monitor flickering,P1218,Screen flickers intermittently; Visible scan lines
+SSD not recognized,P1234,Drive missing in Disk Manager; No boot device found
+Graphics card driver crash,P1040,Screen goes black; Artifacts on screen
+Fan making noise,P1275,Grinding sound; High RPM constantly
+External HDD not detected,P1129,Clicking noise; Drive not showing in File Explorer
+Laptop not powering on,P1229,No lights; No fan sound
+Blue screen error,P1132,System freeze; Unexpected shutdown
+Headset no sound,P1211,Audio not detected; Distorted sound
+Graphics card driver crash,P1141,Screen goes black; Driver stopped responding
+Blue screen error,P1178,Windows stop code displayed; System freeze
+Blue screen error,P1040,Unexpected shutdown; System freeze
+Laptop not powering on,P1288,Unresponsive power button; No fan sound
+Headset no sound,P1005,Audio not detected; Mic working but no sound
+Overheating desktop,P1078,High CPU temps; System shuts down suddenly
+Blue screen error,P1087,System freeze; Unexpected shutdown
+Fan making noise,P1020,High RPM constantly; Grinding sound
+Laptop not powering on,P1018,No fan sound; No lights
+Overheating desktop,P1279,System shuts down suddenly; High CPU temps
+WiFi not connecting,P1124,Unable to detect networks; Frequent disconnections
+USB port not working,P1162,Port loose; Device not detected
+Mouse lagging,P1267,Unresponsive clicks; Random disconnections
+Blue screen error,P1078,Windows stop code displayed; Unexpected shutdown
+Keyboard keys not responding,P1102,Sticky keys; Some keys unresponsive
+Keyboard keys not responding,P1200,Some keys unresponsive; Sticky keys
+Battery draining too fast,P1040,Overheating; Slow charging
+Monitor flickering,P1017,Screen flickers intermittently; Flicker at higher refresh rates
+Blue screen error,P1028,Unexpected shutdown; System freeze
+External HDD not detected,P1205,Clicking noise; Drive not showing in File Explorer
+SSD not recognized,P1134,Drive missing in Disk Manager; Not visible in BIOS
+Keyboard keys not responding,P1247,Sticky keys; Multiple characters typed
+SSD not recognized,P1263,Not visible in BIOS; Drive missing in Disk Manager
+Motherboard not booting,P1147,No POST; LED indicators flashing
+SSD not recognized,P1219,No boot device found; Drive missing in Disk Manager
+USB port not working,P1175,Port loose; Device not detected
+Battery draining too fast,P1239,Slow charging; Overheating
+Fan making noise,P1234,High RPM constantly; Rattling inside case
+Overheating desktop,P1115,System shuts down suddenly; High CPU temps
+WiFi not connecting,P1225,Unable to detect networks; Frequent disconnections
+Fan making noise,P1237,Grinding sound; High RPM constantly
+Headset no sound,P1053,Distorted sound; Audio not detected
+Headset no sound,P1297,Distorted sound; Audio not detected
+Keyboard keys not responding,P1253,Multiple characters typed; Some keys unresponsive
+WiFi not connecting,P1070,Frequent disconnections; Weak signal
+Motherboard not booting,P1019,Beeping sound; LED indicators flashing
+Overheating desktop,P1030,Fan running loud; High CPU temps
+Laptop not powering on,P1006,No lights; No fan sound
+External HDD not detected,P1160,Clicking noise; LED blinking
+USB port not working,P1277,Power but no data transfer; Port loose
+Headset no sound,P1189,Mic working but no sound; Distorted sound
+Overheating desktop,P1197,High CPU temps; Fan running loud
+Blue screen error,P1202,Windows stop code displayed; System freeze
+Battery draining too fast,P1004,Slow charging; Overheating
+Blue screen error,P1248,System freeze; Unexpected shutdown
+Overheating desktop,P1074,System shuts down suddenly; High CPU temps
+Blue screen error,P1214,Windows stop code displayed; System freeze
+Overheating desktop,P1193,High CPU temps; Fan running loud
+USB port not working,P1038,Power but no data transfer; Port loose
+Battery draining too fast,P1071,Overheating; Slow charging
+Keyboard keys not responding,P1223,Sticky keys; Some keys unresponsive
+Keyboard keys not responding,P1063,Multiple characters typed; Sticky keys
+Monitor flickering,P1260,Flicker at higher refresh rates; Screen flickers intermittently
+Battery draining too fast,P1194,Battery lasts less than 1 hour; Overheating
+Battery draining too fast,P1237,Slow charging; Battery lasts less than 1 hour
+External HDD not detected,P1269,LED blinking; Clicking noise
+Laptop not powering on,P1079,Unresponsive power button; No lights
+SSD not recognized,P1047,Drive missing in Disk Manager; Not visible in BIOS
+WiFi not connecting,P1009,Weak signal; Unable to detect networks
+WiFi not connecting,P1187,Frequent disconnections; Weak signal
+Battery draining too fast,P1197,Slow charging; Overheating
+Fan making noise,P1121,Rattling inside case; High RPM constantly
+Battery draining too fast,P1181,Overheating; Slow charging
+Mouse lagging,P1200,Cursor stuttering; Random disconnections
+Graphics card driver crash,P1176,Artifacts on screen; Screen goes black
+Blue screen error,P1153,Windows stop code displayed; System freeze
+Mouse lagging,P1023,Random disconnections; Unresponsive clicks
+Laptop not powering on,P1003,Unresponsive power button; No fan sound
+Keyboard keys not responding,P1178,Sticky keys; Some keys unresponsive
+Battery draining too fast,P1254,Battery lasts less than 1 hour; Overheating
+External HDD not detected,P1059,LED blinking; Clicking noise
+Keyboard keys not responding,P1246,Multiple characters typed; Some keys unresponsive
+Fan making noise,P1035,High RPM constantly; Rattling inside case
+WiFi not connecting,P1149,Frequent disconnections; Unable to detect networks
+Fan making noise,P1183,Grinding sound; High RPM constantly
