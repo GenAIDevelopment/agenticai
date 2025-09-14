@@ -1,0 +1,9 @@
+{
+    "dependencies": [
+        "langchain[google-vertexai]",
+        "langgraph"
+    ],
+    "graphs": {
+        "main": "./main.py:graph"
+    }
+}
