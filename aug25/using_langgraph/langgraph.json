@@ -4,6 +4,7 @@
         "langgraph"
     ],
     "graphs": {
-        "main": "./main.py:graph"
+        "main": "./main.py:graph",
+        "agentic": "./supervisor_agentic.py:graph"
     }
 }

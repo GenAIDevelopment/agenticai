@@ -1,0 +1,9 @@
+Title: GitHub Actions Overview
+
+Overview:
+GitHub Actions is a CI/CD tool native to GitHub, enabling automation of workflows.
+
+Key Concepts:
+1. Workflows – Defined in YAML files.
+2. Jobs – Units of work executed in workflows.
+3. Runners – Machines that execute jobs.
