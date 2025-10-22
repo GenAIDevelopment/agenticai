@@ -175,3 +175,5 @@ cython_debug/
 
 # my vectordb
 vectordb/
+
+**/.langgraph_api/*
