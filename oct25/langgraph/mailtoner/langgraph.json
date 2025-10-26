@@ -1,0 +1,7 @@
+{
+    "dependencies": ".",
+    "graphs": {
+        "toner": "toner:graph"
+    }
+    
+}

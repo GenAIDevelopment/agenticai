@@ -1,10 +1,13 @@
-from dotenv import load_dotenv
-import os
+from toner import graph, EmailState
 
 def main():
-    print(os.getenv('LANGSMITH_MYKEY', 'NO KEY FOUND'))
-    load_dotenv()
-    print(os.getenv('LANGSMITH_MYKEY','NO KEY FOUND'))
+    state = EmailState(
+        draft='I will be on leave next week from 26 oct to 2 nov.',
+        tone='formal'
+    )
+    response = graph.invoke(state)
+    print(response['mail'])
+
     
 
 
