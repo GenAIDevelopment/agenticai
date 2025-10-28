@@ -2,7 +2,8 @@
     "dependencies": ".",
     "graphs": {
         "toner": "toner:graph",
-        "historian": "historian:graph"
+        "historian": "historian:graph",
+        "mathematician": "math_graph:graph"
     }
     
 }
