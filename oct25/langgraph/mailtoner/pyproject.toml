@@ -8,7 +8,11 @@ dependencies = [
     "ipykernel>=7.0.1",
     "langchain>=1.0.2",
     "langchain-google-vertexai>=3.0.1",
+    "langchain-tavily>=0.2.13",
     "langgraph>=1.0.1",
+    "langgraph-checkpoint-postgres>=3.0.1",
+    "langgraph-checkpoint-sqlite>=3.0.0",
     "langgraph-cli[inmem]>=0.4.4",
+    "psycopg[binary,pool]>=3.2.12",
     "python-dotenv>=1.1.1",
 ]
