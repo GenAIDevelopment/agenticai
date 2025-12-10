@@ -12,6 +12,7 @@ from customers import CUSTOMERS
 from orders import ORDERS
 from restaurants import RESTARAUNTS
 from models import Customer, Order, Restaurant
+from pathlib import Path
 
 mcp = FastMCP(
     name="swiggy-mcp",
@@ -71,6 +72,25 @@ def get_restaurant_information(restaurant_id: str) -> Restaurant  | None:
     return None
 
 
+@mcp.tool()
+def get_refund_policy_info(customer_id=None, order_id=None) -> str:
+    """This will return a markdown document with refund policy
+
+    Returns:
+        str: refund policy
+    """
+    return get_refund_policy()
+
+@mcp.tool()
+def get_late_delivery_policy(customer_id=None, order_id=None) -> str:
+    """This tool returns the late delivery policy
+
+    Returns:
+        str: late delivery policy
+    """
+    return get_complaint_resolution('latedelviery')
+
+
 # ---------------------------------------------------------------------------
 # Resources
 # ---------------------------------------------------------------------------
@@ -113,11 +133,13 @@ def read_markdown_file(file_path):
         str: The content of the Markdown file as a string.
     """
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
+        current_dir = Path(__file__).parent
+        full_file_path = current_dir.joinpath(file_path) 
+        with open(full_file_path, 'r', encoding='utf-8') as f:
             content = f.read()
         return content
     except FileNotFoundError:
-        print(f"Error: The file '{file_path}' was not found.")
+        print(f"Error: The file '{full_file_path}' was not found.")
         return None
     except Exception as e:
         print(f"An error occurred while reading the file: {e}")
