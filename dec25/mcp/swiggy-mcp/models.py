@@ -2,7 +2,7 @@
 This module has pydantic models
 """
 
-from typing import Annotated, List
+from typing import Annotated, List, Optional
 from datetime import datetime, date
 from enum import Enum
 from pydantic import BaseModel, Field
@@ -17,14 +17,14 @@ class Restaurant(BaseModel):
         location (str): Location or address of the restaurant.
         cuisine (str): Type of cuisine served (e.g., Indian, Chinese).
         rating (float): Rating between 0–5.
-        averageDeliveryTime (str): Estimated delivery time in minutes.
+        deliveryTime (str): Estimated delivery time in minutes.
     """
-    restaurantId: Annotated[str, Field(alias="restaurantId")]
+    restaurantId: Annotated[str|None, Field(default=None,alias="restaurantId")] = None
     name: Annotated[str, Field()]
     location: Annotated[str, Field()]
-    cuisine: Annotated[str, Field()]
+    cuisine: Annotated[str | None, Field(default=None, description="Optional comment")] = None
     rating: Annotated[float, Field(ge=0, le=5)]
-    averageDeliveryTime: Annotated[str, Field()]
+    deliveryTime: Annotated[str, Field()]
 
 
 class OrderModel(BaseModel):

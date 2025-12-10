@@ -5,7 +5,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.5,
-    "averageDeliveryTime": "23 mins"
+    "deliveryTime": "23 mins"
   },
   {
     "restaurantId": "REST_63307",
@@ -13,7 +13,7 @@ RESTARAUNTS = [
     "location": "Secunderabad, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.5,
-    "averageDeliveryTime": "37 mins"
+    "deliveryTime": "37 mins"
   },
   {
     "restaurantId": "REST_12456",
@@ -21,7 +21,7 @@ RESTARAUNTS = [
     "location": "Jubilee Hills, Hyderabad",
     "cuisine": "Fast Food",
     "rating": 4.8,
-    "averageDeliveryTime": "33 mins"
+    "deliveryTime": "33 mins"
   },
   {
     "restaurantId": "REST_78934",
@@ -29,7 +29,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.2,
-    "averageDeliveryTime": "25 mins"
+    "deliveryTime": "25 mins"
   },
   {
     "restaurantId": "REST_32726",
@@ -37,7 +37,7 @@ RESTARAUNTS = [
     "location": "Jubilee Hills, Hyderabad",
     "cuisine": "Fast Food",
     "rating": 4.8,
-    "averageDeliveryTime": "33 mins"
+    "deliveryTime": "33 mins"
   },
   {
     "restaurantId": "REST_80473",
@@ -45,7 +45,7 @@ RESTARAUNTS = [
     "location": "Secunderabad, Hyderabad",
     "cuisine": "Biryani",
     "rating": 3.9,
-    "averageDeliveryTime": "27 mins"
+    "deliveryTime": "27 mins"
   },
   {
     "restaurantId": "REST_27920",
@@ -53,7 +53,7 @@ RESTARAUNTS = [
     "location": "Secunderabad, Hyderabad",
     "cuisine": "Biryani",
     "rating": 3.9,
-    "averageDeliveryTime": "31 mins"
+    "deliveryTime": "31 mins"
   },
   {
     "restaurantId": "REST_52741",
@@ -61,7 +61,7 @@ RESTARAUNTS = [
     "location": "Jubilee Hills, Hyderabad",
     "cuisine": "Fast Food",
     "rating": 4.2,
-    "averageDeliveryTime": "28 mins"
+    "deliveryTime": "28 mins"
   },
   {
     "restaurantId": "REST_16130",
@@ -69,7 +69,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.5,
-    "averageDeliveryTime": "44 mins"
+    "deliveryTime": "44 mins"
   },
   {
     "restaurantId": "REST_27218",
@@ -77,7 +77,7 @@ RESTARAUNTS = [
     "location": "Madhapur, Hyderabad",
     "cuisine": "North Indian",
     "rating": 3.9,
-    "averageDeliveryTime": "43 mins"
+    "deliveryTime": "43 mins"
   },
   {
     "restaurantId": "REST_59662",
@@ -85,7 +85,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.3,
-    "averageDeliveryTime": "30 mins"
+    "deliveryTime": "30 mins"
   },
   {
     "restaurantId": "REST_72225",
@@ -93,7 +93,7 @@ RESTARAUNTS = [
     "location": "Banjara Hills, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.0,
-    "averageDeliveryTime": "27 mins"
+    "deliveryTime": "27 mins"
   },
   {
     "restaurantId": "REST_14120",
@@ -101,7 +101,7 @@ RESTARAUNTS = [
     "location": "Banjara Hills, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.1,
-    "averageDeliveryTime": "29 mins"
+    "deliveryTime": "29 mins"
   },
   {
     "restaurantId": "REST_95033",
@@ -109,7 +109,7 @@ RESTARAUNTS = [
     "location": "Secunderabad, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.6,
-    "averageDeliveryTime": "30 mins"
+    "deliveryTime": "30 mins"
   },
   {
     "restaurantId": "REST_20196",
@@ -117,7 +117,7 @@ RESTARAUNTS = [
     "location": "Madhapur, Hyderabad",
     "cuisine": "North Indian",
     "rating": 4.2,
-    "averageDeliveryTime": "31 mins"
+    "deliveryTime": "31 mins"
   },
   {
     "restaurantId": "REST_84091",
@@ -125,7 +125,7 @@ RESTARAUNTS = [
     "location": "Jubilee Hills, Hyderabad",
     "cuisine": "Fast Food",
     "rating": 4.1,
-    "averageDeliveryTime": "29 mins"
+    "deliveryTime": "29 mins"
   },
   {
     "restaurantId": "REST_47237",
@@ -133,7 +133,7 @@ RESTARAUNTS = [
     "location": "Secunderabad, Hyderabad",
     "cuisine": "Biryani",
     "rating": 3.8,
-    "averageDeliveryTime": "25 mins"
+    "deliveryTime": "25 mins"
   },
   {
     "restaurantId": "REST_95139",
@@ -141,7 +141,7 @@ RESTARAUNTS = [
     "location": "Madhapur, Hyderabad",
     "cuisine": "North Indian",
     "rating": 4.4,
-    "averageDeliveryTime": "33 mins"
+    "deliveryTime": "33 mins"
   },
   {
     "restaurantId": "REST_38862",
@@ -149,7 +149,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.8,
-    "averageDeliveryTime": "27 mins"
+    "deliveryTime": "27 mins"
   },
   {
     "restaurantId": "REST_92624",
@@ -157,7 +157,7 @@ RESTARAUNTS = [
     "location": "Madhapur, Hyderabad",
     "cuisine": "North Indian",
     "rating": 3.9,
-    "averageDeliveryTime": "32 mins"
+    "deliveryTime": "32 mins"
   },
   {
     "restaurantId": "REST_48916",
@@ -165,7 +165,7 @@ RESTARAUNTS = [
     "location": "Secunderabad, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.1,
-    "averageDeliveryTime": "28 mins"
+    "deliveryTime": "28 mins"
   },
   {
     "restaurantId": "REST_18499",
@@ -173,7 +173,7 @@ RESTARAUNTS = [
     "location": "Madhapur, Hyderabad",
     "cuisine": "North Indian",
     "rating": 4.4,
-    "averageDeliveryTime": "36 mins"
+    "deliveryTime": "36 mins"
   },
   {
     "restaurantId": "REST_33445",
@@ -181,7 +181,7 @@ RESTARAUNTS = [
     "location": "Secunderabad, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.8,
-    "averageDeliveryTime": "45 mins"
+    "deliveryTime": "45 mins"
   },
   {
     "restaurantId": "REST_50577",
@@ -189,7 +189,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 3.9,
-    "averageDeliveryTime": "23 mins"
+    "deliveryTime": "23 mins"
   },
   {
     "restaurantId": "REST_70681",
@@ -197,7 +197,7 @@ RESTARAUNTS = [
     "location": "Secunderabad, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.3,
-    "averageDeliveryTime": "43 mins"
+    "deliveryTime": "43 mins"
   },
   {
     "restaurantId": "REST_56767",
@@ -205,7 +205,7 @@ RESTARAUNTS = [
     "location": "Banjara Hills, Hyderabad",
     "cuisine": "Biryani",
     "rating": 3.9,
-    "averageDeliveryTime": "32 mins"
+    "deliveryTime": "32 mins"
   },
   {
     "restaurantId": "REST_86035",
@@ -213,7 +213,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.0,
-    "averageDeliveryTime": "39 mins"
+    "deliveryTime": "39 mins"
   },
   {
     "restaurantId": "REST_46972",
@@ -221,7 +221,7 @@ RESTARAUNTS = [
     "location": "Banjara Hills, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.1,
-    "averageDeliveryTime": "30 mins"
+    "deliveryTime": "30 mins"
   },
   {
     "restaurantId": "REST_73933",
@@ -229,7 +229,7 @@ RESTARAUNTS = [
     "location": "Jubilee Hills, Hyderabad",
     "cuisine": "Fast Food",
     "rating": 3.9,
-    "averageDeliveryTime": "34 mins"
+    "deliveryTime": "34 mins"
   },
   {
     "restaurantId": "REST_18574",
@@ -237,7 +237,7 @@ RESTARAUNTS = [
     "location": "Secunderabad, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.9,
-    "averageDeliveryTime": "43 mins"
+    "deliveryTime": "43 mins"
   },
   {
     "restaurantId": "REST_71585",
@@ -245,7 +245,7 @@ RESTARAUNTS = [
     "location": "Secunderabad, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.7,
-    "averageDeliveryTime": "26 mins"
+    "deliveryTime": "26 mins"
   },
   {
     "restaurantId": "REST_94252",
@@ -253,7 +253,7 @@ RESTARAUNTS = [
     "location": "Secunderabad, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.4,
-    "averageDeliveryTime": "20 mins"
+    "deliveryTime": "20 mins"
   },
   {
     "restaurantId": "REST_38414",
@@ -261,7 +261,7 @@ RESTARAUNTS = [
     "location": "Jubilee Hills, Hyderabad",
     "cuisine": "Fast Food",
     "rating": 4.3,
-    "averageDeliveryTime": "38 mins"
+    "deliveryTime": "38 mins"
   },
   {
     "restaurantId": "REST_13450",
@@ -269,7 +269,7 @@ RESTARAUNTS = [
     "location": "Secunderabad, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.6,
-    "averageDeliveryTime": "27 mins"
+    "deliveryTime": "27 mins"
   },
   {
     "restaurantId": "REST_28577",
@@ -277,7 +277,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.6,
-    "averageDeliveryTime": "23 mins"
+    "deliveryTime": "23 mins"
   },
   {
     "restaurantId": "REST_33409",
@@ -285,7 +285,7 @@ RESTARAUNTS = [
     "location": "Banjara Hills, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.8,
-    "averageDeliveryTime": "28 mins"
+    "deliveryTime": "28 mins"
   },
   {
     "restaurantId": "REST_59589",
@@ -293,7 +293,7 @@ RESTARAUNTS = [
     "location": "Secunderabad, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.6,
-    "averageDeliveryTime": "44 mins"
+    "deliveryTime": "44 mins"
   },
   {
     "restaurantId": "REST_40889",
@@ -301,7 +301,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 3.8,
-    "averageDeliveryTime": "40 mins"
+    "deliveryTime": "40 mins"
   },
   {
     "restaurantId": "REST_86820",
@@ -309,7 +309,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.6,
-    "averageDeliveryTime": "37 mins"
+    "deliveryTime": "37 mins"
   },
   {
     "restaurantId": "REST_10679",
@@ -317,7 +317,7 @@ RESTARAUNTS = [
     "location": "Madhapur, Hyderabad",
     "cuisine": "North Indian",
     "rating": 4.6,
-    "averageDeliveryTime": "23 mins"
+    "deliveryTime": "23 mins"
   },
   {
     "restaurantId": "REST_23844",
@@ -325,7 +325,7 @@ RESTARAUNTS = [
     "location": "Jubilee Hills, Hyderabad",
     "cuisine": "Fast Food",
     "rating": 4.8,
-    "averageDeliveryTime": "27 mins"
+    "deliveryTime": "27 mins"
   },
   {
     "restaurantId": "REST_62729",
@@ -333,7 +333,7 @@ RESTARAUNTS = [
     "location": "Secunderabad, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.4,
-    "averageDeliveryTime": "21 mins"
+    "deliveryTime": "21 mins"
   },
   {
     "restaurantId": "REST_46708",
@@ -341,7 +341,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 3.9,
-    "averageDeliveryTime": "22 mins"
+    "deliveryTime": "22 mins"
   },
   {
     "restaurantId": "REST_46874",
@@ -349,7 +349,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.7,
-    "averageDeliveryTime": "27 mins"
+    "deliveryTime": "27 mins"
   },
   {
     "restaurantId": "REST_94924",
@@ -357,7 +357,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 3.9,
-    "averageDeliveryTime": "40 mins"
+    "deliveryTime": "40 mins"
   },
   {
     "restaurantId": "REST_27775",
@@ -365,7 +365,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.9,
-    "averageDeliveryTime": "24 mins"
+    "deliveryTime": "24 mins"
   },
   {
     "restaurantId": "REST_45900",
@@ -373,7 +373,7 @@ RESTARAUNTS = [
     "location": "Jubilee Hills, Hyderabad",
     "cuisine": "Fast Food",
     "rating": 4.2,
-    "averageDeliveryTime": "44 mins"
+    "deliveryTime": "44 mins"
   },
   {
     "restaurantId": "REST_59781",
@@ -381,7 +381,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.6,
-    "averageDeliveryTime": "34 mins"
+    "deliveryTime": "34 mins"
   },
   {
     "restaurantId": "REST_51455",
@@ -389,7 +389,7 @@ RESTARAUNTS = [
     "location": "Madhapur, Hyderabad",
     "cuisine": "North Indian",
     "rating": 4.0,
-    "averageDeliveryTime": "45 mins"
+    "deliveryTime": "45 mins"
   },
   {
     "restaurantId": "REST_32870",
@@ -397,7 +397,7 @@ RESTARAUNTS = [
     "location": "Madhapur, Hyderabad",
     "cuisine": "North Indian",
     "rating": 4.2,
-    "averageDeliveryTime": "31 mins"
+    "deliveryTime": "31 mins"
   },
   {
     "restaurantId": "REST_62137",
@@ -405,7 +405,7 @@ RESTARAUNTS = [
     "location": "Secunderabad, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.6,
-    "averageDeliveryTime": "32 mins"
+    "deliveryTime": "32 mins"
   },
   {
     "restaurantId": "REST_34982",
@@ -413,7 +413,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.0,
-    "averageDeliveryTime": "31 mins"
+    "deliveryTime": "31 mins"
   },
   {
     "restaurantId": "REST_23510",
@@ -421,7 +421,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.8,
-    "averageDeliveryTime": "30 mins"
+    "deliveryTime": "30 mins"
   },
   {
     "restaurantId": "REST_18843",
@@ -429,7 +429,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.5,
-    "averageDeliveryTime": "20 mins"
+    "deliveryTime": "20 mins"
   },
   {
     "restaurantId": "REST_28840",
@@ -437,7 +437,7 @@ RESTARAUNTS = [
     "location": "Secunderabad, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.4,
-    "averageDeliveryTime": "41 mins"
+    "deliveryTime": "41 mins"
   },
   {
     "restaurantId": "REST_37671",
@@ -445,7 +445,7 @@ RESTARAUNTS = [
     "location": "Jubilee Hills, Hyderabad",
     "cuisine": "Fast Food",
     "rating": 4.3,
-    "averageDeliveryTime": "21 mins"
+    "deliveryTime": "21 mins"
   },
   {
     "restaurantId": "REST_74364",
@@ -453,7 +453,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.3,
-    "averageDeliveryTime": "38 mins"
+    "deliveryTime": "38 mins"
   },
   {
     "restaurantId": "REST_78907",
@@ -461,7 +461,7 @@ RESTARAUNTS = [
     "location": "Secunderabad, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.8,
-    "averageDeliveryTime": "25 mins"
+    "deliveryTime": "25 mins"
   },
   {
     "restaurantId": "REST_98491",
@@ -469,7 +469,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.6,
-    "averageDeliveryTime": "28 mins"
+    "deliveryTime": "28 mins"
   },
   {
     "restaurantId": "REST_67946",
@@ -477,7 +477,7 @@ RESTARAUNTS = [
     "location": "Jubilee Hills, Hyderabad",
     "cuisine": "Fast Food",
     "rating": 4.2,
-    "averageDeliveryTime": "23 mins"
+    "deliveryTime": "23 mins"
   },
   {
     "restaurantId": "REST_34740",
@@ -485,7 +485,7 @@ RESTARAUNTS = [
     "location": "Madhapur, Hyderabad",
     "cuisine": "North Indian",
     "rating": 3.8,
-    "averageDeliveryTime": "26 mins"
+    "deliveryTime": "26 mins"
   },
   {
     "restaurantId": "REST_67062",
@@ -493,7 +493,7 @@ RESTARAUNTS = [
     "location": "Banjara Hills, Hyderabad",
     "cuisine": "Biryani",
     "rating": 3.9,
-    "averageDeliveryTime": "45 mins"
+    "deliveryTime": "45 mins"
   },
   {
     "restaurantId": "REST_56373",
@@ -501,7 +501,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.2,
-    "averageDeliveryTime": "36 mins"
+    "deliveryTime": "36 mins"
   },
   {
     "restaurantId": "REST_23339",
@@ -509,7 +509,7 @@ RESTARAUNTS = [
     "location": "Jubilee Hills, Hyderabad",
     "cuisine": "Fast Food",
     "rating": 4.4,
-    "averageDeliveryTime": "30 mins"
+    "deliveryTime": "30 mins"
   },
   {
     "restaurantId": "REST_43106",
@@ -517,7 +517,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.1,
-    "averageDeliveryTime": "20 mins"
+    "deliveryTime": "20 mins"
   },
   {
     "restaurantId": "REST_91726",
@@ -525,7 +525,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.1,
-    "averageDeliveryTime": "45 mins"
+    "deliveryTime": "45 mins"
   },
   {
     "restaurantId": "REST_74246",
@@ -533,7 +533,7 @@ RESTARAUNTS = [
     "location": "Madhapur, Hyderabad",
     "cuisine": "North Indian",
     "rating": 4.1,
-    "averageDeliveryTime": "26 mins"
+    "deliveryTime": "26 mins"
   },
   {
     "restaurantId": "REST_82925",
@@ -541,7 +541,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.2,
-    "averageDeliveryTime": "31 mins"
+    "deliveryTime": "31 mins"
   },
   {
     "restaurantId": "REST_36940",
@@ -549,7 +549,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.8,
-    "averageDeliveryTime": "44 mins"
+    "deliveryTime": "44 mins"
   },
   {
     "restaurantId": "REST_58736",
@@ -557,7 +557,7 @@ RESTARAUNTS = [
     "location": "Secunderabad, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.8,
-    "averageDeliveryTime": "26 mins"
+    "deliveryTime": "26 mins"
   },
   {
     "restaurantId": "REST_26232",
@@ -565,7 +565,7 @@ RESTARAUNTS = [
     "location": "Madhapur, Hyderabad",
     "cuisine": "North Indian",
     "rating": 4.3,
-    "averageDeliveryTime": "36 mins"
+    "deliveryTime": "36 mins"
   },
   {
     "restaurantId": "REST_29979",
@@ -573,7 +573,7 @@ RESTARAUNTS = [
     "location": "Madhapur, Hyderabad",
     "cuisine": "North Indian",
     "rating": 4.2,
-    "averageDeliveryTime": "43 mins"
+    "deliveryTime": "43 mins"
   },
   {
     "restaurantId": "REST_12256",
@@ -581,7 +581,7 @@ RESTARAUNTS = [
     "location": "Banjara Hills, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.3,
-    "averageDeliveryTime": "33 mins"
+    "deliveryTime": "33 mins"
   },
   {
     "restaurantId": "REST_86230",
@@ -589,7 +589,7 @@ RESTARAUNTS = [
     "location": "Jubilee Hills, Hyderabad",
     "cuisine": "Fast Food",
     "rating": 4.7,
-    "averageDeliveryTime": "38 mins"
+    "deliveryTime": "38 mins"
   },
   {
     "restaurantId": "REST_71071",
@@ -597,7 +597,7 @@ RESTARAUNTS = [
     "location": "Secunderabad, Hyderabad",
     "cuisine": "Biryani",
     "rating": 3.9,
-    "averageDeliveryTime": "42 mins"
+    "deliveryTime": "42 mins"
   },
   {
     "restaurantId": "REST_53330",
@@ -605,7 +605,7 @@ RESTARAUNTS = [
     "location": "Madhapur, Hyderabad",
     "cuisine": "North Indian",
     "rating": 4.3,
-    "averageDeliveryTime": "21 mins"
+    "deliveryTime": "21 mins"
   },
   {
     "restaurantId": "REST_61694",
@@ -613,7 +613,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.5,
-    "averageDeliveryTime": "26 mins"
+    "deliveryTime": "26 mins"
   },
   {
     "restaurantId": "REST_19972",
@@ -621,7 +621,7 @@ RESTARAUNTS = [
     "location": "Madhapur, Hyderabad",
     "cuisine": "North Indian",
     "rating": 4.7,
-    "averageDeliveryTime": "32 mins"
+    "deliveryTime": "32 mins"
   },
   {
     "restaurantId": "REST_58835",
@@ -629,7 +629,7 @@ RESTARAUNTS = [
     "location": "Banjara Hills, Hyderabad",
     "cuisine": "Biryani",
     "rating": 3.9,
-    "averageDeliveryTime": "41 mins"
+    "deliveryTime": "41 mins"
   },
   {
     "restaurantId": "REST_55504",
@@ -637,7 +637,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.7,
-    "averageDeliveryTime": "44 mins"
+    "deliveryTime": "44 mins"
   },
   {
     "restaurantId": "REST_21900",
@@ -645,7 +645,7 @@ RESTARAUNTS = [
     "location": "Secunderabad, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.8,
-    "averageDeliveryTime": "38 mins"
+    "deliveryTime": "38 mins"
   },
   {
     "restaurantId": "REST_52958",
@@ -653,7 +653,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.8,
-    "averageDeliveryTime": "31 mins"
+    "deliveryTime": "31 mins"
   },
   {
     "restaurantId": "REST_97003",
@@ -661,7 +661,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.3,
-    "averageDeliveryTime": "28 mins"
+    "deliveryTime": "28 mins"
   },
   {
     "restaurantId": "REST_73975",
@@ -669,7 +669,7 @@ RESTARAUNTS = [
     "location": "Jubilee Hills, Hyderabad",
     "cuisine": "Fast Food",
     "rating": 4.7,
-    "averageDeliveryTime": "35 mins"
+    "deliveryTime": "35 mins"
   },
   {
     "restaurantId": "REST_76836",
@@ -677,7 +677,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.4,
-    "averageDeliveryTime": "22 mins"
+    "deliveryTime": "22 mins"
   },
   {
     "restaurantId": "REST_65750",
@@ -685,7 +685,7 @@ RESTARAUNTS = [
     "location": "Banjara Hills, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.8,
-    "averageDeliveryTime": "33 mins"
+    "deliveryTime": "33 mins"
   },
   {
     "restaurantId": "REST_97381",
@@ -693,7 +693,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.7,
-    "averageDeliveryTime": "23 mins"
+    "deliveryTime": "23 mins"
   },
   {
     "restaurantId": "REST_33242",
@@ -701,7 +701,7 @@ RESTARAUNTS = [
     "location": "Jubilee Hills, Hyderabad",
     "cuisine": "Fast Food",
     "rating": 4.3,
-    "averageDeliveryTime": "37 mins"
+    "deliveryTime": "37 mins"
   },
   {
     "restaurantId": "REST_88837",
@@ -709,7 +709,7 @@ RESTARAUNTS = [
     "location": "Secunderabad, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.8,
-    "averageDeliveryTime": "45 mins"
+    "deliveryTime": "45 mins"
   },
   {
     "restaurantId": "REST_91484",
@@ -717,7 +717,7 @@ RESTARAUNTS = [
     "location": "Jubilee Hills, Hyderabad",
     "cuisine": "Fast Food",
     "rating": 4.0,
-    "averageDeliveryTime": "27 mins"
+    "deliveryTime": "27 mins"
   },
   {
     "restaurantId": "REST_10979",
@@ -725,7 +725,7 @@ RESTARAUNTS = [
     "location": "Secunderabad, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.5,
-    "averageDeliveryTime": "25 mins"
+    "deliveryTime": "25 mins"
   },
   {
     "restaurantId": "REST_80752",
@@ -733,7 +733,7 @@ RESTARAUNTS = [
     "location": "Madhapur, Hyderabad",
     "cuisine": "North Indian",
     "rating": 4.0,
-    "averageDeliveryTime": "41 mins"
+    "deliveryTime": "41 mins"
   },
   {
     "restaurantId": "REST_41535",
@@ -741,7 +741,7 @@ RESTARAUNTS = [
     "location": "Jubilee Hills, Hyderabad",
     "cuisine": "Fast Food",
     "rating": 4.3,
-    "averageDeliveryTime": "23 mins"
+    "deliveryTime": "23 mins"
   },
   {
     "restaurantId": "REST_28994",
@@ -749,7 +749,7 @@ RESTARAUNTS = [
     "location": "Banjara Hills, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.7,
-    "averageDeliveryTime": "41 mins"
+    "deliveryTime": "41 mins"
   },
   {
     "restaurantId": "REST_17790",
@@ -757,7 +757,7 @@ RESTARAUNTS = [
     "location": "Gachibowli, Hyderabad",
     "cuisine": "Pizza",
     "rating": 4.8,
-    "averageDeliveryTime": "26 mins"
+    "deliveryTime": "26 mins"
   },
   {
     "restaurantId": "REST_76338",
@@ -765,7 +765,7 @@ RESTARAUNTS = [
     "location": "Banjara Hills, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.1,
-    "averageDeliveryTime": "42 mins"
+    "deliveryTime": "42 mins"
   },
   {
     "restaurantId": "REST_34167",
@@ -773,7 +773,7 @@ RESTARAUNTS = [
     "location": "Jubilee Hills, Hyderabad",
     "cuisine": "Fast Food",
     "rating": 4.1,
-    "averageDeliveryTime": "44 mins"
+    "deliveryTime": "44 mins"
   },
   {
     "restaurantId": "REST_14026",
@@ -781,6 +781,6 @@ RESTARAUNTS = [
     "location": "Banjara Hills, Hyderabad",
     "cuisine": "Biryani",
     "rating": 4.6,
-    "averageDeliveryTime": "34 mins"
+    "deliveryTime": "34 mins"
   }
 ]

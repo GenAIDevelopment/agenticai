@@ -11,6 +11,7 @@ from mcp.server.fastmcp import FastMCP
 from customers import CUSTOMERS
 from orders import ORDERS
 from restaurants import RESTARAUNTS
+from models import Customer, Order, Restaurant
 
 mcp = FastMCP(
     name="swiggy-mcp",
@@ -23,7 +24,7 @@ mcp = FastMCP(
 # ---------------------------------------------------------------------------
 
 @mcp.tool()
-def get_customer_summary(customer_id: str) -> dict | None:
+def get_customer_summary(customer_id: str) -> Customer | None:
     """Retrieve customer summary details by customer ID.
 
     Args:
@@ -34,12 +35,12 @@ def get_customer_summary(customer_id: str) -> dict | None:
     """
     for customer in CUSTOMERS:
         if customer['customerId'] == customer_id:
-            return customer
+            return Customer(**customer)
     return None
 
 
 @mcp.tool()
-def get_order_information(order_id: str) -> dict | None:
+def get_order_information(order_id: str) -> Order | None:
     """Retrieve order information by order ID.
 
     Args:
@@ -50,12 +51,12 @@ def get_order_information(order_id: str) -> dict | None:
     """
     for order in ORDERS:
         if order['orderId'] == order_id:
-            return order
+            return Order(**order)
     return None
 
 
 @mcp.tool()
-def get_restaurant_information(restaurant_id: str) -> dict | None:
+def get_restaurant_information(restaurant_id: str) -> Restaurant  | None:
     """Retrieve restaurant information by restaurant ID.
 
     Args:
@@ -66,7 +67,7 @@ def get_restaurant_information(restaurant_id: str) -> dict | None:
     """
     for restaurant in RESTARAUNTS:
         if restaurant['restaurantId'] == restaurant_id:
-            return restaurant
+            return Restaurant(**restaurant)
     return None
 
 
