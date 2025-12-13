@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "hello-mcp": {
+      "command": "uv",
+      "args": [
+        "run",
+        "C:\\khajaclassroom\\GenerativeAI\\agenticai\\dec25\\mcp\\hello_mcp\\.venv\\Scripts\\python.exe",
+        "C:\\khajaclassroom\\GenerativeAI\\agenticai\\dec25\\mcp\\hello_mcp\\hello.py"
+      ],
+      "cwd": "C:\\khajaclassroom\\GenerativeAI\\agenticai\\dec25\\mcp\\hello_mcp"
+    },
+	"swiggy-mcp": {
+      "command": "npx",
+      "args": [
+		"-y",
+        "mcp-remote",
+        "http://localhost:8000/mcp/"
+      ]
+    }
+  }
+}
