@@ -1,0 +1,10 @@
+README.md
+Dockerfile
+.dockerignore
+.git
+.gitignore
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+.venv/*
