@@ -1,0 +1,10 @@
+{
+    "dependencies": [
+        "langchain[google-vertexai]",
+        "langgraph"
+    ],
+    "graphs": {
+     
+        "emailtoner": "./email_hitl.py:graph"
+    }
+}

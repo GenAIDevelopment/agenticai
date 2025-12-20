@@ -1,0 +1,13 @@
+[project]
+name = "hitl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.2.0",
+    "langchain-google-vertexai>=3.2.0",
+    "langgraph>=1.0.5",
+    "langgraph-cli[inmem]>=0.4.11",
+    "python-dotenv>=1.2.1",
+]
