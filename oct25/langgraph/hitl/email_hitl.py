@@ -1,6 +1,6 @@
 import uuid
 
-from typing import TypedDict, Literal
+from typing import TypedDict, Literal, Dict, Any
 from langgraph.graph import StateGraph, START, END
 from langgraph.types import interrupt, Command
 from langgraph.checkpoint.memory import InMemorySaver
@@ -77,4 +77,25 @@ builder.add_conditional_edges(
 )
 builder.add_edge("send_email", END)
 
-graph = builder.compile()
+graph = builder.compile(checkpointer=InMemorySaver())
+
+# plumbing functions to start the graph, resume the graph and get the state of graph
+def start_run(run_id: str, request_text: str):
+    cfg = {
+        "configurable": {"thread_id": run_id},
+    }
+    return graph.invoke({"request": request_text}, cfg)
+
+
+def resume_run(run_id: str, decision: Dict[str, Any]):
+    cfg= {
+        "configurable": {"thread_id": run_id},
+    }
+    return graph.invoke(Command("resume", decision), config=cfg)
+
+
+def get_state(run_id: str):
+    cfg= {
+        "configurable": {"thread_id": run_id},
+    }
+    return graph.get_state(cfg)
