@@ -3,16 +3,18 @@ import uuid
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from email_hitl import start_run, resume_run, get_state
-from email import send_email
+from test_email import send_email
 
 app = FastAPI(title="Email HITL")
 
 class StartRequest(BaseModel):
+    # change this request to match email_hitl => State
     request: str
     approver_email: str
 
 
 class DecisionRequest(BaseModel):
+    # modify to pass approved or reject
     decision: str
     email_drafter: str | None = None
 
