@@ -1,0 +1,10 @@
+[project]
+name = "mcp-auth-username-password"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=2.14.1",
+    "passlib[bcrypt]>=1.7.4",
+]
