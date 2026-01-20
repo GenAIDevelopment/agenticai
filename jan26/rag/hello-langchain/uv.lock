@@ -858,7 +858,9 @@ dependencies = [
     { name = "langchain-google-vertexai" },
     { name = "langchain-ollama" },
     { name = "langchain-openai" },
+    { name = "langchain-text-splitters" },
     { name = "langchain-unstructured" },
+    { name = "libmagic" },
     { name = "pypdf" },
     { name = "python-dotenv" },
     { name = "unstructured" },
@@ -873,7 +875,9 @@ requires-dist = [
     { name = "langchain-google-vertexai", specifier = ">=3.2.1" },
     { name = "langchain-ollama", specifier = ">=1.0.1" },
     { name = "langchain-openai", specifier = ">=1.1.7" },
+    { name = "langchain-text-splitters", specifier = ">=1.1.0" },
     { name = "langchain-unstructured", specifier = ">=1.0.1" },
+    { name = "libmagic", specifier = ">=1.0" },
     { name = "pypdf", specifier = ">=6.6.0" },
     { name = "python-dotenv", specifier = ">=1.2.1" },
     { name = "unstructured", specifier = ">=0.18.27" },
@@ -1347,6 +1351,12 @@ sdist = { url = "https://files.pythonhosted.org/packages/0c/8e/3ea7a8e9ce8c53020
 wheels = [
     { url = "https://files.pythonhosted.org/packages/ed/e0/9d173dd2fa7f85d9ec4989f6f5a1a057d281daa8dada0ff8db0de0cb68aa/langsmith-0.6.2-py3-none-any.whl", hash = "sha256:1ea1a591f52683a5aeebdaa2b58458d72ce9598105dd8b29e16f7373631a6434", size = 282918, upload-time = "2026-01-08T23:17:38.858Z" },
 ]
+
+[[package]]
+name = "libmagic"
+version = "1.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/83/86/419ddfc3879b4565a60e0c75b6d19baec48428cbc2f15aca5320b3d136f6/libmagic-1.0.tar.gz", hash = "sha256:649f1ce7fb7c92796badbb812555e4a926351da4f5cdf82e810b5cd371aedf8d", size = 3665, upload-time = "2012-03-02T17:56:36.681Z" }
 
 [[package]]
 name = "lxml"
