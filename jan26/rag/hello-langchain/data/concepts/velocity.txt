@@ -1,0 +1,46 @@
+CONCEPT 3: VELOCITY
+
+Velocity is a physical quantity that tells us how fast an object moves in a particular direction. Unlike speed, velocity includes direction, which makes it more informative. For example, saying a car moves at 60 km/h is speed, but saying it moves at 60 km/h towards the north is velocity. Velocity helps us understand motion more accurately.
+
+Velocity is important because even if speed remains constant, a change in direction causes velocity to change. This is clearly seen in circular motion, such as a rotating fan or a moving car on a curved road. Learning velocity helps students connect motion with acceleration and prepares them for solving equations of motion.
+
+1. Velocity is speed in a given direction.
+2. Velocity is a vector quantity.
+3. Velocity includes both magnitude and direction.
+4. The SI unit of velocity is m/s.
+5. Speed and velocity are different.
+6. Speed has no direction.
+7. Velocity always has direction.
+8. Example: 40 km/h is speed.
+9. 40 km/h north is velocity.
+10. An object changing direction changes velocity.
+11. Even at constant speed, velocity can change.
+12. Circular motion involves changing velocity.
+13. A car moving around a circular track has changing velocity.
+14. Average velocity is total displacement divided by total time.
+15. If displacement is zero, average velocity is zero.
+16. Example: Completing one round of a circular track.
+17. Displacement becomes zero.
+18. Velocity depends on displacement.
+19. Uniform velocity means constant speed and direction.
+20. Non-uniform velocity means speed or direction changes.
+21. Velocity can be positive or negative.
+22. Positive velocity indicates forward direction.
+23. Negative velocity indicates backward direction.
+24. Velocity-time graphs represent motion.
+25. Straight horizontal line shows constant velocity.
+26. Sloping line shows changing velocity.
+27. The area under velocity-time graph gives displacement.
+28. Velocity is important in navigation.
+29. Velocity is important in sports.
+30. Throwing a ball involves velocity.
+31. Velocity affects stopping distance.
+32. Higher velocity means longer stopping distance.
+33. Safety rules depend on velocity understanding.
+34. Speed limits control vehicle velocity.
+35. Velocity is used in equations of motion.
+36. Velocity links motion and acceleration.
+37. Velocity changes when force is applied.
+38. Velocity helps predict future position.
+39. Velocity is central to mechanics.
+40. Understanding velocity helps understand real-life motion.

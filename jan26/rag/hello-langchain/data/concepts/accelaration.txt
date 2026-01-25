@@ -1,0 +1,47 @@
+CONCEPT 4: ACCELERATION
+
+Acceleration describes how quickly velocity changes with time. An object accelerates when it speeds up, slows down, or changes direction. Acceleration is present in many daily activities, such as starting a bike, applying brakes, or turning a vehicle. Even objects moving at constant speed can have acceleration if their direction changes.
+
+The concept of acceleration helps explain why forces are needed to change motion. It is closely related to Newton’s laws of motion and gravity. At the Class 10 level, acceleration is important for understanding free fall, vehicle safety, and motion graphs.
+
+1. Acceleration is the rate of change of velocity.
+2. It tells how quickly velocity changes with time.
+3. Acceleration occurs when speed changes.
+4. Acceleration also occurs when direction changes.
+5. Even at constant speed, acceleration can exist.
+6. Circular motion has acceleration due to change in direction.
+7. The SI unit of acceleration is meter per second square (m/s²).
+8. Acceleration is a vector quantity.
+9. It has both magnitude and direction.
+10. Positive acceleration means increase in speed.
+11. Negative acceleration means decrease in speed.
+12. Negative acceleration is also called retardation.
+13. Example: Applying brakes in a moving car.
+14. The car slows down due to negative acceleration.
+15. Formula for acceleration is a = (v − u) / t.
+16. Here, u is initial velocity.
+17. v is final velocity.
+18. t is time taken.
+19. Acceleration depends on force.
+20. Greater force produces greater acceleration.
+21. Lighter objects accelerate more easily.
+22. Acceleration-time graphs show motion clearly.
+23. Straight horizontal line shows constant acceleration.
+24. Sloping line shows changing acceleration.
+25. Acceleration is important in vehicle design.
+26. Sudden acceleration can be dangerous.
+27. Seat belts reduce injury due to acceleration.
+28. Sports involve acceleration.
+29. Runners accelerate at the start of a race.
+30. Rockets experience very high acceleration.
+31. Acceleration explains changes in motion.
+32. Falling objects accelerate due to gravity.
+33. Gravity causes constant acceleration.
+34. Free fall motion has acceleration of 9.8 m/s².
+35. Acceleration helps explain motion completely.
+36. Without acceleration, velocity remains constant.
+37. Acceleration is linked to Newton’s laws.
+38. Understanding acceleration is essential in physics.
+39. Acceleration helps in solving numerical problems.
+40. It connects force and velocity.
+

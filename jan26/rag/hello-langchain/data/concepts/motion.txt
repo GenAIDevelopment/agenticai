@@ -1,0 +1,47 @@
+CONCEPT 2: MOTION
+
+Motion refers to the change in position of an object with respect to time and a reference point. When an object moves from one place to another, we say it is in motion. Motion is observed everywhere—cars moving on roads, birds flying in the sky, and planets revolving around the Sun. The concept of motion helps us describe how fast and how far objects move.
+
+The study of motion introduces important ideas such as distance, displacement, speed, and time. Motion can be uniform or non-uniform depending on how an object travels. By learning motion, students gain the ability to analyze and describe real-life movements using graphs and mathematical expressions.
+
+1. Motion is the change in position of an object with time.
+2. An object is said to be in motion if it changes its position.
+3. Motion depends on the reference point.
+4. An object may be at rest for one observer and in motion for another.
+5. Example: A passenger sitting in a moving bus.
+6. The passenger is at rest relative to the bus.
+7. The passenger is in motion relative to a person on the road.
+8. Distance is the total path covered by an object.
+9. Displacement is the shortest distance between initial and final positions.
+10. Distance is a scalar quantity.
+11. Displacement is a vector quantity.
+12. The SI unit of distance and displacement is meter.
+13. Motion can be uniform or non-uniform.
+14. Uniform motion means equal distances in equal intervals of time.
+15. Example: A car moving at constant speed on a straight road.
+16. Non-uniform motion means unequal distances in equal intervals of time.
+17. Example: A car in traffic.
+18. Speed is the distance travelled per unit time.
+19. Speed = Distance / Time.
+20. The SI unit of speed is m/s.
+21. Speed tells how fast an object moves.
+22. Speed has only magnitude.
+23. Average speed is total distance divided by total time.
+24. Motion can be along a straight line.
+25. Motion can be circular.
+26. Motion can be oscillatory.
+27. Example of circular motion is a rotating fan.
+28. Example of oscillatory motion is a swinging pendulum.
+29. Motion can be periodic.
+30. Periodic motion repeats after equal intervals of time.
+31. Earth’s rotation is periodic motion.
+32. Motion can be studied using graphs.
+33. Distance-time graphs show motion clearly.
+34. A straight-line graph indicates uniform motion.
+35. A curved graph indicates non-uniform motion.
+36. Steeper graph means higher speed.
+37. Motion is described mathematically.
+38. Motion is fundamental in physics.
+39. Vehicles depend on motion principles.
+40. Motion explains how objects move around us.
+

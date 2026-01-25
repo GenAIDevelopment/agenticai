@@ -1,0 +1,46 @@
+CONCEPT 6: WORK
+
+In physics, work has a specific meaning that is different from everyday usage. Work is said to be done only when a force causes an object to move in the direction of the applied force. Simply applying force without movement does not count as work in physics. This clear definition helps avoid confusion.
+
+The concept of work connects force with energy. Whenever work is done, energy is transferred from one object to another. Understanding work helps explain how machines function and how energy is used in lifting, pulling, and pushing objects. It is an important foundation for learning energy and power.
+
+1. Work is done when force causes displacement.
+2. Both force and displacement must be present.
+3. Work is done only if displacement is in direction of force.
+4. The SI unit of work is joule (J).
+5. One joule is work done by 1 N force moving object 1 m.
+6. If there is no movement, no work is done.
+7. Pushing a wall does no work.
+8. Lifting a book does work.
+9. Work can be positive, negative, or zero.
+10. Positive work when force and displacement same direction.
+11. Negative work when force opposes displacement.
+12. Zero work when force is perpendicular to motion.
+13. Gravity does work on falling objects.
+14. Friction does negative work.
+15. Formula for work is Work = Force × Displacement.
+16. Work is a scalar quantity.
+17. Work transfers energy.
+18. Machines are designed to do work.
+19. Example: A crane lifting heavy loads.
+20. Carrying a bag on head does no work.
+21. The force is upward.
+22. Displacement is horizontal.
+23. Hence work done is zero.
+24. Work is related to energy.
+25. Doing work changes energy of object.
+26. Work-energy principle applies here.
+27. Work is essential in physics.
+28. Work is used in daily activities.
+29. Studying work helps understand machines.
+30. Work concepts appear in exams.
+31. Work done depends on force magnitude.
+32. More force means more work.
+33. More displacement means more work.
+34. Work concept explains lifting, pulling, pushing.
+35. Work is important in engineering.
+36. Work is linked with power.
+37. Work done per time gives power.
+38. Work calculations involve motion.
+39. Understanding work builds physics foundation.
+40. Work helps explain energy transfer.

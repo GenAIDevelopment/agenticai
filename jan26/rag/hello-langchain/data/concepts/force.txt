@@ -1,0 +1,56 @@
+CONCEPT 1: FORCE
+
+Force is one of the most important concepts in physics because it explains why objects move, stop, or change their shape. In everyday life, we constantly apply force while walking, pushing doors, lifting bags, or playing sports. Scientifically, force is defined as a push or a pull that can change the motion or shape of an object. Without force, the physical world around us would remain unchanged.
+
+Understanding force helps us explain many natural and man-made activities. Forces can be contact or non-contact in nature, such as friction, gravity, and magnetic force. The study of force forms the foundation for learning motion and Newton’s laws. At the Class 10 level, force is essential for understanding how objects interact with each other.
+
+1. Force is a push or a pull acting on an object.
+2. It can change the shape, size, direction, or speed of an object.
+3. Force is a vector quantity because it has both magnitude and direction.
+4. The SI unit of force is the newton (N).
+5. One newton is defined as the force required to accelerate a 1 kg mass by 1 m/s².
+6. Forces can be contact forces or non-contact forces.
+7. Contact forces require physical contact between objects.
+8. Examples of contact forces include friction, muscular force, and tension.
+9. Non-contact forces act from a distance.
+10. Examples of non-contact forces include gravitational, magnetic, and electrostatic forces.
+11. Force can start motion in a stationary object.
+12. Force can stop a moving object.
+13. Force can change the speed of a moving object.
+14. Force can change the direction of motion.
+15. Force can deform an object.
+16. When you kick a football, your foot applies force on the ball.
+17. The football starts moving due to applied force.
+18. Pushing a trolley in a supermarket is an example of force.
+19. Pulling a drawer is also applying force.
+20. Force can be balanced or unbalanced.
+21. Balanced forces cancel each other.
+22. Balanced forces do not change the state of motion.
+23. Example: A book resting on a table.
+24. Gravity pulls the book downward.
+25. The table pushes the book upward with equal force.
+26. These forces are balanced.
+27. Unbalanced forces cause change in motion.
+28. Example: Pushing a box harder than friction.
+29. The box starts moving.
+30. Friction is a force that opposes motion.
+31. Friction acts between two surfaces in contact.
+32. Friction helps us walk without slipping.
+33. Friction also causes wear and tear.
+34. Force plays a major role in daily life.
+35. Opening doors involves force.
+36. Writing with a pen involves force.
+37. Braking a vehicle applies force.
+38. Muscular force comes from muscles.
+39. Animals and humans use muscular force.
+40. Machines apply mechanical force.
+41. Force can be measured using a spring balance.
+42. The extension of the spring indicates force.
+43. Stronger force causes greater deformation.
+44. Force is fundamental to mechanics.
+45. Understanding force helps understand motion.
+46. Sports heavily depend on force.
+47. Kicking, throwing, and hitting involve force.
+48. Force can be attractive or repulsive.
+49. Magnetic force can attract or repel.
+50. Force is essential for all physical activities.

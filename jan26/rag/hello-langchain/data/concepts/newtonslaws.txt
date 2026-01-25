@@ -1,0 +1,47 @@
+CONCEPT 5: NEWTON’S LAWS OF MOTION
+
+Newton’s laws of motion are fundamental principles that explain the relationship between force and motion. These three laws were given by Sir Isaac Newton and are used to describe how objects behave when forces act on them. They apply to almost all motions we observe in daily life.
+
+These laws help explain why objects remain at rest, why heavier objects need more force to move, and why action and reaction forces occur in pairs. Newton’s laws form the backbone of classical mechanics and are essential for understanding motion, force, and acceleration at the Class 10 level.
+
+1. Newton’s laws describe the relationship between force and motion.
+2. There are three laws of motion.
+3. These laws were given by Sir Isaac Newton.
+4. First Law is also called the Law of Inertia.
+5. Inertia is the tendency to resist change in motion.
+6. Objects at rest remain at rest.
+7. Objects in motion remain in motion unless acted upon by force.
+8. Example: A book on a table stays still.
+9. Second Law relates force, mass, and acceleration.
+10. Force equals mass times acceleration.
+11. Formula is F = m × a.
+12. Heavier objects need more force to accelerate.
+13. This law explains how force affects motion.
+14. Example: Kicking a light ball vs a heavy ball.
+15. Third Law states action and reaction are equal and opposite.
+16. For every action, there is an equal reaction.
+17. Example: Walking involves pushing the ground backward.
+18. The ground pushes you forward.
+19. Rocket motion is based on third law.
+20. Newton’s laws apply to everyday life.
+21. Seat belts relate to first law.
+22. Airbags reduce force during accidents.
+23. Sports activities depend on Newton’s laws.
+24. Jumping off a boat pushes it backward.
+25. Newton’s laws explain vehicle motion.
+26. They are fundamental laws of mechanics.
+27. They apply to objects of large mass.
+28. Newton’s laws help solve numerical problems.
+29. These laws are taught at Class 10 level.
+30. Understanding them helps in higher physics.
+31. Motion without force is possible.
+32. Force is required to change motion.
+33. Laws explain balanced and unbalanced forces.
+34. They apply only in inertial frames.
+35. Newton’s laws are universally accepted.
+36. They form the base of classical physics.
+37. Engineers use these laws in design.
+38. These laws simplify motion analysis.
+39. Newton’s laws are exam-important topics.
+40. Mastering them improves physics understanding.
+
