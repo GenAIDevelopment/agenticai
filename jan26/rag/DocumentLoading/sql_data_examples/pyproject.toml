@@ -1,0 +1,13 @@
+[project]
+name = "sql-data-examples"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "langchain>=1.2.8",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.8",
+    "langchain-google-vertexai>=3.2.2",
+]
