@@ -1,0 +1,13 @@
+Knowledge Base Article
+Title: Account Locked – How to Unlock
+--------------------------------------------------
+Issue:
+Account locked due to multiple failed login attempts.
+
+Resolution:
+1. Wait 15 minutes for automatic unlock OR
+2. Contact IT Helpdesk.
+3. Identity will be verified before unlocking.
+
+Notes:
+Avoid repeated wrong password attempts.
