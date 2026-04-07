@@ -2,7 +2,8 @@
   "dependencies": ["."],
   "graphs": {
     "hello": "hello:graph",
-    "partial-sequence": "partial:graph"
+    "partial-sequence": "partial:graph",
+    "partial-paralled": "partial_parallel:graph"
   },
   "env": ".env"
 }
