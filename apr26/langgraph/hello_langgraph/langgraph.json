@@ -1,7 +1,8 @@
 {
   "dependencies": ["."],
   "graphs": {
-    "hello": "hello:graph"
+    "hello": "hello:graph",
+    "partial-sequence": "partial:graph"
   },
   "env": ".env"
 }
