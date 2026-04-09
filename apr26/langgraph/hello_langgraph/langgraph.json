@@ -5,7 +5,8 @@
     "partial-sequence": "partial:graph",
     "partial-paralled": "partial_parallel:graph",
     "parallel": "parallel:graph",
-    "conditional": "conditional:graph"
+    "conditional": "conditional:graph",
+    "loops": "loops:graph"
   },
   "env": ".env"
 }
