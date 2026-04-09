@@ -6,7 +6,7 @@ import operator
 
 # reducer
 def my_choice(existing, new):
-    return new
+    return "new"
 
 class State(TypedDict):
     message: Annotated[list[str], operator.add]

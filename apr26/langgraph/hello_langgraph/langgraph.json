@@ -3,7 +3,9 @@
   "graphs": {
     "hello": "hello:graph",
     "partial-sequence": "partial:graph",
-    "partial-paralled": "partial_parallel:graph"
+    "partial-paralled": "partial_parallel:graph",
+    "parallel": "parallel:graph",
+    "conditional": "conditional:graph"
   },
   "env": ".env"
 }
