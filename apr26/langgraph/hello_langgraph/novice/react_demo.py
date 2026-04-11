@@ -80,7 +80,7 @@ def route_tools(state:AgentState) -> Literal["tools", "final"]:
 
 def final_result(state: AgentState):
     print(state["messages"][-1].pretty_print())
-    state["answer"] = state["messages"][-1].pretty_print()
+    state["answer"] = state["messages"][-1].content
     return state
 # build the graph
 
@@ -99,6 +99,7 @@ graph.add_conditional_edges(
         "final": "final_response"
     }
 )
+graph.add_edge("tools", "llm")
 graph.set_finish_point("final_response")
 
 if __name__ == "__main__":
