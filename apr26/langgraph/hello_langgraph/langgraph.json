@@ -6,7 +6,9 @@
     "partial-paralled": "partial_parallel:graph",
     "parallel": "parallel:graph",
     "conditional": "conditional:graph",
-    "loops": "loops:graph"
+    "loops": "loops:graph",
+    "react_demo": "novice.react_demo:graph"
+
   },
   "env": ".env"
 }
