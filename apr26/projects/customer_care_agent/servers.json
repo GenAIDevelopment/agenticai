@@ -1,0 +1,15 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Customer Care DB",
+      "Group": "Docker",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "customer_care",
+      "Username": "ccuser",
+      "Password": "ccpassword",
+      "SSLMode": "prefer",
+      "PassFile": "/pgpass"
+    }
+  }
+}
