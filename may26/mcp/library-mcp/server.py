@@ -1,5 +1,5 @@
 from mcp.server.fastmcp import FastMCP
-from datastore import BOOKS
+from datastore import BOOKS, STUDENTS
 
 
 mcp = FastMCP("library-mcp", host="0.0.0.0", port="19000")
@@ -36,6 +36,20 @@ def get_catalog() -> str:
     for book in BOOKS.values():
         status = "RETIRED" if not book['active'] else "AVAILABLE"
         lines.append(f"{book['id']}: {book['title']} by {book['author']} [{book['genre']}] - {status}")
+    return "\n".join(lines)
+
+
+@mcp.resource("library://students/{student_id}")
+def get_student_profile(student_id:str) -> str:
+    """
+    Student profile
+    """
+    student = STUDENTS.get(student_id)
+    if not student:
+        return f"Student with id {student_id} not found"
+    lines = ["---  Student Profile ---"]
+    lines.append(f"Name: {student['name']}")
+    lines.append(f"Email: {student['email']}")
     return "\n".join(lines)
 
 
