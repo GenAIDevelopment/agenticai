@@ -27,6 +27,17 @@ def search_books(query: str, genre: str="") -> list[dict]:
             results.append(book)
     return results or [{"message": "No books found"}]
 
+@mcp.resource("library://catalog")
+def get_catalog() -> str:
+    """
+    Full books catalog
+    """
+    lines = ["---- College Library Catalog -----"]
+    for book in BOOKS.values():
+        status = "RETIRED" if not book['active'] else "AVAILABLE"
+        lines.append(f"{book['id']}: {book['title']} by {book['author']} [{book['genre']}] - {status}")
+    return "\n".join(lines)
+
 
 if __name__ == "__main__":
     mcp.run(transport="streamable-http")
