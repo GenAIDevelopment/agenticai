@@ -1,5 +1,6 @@
 from mcp.server.fastmcp import FastMCP
 from datastore import BOOKS, STUDENTS
+from datetime import date
 
 
 mcp = FastMCP("library-mcp", host="0.0.0.0", port="19000")
@@ -52,6 +53,18 @@ def get_student_profile(student_id:str) -> str:
     lines.append(f"Email: {student['email']}")
     return "\n".join(lines)
 
+@mcp.prompt(name="return_due_today", description="Return all books due today")
+def return_due_today() -> str:
+    """Return all books due today prompt
+    """
+    return (
+        f"Today is {date.today()}. \n"
+        "From LOANS, identify: \n"
+        "  1. Due Today = due_date == today"
+        "  2. Overdue = due_date < today \n"
+        "  3. Due this week = due_date > today and due_date < today + 7 days \n"
+        "Format the output as a prompt for the librarian."
+    )
 
 if __name__ == "__main__":
     mcp.run(transport="streamable-http")

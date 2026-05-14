@@ -1,0 +1,47 @@
+
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: library-mysql
+
+    restart: unless-stopped
+
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: library
+
+    ports:
+      - "3306:3306"
+
+    volumes:
+      # Persist database data
+      - mysql_data:/var/lib/mysql
+
+      # Auto-run SQL init script
+      - ./data/library.sql:/docker-entrypoint-initdb.d/library.sql
+
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-prootpassword"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: library-phpmyadmin
+
+    restart: unless-stopped
+
+    depends_on:
+      - mysql
+
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      MYSQL_ROOT_PASSWORD: rootpassword
+
+    ports:
+      - "18080:80"
+
+volumes:
+  mysql_data:
