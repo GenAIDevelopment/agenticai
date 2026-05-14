@@ -1,7 +1,9 @@
 from mcp.server.fastmcp import FastMCP
 from datastore import BOOKS, STUDENTS
 from datetime import date
+from dotenv import load_dotenv
 
+load_dotenv()
 
 mcp = FastMCP("library-mcp", host="0.0.0.0", port="19000")
 
