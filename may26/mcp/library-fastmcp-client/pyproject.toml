@@ -1,0 +1,10 @@
+[project]
+name = "library-fastmcp-client"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp[cli]>=3.3.1",
+    "mcp[cli]>=1.27.1",
+]
