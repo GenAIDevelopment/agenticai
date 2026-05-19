@@ -18,7 +18,7 @@ services:
       - mysql_data:/var/lib/mysql
 
       # Auto-run SQL init script
-      - ./data/library.sql:/docker-entrypoint-initdb.d/library.sql
+      - ./data:/docker-entrypoint-initdb.d
 
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-prootpassword"]

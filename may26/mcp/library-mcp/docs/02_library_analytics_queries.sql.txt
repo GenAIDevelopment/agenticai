@@ -1,0 +1,63 @@
+-- library_analytics_queries.sql
+-- Example queries for top / under / low performing books and monthly summaries.
+
+USE library;
+
+-- Top performing books: highest issue count
+SELECT *
+FROM v_book_issue_stats
+ORDER BY total_issues DESC, title ASC
+LIMIT 10;
+
+-- Under performing books: below average but not zero
+SELECT s.*
+FROM v_book_issue_stats s
+WHERE s.total_issues > 0
+  AND s.total_issues < (SELECT AVG(total_issues) FROM v_book_issue_stats)
+ORDER BY s.total_issues ASC, s.title ASC;
+
+-- Low performing books: zero or very few issues
+-- Adjust the threshold (here: 0 to 3 issues) to match your college policy.
+SELECT s.*
+FROM v_book_issue_stats s
+WHERE s.total_issues BETWEEN 0 AND 3
+ORDER BY s.total_issues ASC, s.title ASC;
+
+-- Monthly summary of fine collection
+SELECT *
+FROM v_monthly_fine_collection
+ORDER BY month_key DESC;
+
+-- Monthly summary of book ledger
+SELECT *
+FROM v_monthly_book_ledger
+ORDER BY month_key DESC, entry_type ASC;
+
+-- Active loans overdue right now
+SELECT
+    l.loan_id,
+    u.user_code,
+    CONCAT(u.first_name, ' ', u.last_name) AS borrower_name,
+    b.title,
+    c.barcode,
+    l.issued_at,
+    l.due_at,
+    TIMESTAMPDIFF(DAY, l.due_at, NOW()) AS overdue_days
+FROM loan_transactions l
+JOIN users u ON u.user_id = l.borrower_user_id
+JOIN book_copies c ON c.copy_id = l.copy_id
+JOIN books b ON b.book_id = c.book_id
+WHERE l.status IN ('ISSUED', 'OVERDUE')
+  AND l.due_at < NOW()
+ORDER BY l.due_at ASC;
+
+-- Outstanding fines by student/librarian user account
+SELECT
+    u.user_id,
+    u.user_code,
+    CONCAT(u.first_name, ' ', u.last_name) AS user_name,
+    ua.current_balance
+FROM user_accounts ua
+JOIN users u ON u.user_id = ua.user_id
+WHERE ua.current_balance > 0
+ORDER BY ua.current_balance DESC;
