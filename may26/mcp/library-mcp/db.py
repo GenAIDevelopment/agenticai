@@ -11,6 +11,7 @@ load_dotenv()
 
 
 def get_connection() -> MySQLConnection:
+    """Create and return a new MySQL database connection using environment variables."""
     return mysql.connector.connect(
         host=os.getenv("MYSQL_HOST", "localhost"),
         user=os.getenv("MYSQL_USERNAME", "root"),
@@ -19,70 +20,35 @@ def get_connection() -> MySQLConnection:
     )
 
 
-def add_book(
-    book_id: str,
-    title: str,
-    author: str,
-    published_year: int,
-    available_copies: int,
-    total_copies: int,
-    genre: str,
-    available: bool,
-    active: bool,
-    tags: list[str],
-    isbn: str
-) -> None:
+def execute_query(query: str, params: tuple[Any, ...] = ()) -> list[tuple[Any, ...]]:
+    """
+    Execute a SQL query with optional parameters.
 
+    For SELECT queries, returns a list of result rows.
+    For INSERT/UPDATE/DELETE queries, commits the transaction and returns an empty list.
+    """
     with get_connection() as connection:
 
         with connection.cursor() as cursor:  # type: MySQLCursor
 
-            query: str = """
-            INSERT INTO books (
-                id,
-                title,
-                author,
-                published_year,
-                available_copies,
-                total_copies,
-                genre,
-                available,
-                active,
-                tags,
-                isbn
-            )
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
-            """
+            cursor.execute(query, params)
 
-            book_data = (
-                book_id,
-                title,
-                author,
-                published_year,
-                available_copies,
-                total_copies,
-                genre,
-                available,
-                active,
-                json.dumps(tags),  # Convert Python list -> JSON string
-                isbn
-            )
-
-            cursor.execute(query, book_data)
+            if cursor.description:
+                return cursor.fetchall()
 
             connection.commit()
+            return []
+
 
 if __name__ == "__main__":
-    add_book(
-        "B008",
-        "The Psychology of Money",
-        "Morgan Housel",
-        2020,
-        5,
-        5,
-        "Finance",
-        True,
-        True,
-        ["behavioral finance, investing, personal finance"],
-        "9780062384802"
-    )
+    result = execute_query('select * from authors')
+    print(result)
+
+    result = execute_query('select * from authors where author_id = %s', (1,))
+    print(result)
+
+    query = "INSERT INTO users (user_code, user_type, first_name, last_name, email, phone, password_hash, status, created_at, updated_at) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+    params = ('STU004', 'STUDENT', 'Alex', 'Mercer', 'alex.m1@student.edu', '555-0203',
+              'studenthash4', 'ACTIVE', '2026-05-19 03:32:17', '2026-05-19 03:32:17')
+    result = execute_query(query, params)
+    print(result)
