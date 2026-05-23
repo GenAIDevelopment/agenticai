@@ -31,11 +31,20 @@ async def main():
     tools = await client.get_tools()
     agent = create_agent(llm, tools)
 
+    result = await llm.ainvoke("""Get most popular book details on electrical engineering books
+    i need title isbn in 13 digit format, published year, author""")
+    print(result.content)
+    books_to_be_added = result.content
     result = await agent.ainvoke({
-        "messages": "Add the following book to library using library mcp  {'book_id':'B011','title':'The Power of Habit','author':'Charles Duhigg','published_year':2012,'available_copies':6,'total_copies':10,'genre':'Self Help','available':True,'active':True,'tags':['habits','productivity','self-improvement'],'isbn':'9780812981605'}" 
+         "messages": [HumanMessage(content=f"Add 3 copies of the each book mentioned in here {books_to_be_added} using library mcp")]
     })
+    # result["messages"][-1].pretty_print()
 
-    print(result)
+    # result = await agent.ainvoke({
+    #     "messages": "Add the following book to library using library mcp  {'book_id':'B011','title':'The Power of Habit','author':'Charles Duhigg','published_year':2012,'available_copies':6,'total_copies':10,'genre':'Self Help','available':True,'active':True,'tags':['habits','productivity','self-improvement'],'isbn':'9780812981605'}" 
+    # })
+
+    #print(result)
 
 
     
