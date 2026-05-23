@@ -40,6 +40,40 @@ def execute_query(query: str, params: tuple[Any, ...] = ()) -> list[tuple[Any, .
             return []
 
 
+def execute_transaction(
+    steps: list[tuple[str, tuple[Any, ...]]],
+) -> list[Any]:
+    """
+    Run several statements in a single transaction on one connection.
+
+    `steps` is a list of (query, params) tuples executed in order. They share
+    one connection, so a statement can reference the row just inserted by the
+    previous one via MySQL's LAST_INSERT_ID(). Everything commits together; any
+    error rolls the whole batch back.
+
+    Returns one result per step: the fetched rows for a SELECT, otherwise the
+    AUTO_INCREMENT id produced by that statement (cursor.lastrowid).
+    """
+    connection = get_connection()
+    try:
+        cursor = connection.cursor()  # type: MySQLCursor
+        results: list[Any] = []
+        for query, params in steps:
+            cursor.execute(query, params or ())
+            if cursor.description:
+                results.append(cursor.fetchall())
+            else:
+                results.append(cursor.lastrowid)
+        connection.commit()
+        cursor.close()
+        return results
+    except Exception:
+        connection.rollback()
+        raise
+    finally:
+        connection.close()
+
+
 if __name__ == "__main__":
     result = execute_query('select * from authors')
     print(result)

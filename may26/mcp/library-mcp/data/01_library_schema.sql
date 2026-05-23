@@ -9,6 +9,11 @@ USE library;
 
 SET FOREIGN_KEY_CHECKS = 0;
 
+DROP TABLE IF EXISTS notifications;
+DROP TABLE IF EXISTS library_policies;
+DROP TABLE IF EXISTS journal_subscriptions;
+DROP TABLE IF EXISTS journals;
+DROP TABLE IF EXISTS reservations;
 DROP TABLE IF EXISTS library_account_ledger;
 DROP TABLE IF EXISTS user_accounts;
 DROP TABLE IF EXISTS book_ledger_entries;
@@ -344,7 +349,105 @@ CREATE TABLE library_account_ledger (
 ) ENGINE=InnoDB;
 
 -- ------------------------------------------------------------
--- 5) ANALYTICS VIEWS
+-- 5) RESERVATIONS, SUBSCRIPTIONS, POLICIES, NOTIFICATIONS
+-- ------------------------------------------------------------
+
+-- Per-student reservation queue for titles that are out / on hold
+CREATE TABLE reservations (
+    reservation_id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    book_id BIGINT UNSIGNED NOT NULL,
+    user_id BIGINT UNSIGNED NOT NULL,
+    reserved_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    status ENUM('PENDING', 'READY', 'FULFILLED', 'CANCELLED', 'EXPIRED') NOT NULL DEFAULT 'PENDING',
+    notified_at DATETIME NULL,
+    expires_at DATETIME NULL,
+    fulfilled_loan_id BIGINT UNSIGNED NULL,
+    notes VARCHAR(255) NULL,
+    PRIMARY KEY (reservation_id),
+    KEY idx_reservations_book_status (book_id, status),
+    KEY idx_reservations_user_status (user_id, status),
+    KEY idx_reservations_reserved_at (reserved_at),
+    CONSTRAINT fk_reservations_book
+        FOREIGN KEY (book_id) REFERENCES books(book_id)
+        ON DELETE CASCADE ON UPDATE CASCADE,
+    CONSTRAINT fk_reservations_user
+        FOREIGN KEY (user_id) REFERENCES users(user_id)
+        ON DELETE CASCADE ON UPDATE CASCADE,
+    CONSTRAINT fk_reservations_loan
+        FOREIGN KEY (fulfilled_loan_id) REFERENCES loan_transactions(loan_id)
+        ON DELETE SET NULL ON UPDATE CASCADE
+) ENGINE=InnoDB;
+
+-- Journals / periodicals the library can subscribe to
+CREATE TABLE journals (
+    journal_id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    title VARCHAR(255) NOT NULL,
+    issn VARCHAR(20) NULL,
+    publisher_id BIGINT UNSIGNED NULL,
+    subject VARCHAR(120) NULL,
+    frequency ENUM('DAILY', 'WEEKLY', 'MONTHLY', 'QUARTERLY', 'ANNUAL', 'OTHER') NOT NULL DEFAULT 'MONTHLY',
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (journal_id),
+    UNIQUE KEY uk_journals_issn (issn),
+    KEY idx_journals_subject (subject),
+    CONSTRAINT fk_journals_publisher
+        FOREIGN KEY (publisher_id) REFERENCES publishers(publisher_id)
+        ON DELETE SET NULL ON UPDATE CASCADE
+) ENGINE=InnoDB;
+
+-- Article / journal subscription contracts
+CREATE TABLE journal_subscriptions (
+    subscription_id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    journal_id BIGINT UNSIGNED NOT NULL,
+    start_date DATE NOT NULL,
+    end_date DATE NOT NULL,
+    cost DECIMAL(10,2) NOT NULL DEFAULT 0.00,
+    access_type ENUM('PRINT', 'ONLINE', 'BOTH') NOT NULL DEFAULT 'BOTH',
+    vendor VARCHAR(200) NULL,
+    status ENUM('ACTIVE', 'EXPIRED', 'CANCELLED') NOT NULL DEFAULT 'ACTIVE',
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (subscription_id),
+    KEY idx_subscriptions_journal (journal_id),
+    KEY idx_subscriptions_status_end (status, end_date),
+    CONSTRAINT fk_subscriptions_journal
+        FOREIGN KEY (journal_id) REFERENCES journals(journal_id)
+        ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB;
+
+-- Configurable library policies (loan period, fine rate, limits, ...)
+CREATE TABLE library_policies (
+    policy_id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    policy_key VARCHAR(80) NOT NULL,
+    policy_value VARCHAR(255) NOT NULL,
+    description VARCHAR(255) NULL,
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (policy_id),
+    UNIQUE KEY uk_policies_key (policy_key)
+) ENGINE=InnoDB;
+
+-- Outbound notification log (reminders, reservation alerts, ...)
+CREATE TABLE notifications (
+    notification_id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    user_id BIGINT UNSIGNED NOT NULL,
+    channel ENUM('EMAIL', 'SMS', 'SYSTEM') NOT NULL DEFAULT 'SYSTEM',
+    subject VARCHAR(200) NULL,
+    message TEXT NOT NULL,
+    reason VARCHAR(120) NULL,
+    related_table VARCHAR(50) NULL,
+    related_id BIGINT UNSIGNED NULL,
+    status ENUM('PENDING', 'SENT', 'FAILED') NOT NULL DEFAULT 'SENT',
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    sent_at DATETIME NULL,
+    PRIMARY KEY (notification_id),
+    KEY idx_notifications_user (user_id),
+    KEY idx_notifications_created (created_at),
+    CONSTRAINT fk_notifications_user
+        FOREIGN KEY (user_id) REFERENCES users(user_id)
+        ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB;
+
+-- ------------------------------------------------------------
+-- 6) ANALYTICS VIEWS
 -- ------------------------------------------------------------
 CREATE OR REPLACE VIEW v_book_issue_stats AS
 SELECT

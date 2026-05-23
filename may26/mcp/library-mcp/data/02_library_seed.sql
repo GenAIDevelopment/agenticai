@@ -198,3 +198,38 @@ INSERT INTO user_accounts (user_id, opening_balance, total_fines_assessed, total
 (3, 0.00, 65.00, 45.00, 0.00, 20.00), -- $35 damage paid, $30 fine ($10 paid, $20 due)
 (4, 0.00, 50.00, 50.00, 0.00, 0.00),  -- $50 late fine fully paid
 (5, 0.00, 40.00, 40.00, 0.00, 0.00);  -- $40 late fine fully paid
+
+-- ------------------------------------------------------------
+-- 5) RESERVATIONS, SUBSCRIPTIONS, POLICIES, NOTIFICATIONS
+-- ------------------------------------------------------------
+
+-- Configurable policies that the librarian can tune at runtime
+INSERT INTO library_policies (policy_id, policy_key, policy_value, description) VALUES
+(1, 'loan_period_days', '14', 'Default borrowing window in days'),
+(2, 'fine_per_day', '5.00', 'Late-return fine charged per overdue day'),
+(3, 'max_books_per_student', '3', 'Maximum simultaneous loans per student'),
+(4, 'reservation_expiry_days', '3', 'Days a READY reservation is held before expiring'),
+(5, 'fine_grace_days', '30', 'Days a student has to pay an assessed fine');
+
+-- Reservation queue. Book 2 (Clean Code) has 0 available copies -> real demand.
+INSERT INTO reservations (reservation_id, book_id, user_id, reserved_at, status, notified_at, expires_at) VALUES
+(1, 2, 5, '2026-05-10 09:00:00', 'PENDING', NULL, NULL),
+(2, 2, 3, '2026-05-12 14:30:00', 'PENDING', NULL, NULL),
+(3, 1, 4, '2026-05-15 11:00:00', 'READY', '2026-05-16 10:00:00', '2026-05-19 10:00:00');
+
+-- Journals the library tracks
+INSERT INTO journals (journal_id, title, issn, publisher_id, subject, frequency) VALUES
+(1, 'Communications of the ACM', '0001-0782', 1, 'Computer Science', 'MONTHLY'),
+(2, 'IEEE Transactions on Computers', '0018-9340', 2, 'Computer Science', 'MONTHLY'),
+(3, 'Nature', '0028-0836', 3, 'Science', 'WEEKLY');
+
+-- Active and lapsed subscriptions
+INSERT INTO journal_subscriptions (subscription_id, journal_id, start_date, end_date, cost, access_type, vendor, status) VALUES
+(1, 1, '2026-01-01', '2026-12-31', 1200.00, 'BOTH', 'ACM Digital Library', 'ACTIVE'),
+(2, 2, '2026-01-01', '2026-12-31', 1500.00, 'ONLINE', 'IEEE Xplore', 'ACTIVE'),
+(3, 3, '2025-01-01', '2025-12-31', 2000.00, 'PRINT', 'Springer Nature', 'EXPIRED');
+
+-- Notification history
+INSERT INTO notifications (notification_id, user_id, channel, subject, message, reason, related_table, related_id, status, created_at, sent_at) VALUES
+(1, 3, 'EMAIL', 'Book overdue', 'Your loan of "Introduction to Algorithms" is overdue. Please return it.', 'OVERDUE_REMINDER', 'loan_transactions', 10, 'SENT', '2026-05-16 09:05:00', '2026-05-16 09:05:00'),
+(2, 4, 'EMAIL', 'Reserved book ready', 'The book you reserved is now ready for pickup.', 'RESERVATION_READY', 'reservations', 3, 'SENT', '2026-05-16 10:00:00', '2026-05-16 10:00:00');
