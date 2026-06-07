@@ -9,5 +9,7 @@ dependencies = [
     "langchain-google-genai>=4.2.1",
     "langgraph>=1.1.6",
     "langgraph-cli[inmem]>=0.4.19",
+    "psycopg2-binary>=2.9.12",
     "python-dotenv>=1.2.2",
+    "sqlalchemy>=2.0.50",
 ]

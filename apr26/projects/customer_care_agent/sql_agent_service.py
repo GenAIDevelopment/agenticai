@@ -92,7 +92,10 @@ def ask_database(question: str) -> str:
             ]
         }
     )
-    return result
+    answer = ""
+    for content in result["messages"][-1].content:
+        answer += content['text']
+    return answer
 
 
 if __name__ == "__main__":
