@@ -1,0 +1,29 @@
+[project]
+name = "customer-care-agent-final"
+version = "0.1.0"
+description = "Customer care agent: LangGraph + SQLDatabaseToolkit + FastAPI + Google Gemini"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.136.3",
+    "langchain>=1.3.4",
+    "langchain-community>=0.4.2",
+    "langchain-google-genai>=4.2.4",
+    "langgraph>=1.2.4",
+    "psycopg2-binary>=2.9.12",
+    "python-dotenv>=1.2.2",
+    "sqlalchemy>=2.0.50",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra -q"
+filterwarnings = [
+    "ignore::DeprecationWarning:starlette.testclient",
+]

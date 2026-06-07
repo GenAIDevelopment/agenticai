@@ -1,0 +1,100 @@
+# ==========================================
+# Python Core & Build Artifacts
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# Python Virtual Environments
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+导env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================================
+# VS Code IDE Settings
+# ==========================================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/code-workspace
+.history/
+*.code-search
+
+# ==========================================
+# Claude Code / Claude CLI Artifacts
+# ==========================================
+# Ignore local state, temporary recoveries, and progress logs
+.claude-impl-state.md
+.claude-progress.md
+.claude-recovery.md
+.test-progress.md
+.squash-tmp/
+
+# Keep CLAUDE.md tracked for repository-wide sharing,
+# but ignore personal local overrides if you use them.
+CLAUDE.local.md
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.local
+.env.*
+!.env.example
+secrets.json
+
+# ==========================================
+# Testing and Coverage
+# ==========================================
+htmlcov/
+.toml/
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+
+# ==========================================
+# OS Specific Files
+# ==========================================
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
