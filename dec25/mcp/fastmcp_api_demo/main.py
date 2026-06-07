@@ -3,11 +3,11 @@ from fastapi import FastAPI
 import time
 
 mcp = FastMCP("FastMCP API Demo")
-app = FastAPI()
+#app = FastAPI()
 
-@app.get("/")
-def read_root():
-    return {"Hello": "World"}
+# @app.get("/")
+# def read_root():
+#     return {"Hello": "World"}
 
 
 @mcp.tool()
@@ -31,11 +31,15 @@ def dummy_long_lived_task(a:int, b: int, ctx:Context):
     ctx.info("Finished long lived task")
     return a + b
 
-app.mount("/mcp", mcp.http_app(transport="streamable-http"))
+#app.mount("/mcp", mcp.http_app())
+
+# add lifespan with session manager
+
 
 
 if __name__ == "__main__":
-    mcp.run(transport="http", host="0.0.0.0", port=8000)
+    mcp.run(transport="streamable-http", port=8090)
+    #mcp.run(transport="http", host="0.0.0.0", port=8000)
     # start fast api
 
 

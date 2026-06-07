@@ -9,6 +9,7 @@ dependencies = [
     "langchain>=1.2.7",
     "langchain-community>=0.4.1",
     "langchain-core>=1.2.7",
+    "langchain-google-vertexai>=3.2.2",
     "pillow>=12.1.0",
     "pypdf>=6.6.2",
 ]

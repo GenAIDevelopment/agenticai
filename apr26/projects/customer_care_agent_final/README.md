@@ -380,8 +380,6 @@ What's covered:
 
 - `MODEL_NAME` selects the Gemini model; `utils.py` defaults to
   `gemini-2.5-flash-lite` if it is unset.
-- This project covers items 0–24 of the original build plan; the enhancements
-  above are intentionally out of scope for the MVP.
 - Two harmless warnings may appear in tests: Starlette's `TestClient`
   httpx-deprecation notice and `langchain-community`'s sunset notice from
   `utils.py`.

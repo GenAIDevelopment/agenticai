@@ -1,4 +1,9 @@
 from mcp.server.fastmcp import FastMCP
+from typing import Union
+
+from fastapi import FastAPI
+
+app = FastAPI()
 
 mcp = FastMCP("sse-demo")
 
@@ -12,5 +17,23 @@ def echo(message: str):
     """Echoes a string"""
     return f"you said {message}"
 
-if __name__ == "__main__":
-    mcp.run(transport="streamable-http")
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
+
+# # lifecycle manager
+# @asynccontextmanager
+# async def combined_lifespan(app: FastAPI):
+#     # Run both lifespans
+#     async with app_lifespan(app):
+#         async with mcp_app.lifespan(app):
+#             yield
+
+
+
+# mount
+mcp_app = mcp.streamable_http_app()
+app.mount("/mcp", mcp_app)
+
+# if __name__ == "__main__":
+#     mcp.run(transport="streamable-http")

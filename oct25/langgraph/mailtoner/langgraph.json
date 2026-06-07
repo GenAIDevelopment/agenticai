@@ -3,7 +3,8 @@
     "graphs": {
         "toner": "toner:graph",
         "historian": "historian:graph",
-        "mathematician": "math_graph:graph"
+        "mathematician": "math_graph:graph",
+        "subgraph": "subgraph:main_graph"
     }
     
 }
