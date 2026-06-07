@@ -1,0 +1,12 @@
+Knowledge Base Article
+Title: Not Receiving Emails
+--------------------------------------------------
+Issue:
+User is not receiving emails.
+
+Resolution:
+1. Check spam/junk folder.
+2. Verify mailbox storage is not full.
+3. Confirm internet connectivity.
+4. Restart email application.
+5. Contact IT if issue persists.

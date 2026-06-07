@@ -1,0 +1,13 @@
+Knowledge Base Article
+Title: Account Locked – How to Unlock (Updated)
+--------------------------------------------------
+Issue:
+Account locked after multiple incorrect attempts.
+
+Resolution:
+1. Wait 20 minutes for auto-unlock.
+2. If urgent, raise a helpdesk ticket.
+3. Identity verification is mandatory.
+
+Prevention:
+Use password manager tools.

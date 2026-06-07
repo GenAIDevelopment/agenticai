@@ -1,0 +1,10 @@
+Title: Understanding CI/CD Pipelines
+
+Overview:
+CI/CD (Continuous Integration and Continuous Deployment) is a process that enables software teams to deliver code changes frequently and reliably.
+
+Key Concepts:
+1. Continuous Integration – Developers merge code into a shared repository frequently.
+2. Continuous Deployment – Automated deployment of tested code into production.
+3. Benefits – Faster delivery, fewer bugs, and improved collaboration.
+4. Testing

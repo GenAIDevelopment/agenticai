@@ -1,0 +1,19 @@
+Knowledge Base Article
+Title: IT Helpdesk Common Issue #36
+--------------------------------------------------
+Issue:
+Description of common IT-related issue number 36.
+
+Possible Causes:
+- Network connectivity problem
+- User configuration issue
+- Software or hardware fault
+
+Resolution Steps:
+1. Verify user details.
+2. Reproduce the issue.
+3. Apply standard troubleshooting.
+4. Escalate to L2/L3 if unresolved.
+
+Notes:
+Document all actions in the ticketing system.

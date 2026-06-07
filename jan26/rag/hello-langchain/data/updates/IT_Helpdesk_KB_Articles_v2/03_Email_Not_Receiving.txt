@@ -1,0 +1,12 @@
+Knowledge Base Article
+Title: Not Receiving Emails (Updated)
+--------------------------------------------------
+Issue:
+Emails not arriving in inbox.
+
+Resolution:
+1. Check spam and focused inbox.
+2. Verify mailbox quota.
+3. Test using webmail.
+4. Ask sender to resend.
+5. Escalate to messaging team.

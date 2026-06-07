@@ -1,0 +1,10 @@
+[project]
+name = "cloud-services"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic[vertex]>=0.64.0",
+    "langchain[google-vertexai]>=0.3.27",
+]
