@@ -1,0 +1,7 @@
+{
+    "dependencies": ".",
+    "graphs": {
+        "deepagent-default": "main:agent",
+        "deepagent-tools": "withsimpletools:agent"
+    }
+}
