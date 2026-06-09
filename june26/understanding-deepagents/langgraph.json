@@ -3,6 +3,7 @@
     "graphs": {
         "deepagent-default": "main:agent",
         "deepagent-tools": "withsimpletools:agent",
-        "pii": "prebuilt_pii:agent"
+        "pii": "prebuilt_pii:agent",
+        "todolist": "tododemo:agent"
     }
 }
