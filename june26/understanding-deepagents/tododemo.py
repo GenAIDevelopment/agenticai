@@ -23,12 +23,21 @@ agent = create_deep_agent(
 )
 
 if __name__ == "__main__":
-    TASK = "Get me the weather of the popular city in india"
+    #TASK = "Get me the weather of the popular city in india"
+    COMPLEX_TASK = """
+I'm planning a trip to the most popular city in India.
+Can you help me with planing a travel by writing todos. Some of areas to look out for
+1. which city is most popular
+2. Current Weather there
+3. Top attractions to visit
+
+and few other details at your disposal
+"""
     result = agent.invoke(
         {
             "messages": [{
                 "role": "user",
-                "content": TASK
+                "content": COMPLEX_TASK
             }]
         }
     )

@@ -1,0 +1,4 @@
+- [completed] Create plan in /todos.md
+- [completed] Get article points for 'algebra'
+- [completed] Write rough notes in /notes.md
+- [completed] Write final article in /article.md
