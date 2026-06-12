@@ -1,0 +1,4 @@
+- Introduction: Definition of gravity, why it is fundamental.
+- Key Concepts: Mass and distance, Newton's law, Einstein's general relativity.
+- Importance: Keeping planets in orbit, holding atmosphere, everyday life.
+- Conclusion: Recap of importance.
