@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "As an entry-level engineer drafting a bug report, which of the following sentences is grammatically correct and most appropriate for a technical email update?",
+    "choices": {
+      "A": "Neither the lead developer nor the systems administrator are aware of why the server crashed during the deployment.",
+      "B": "Neither the lead developer nor the systems administrator is aware of why the server crashed during the deployment.",
+      "C": "Neither the lead developer nor the systems administrator were aware of why the server crashed during the deployment.",
+      "D": "Neither the lead developer nor the systems administrator have been aware of why the server crashed during the deployment."
+    },
+    "answer": "B",
+    "explanation": "When two singular subjects ('the lead developer' and 'the systems administrator') are connected by 'neither... nor...', the verb must be singular. 'Is' is the singular present verb that correctly agrees with the singular subjects. 'Are', 'were', and 'have been' are plural and thus grammatically incorrect in this context."
+  },
+  {
+    "id": 2,
+    "question": "Your product manager asks the team to modernize the stack: 'We need to ________ the legacy payment system by the end of Q3 and transition all users to the new Stripe API.' Which phrasal verb best completes the sentence?",
+    "choices": {
+      "A": "phase out",
+      "B": "throw down",
+      "C": "wipe off",
+      "D": "pull through"
+    },
+    "answer": "A",
+    "explanation": "'Phase out' means to systematically and gradually stop using something. This fits the context of transitioning users from a legacy system to a new API. 'Throw down' means to challenge, 'wipe off' means to erase, and 'pull through' means to recover from an illness or difficult situation."
+  },
+  {
+    "id": 3,
+    "question": "Read the following statement:\n\n'Technical debt is a concept in software development that reflects the implied cost of additional rework caused by choosing an easy (quick) solution now instead of using a better approach that would take longer. While technical debt can help a startup release its MVP (Minimum Viable Product) quickly to gain market feedback, compounding debt without regular refactoring can lead to a debt trap where the team spends more time fixing bugs than shipping new features.'\n\nAccording to the passage, what is the primary risk of compounding technical debt?",
+    "choices": {
+      "A": "The startup will lose its primary competitive advantage because it can no longer hire qualified software engineers.",
+      "B": "The startup's Minimum Viable Product (MVP) will fail to gain any initial market feedback.",
+      "C": "The engineering team will reach a point where fixing existing bugs consumes more development time than implementing new features.",
+      "D": "The financial cost of refactoring the codebase will exceed the company's total venture capital funding."
+    },
+    "answer": "C",
+    "explanation": "The passage explicitly states that compounding technical debt without regular refactoring leads to a 'debt trap where the team spends more time fixing bugs than shipping new features.' This aligns perfectly with choice C. The other options introduce external assumptions or financial/hiring consequences not mentioned in the text."
+  },
+  {
+    "id": 4,
+    "question": "You notice that a peer on your engineering team has accidentally broken the staging build twice this week because they skipped running tests locally before pushing. What is the most constructive way to communicate with them?",
+    "choices": {
+      "A": "Send a message in the team's public Slack channel: 'Please run tests before committing code, you are breaking the build for everyone.'",
+      "B": "Report the incidents directly to the CTO so that they can take immediate disciplinary action against the engineer.",
+      "C": "Message them privately: 'Hey, I noticed the build broke a couple of times recently due to skipped local tests. Let's work together to make sure our local environments are set up correctly so we don't block the team.'",
+      "D": "Wait until the bi-weekly team retrospective meeting to raise the issue of build stability and point out their specific commits."
+    },
+    "answer": "C",
+    "explanation": "Direct, private, and collaborative communication (Choice C) is the most professional way to handle peer-to-peer feedback. It addresses the issue constructively without public embarrassment (ruling out A and D) and avoids premature escalation to leadership before giving the peer a chance to self-correct (ruling out B)."
+  },
+  {
+    "id": 5,
+    "question": "You are scheduled to give a live product demo to a client, but you are running 10 minutes late due to a sudden technical issue with your meeting client. Which of the following is the most professional email or message to send to the client?",
+    "choices": {
+      "A": "Hey! So sorry, my Zoom is acting up and I can't get in. Give me like 10 mins and I'll be there!",
+      "B": "Dear Client, I apologize, but I am experiencing a brief technical issue with my meeting software. I will join our demo 10 minutes late, at 2:10 PM. Thank you for your patience.",
+      "C": "Apologies for the delay. The meeting link is broken. I will join as soon as it works.",
+      "D": "Hi team, my laptop just crashed. I am rebooting and should be online in 10 minutes. Apologies for the inconvenience."
+    },
+    "answer": "B",
+    "explanation": "Choice B is polite, formal, and clear. It takes ownership of the technical issue, provides a specific timeline (10 minutes late), states the exact time of arrival (2:10 PM), and expresses professional appreciation for their patience. Choice A is too informal for a client; Choice C is abrupt and lacks a specific timeline; Choice D is sent to 'team' rather than addressing the client directly and lacks a precise updated start time."
+  },
+  {
+    "id": 6,
+    "question": "When writing technical documentation for a new caching layer, which of the following sentences is grammatically correct and free of dangling modifiers?",
+    "choices": {
+      "A": "Having optimized the database query, the page load time decreased by 50%.",
+      "B": "After completing the security audit, the code was pushed to production by the DevOps team.",
+      "C": "To run the local development server, Docker must be installed on your machine.",
+      "D": "While reviewing the pull request, I noticed several syntax errors in the utility module."
+    },
+    "answer": "D",
+    "explanation": "In Choice D, the modifying clause 'While reviewing the pull request' correctly refers to the subject of the main clause 'I'. In A, B, and C, the modifiers are dangling. In A, the load time didn't optimize the query. In B, the code didn't complete the security audit. In C, Docker is not the entity running the local server (the developer is)."
+  },
+  {
+    "id": 7,
+    "question": "During a sprint planning meeting, the CTO says, 'We need to deprecate our legacy v1 authentication endpoints by the end of this month.' What does the word 'deprecate' mean in this context?",
+    "choices": {
+      "A": "To delete the legacy authentication code immediately from all repositories to save disk space.",
+      "B": "To mark the endpoints as obsolete and discourage their use, while maintaining temporary support for existing users during a transition period.",
+      "C": "To rewrite the v1 authentication codebase entirely in another programming language to improve efficiency.",
+      "D": "To restrict access to the v1 endpoints using multi-factor authentication and advanced encryption standards."
+    },
+    "answer": "B",
+    "explanation": "In software engineering, 'deprecating' an API or feature means marking it as outdated and advising against its use, while keeping it functional for a grace period so existing integrations do not break immediately. It is not immediate deletion (A), rewriting (B), or adding MFA/encryption (D)."
+  },
+  {
+    "id": 8,
+    "question": "Read the following Slack exchange between a Product Manager (PM) and a Software Engineer (SWE):\n\nPM: 'Hi Alex, can we ship the dark mode toggle today?'\nSWE: 'The frontend code is ready, but the feature flag backend API is throwing 500 errors on staging. I am waiting on the backend team to merge the PR that fixes this. Once they do, we will need to run a quick regression test before pushing.'\n\nWhat is the primary bottleneck preventing the dark mode feature from being released today?",
+    "choices": {
+      "A": "Alex has not finished writing the frontend user interface code for the dark mode toggle.",
+      "B": "The staging server is completely offline due to database connectivity issues.",
+      "C": "The backend team has not yet merged the pull request that resolves the feature flag API errors.",
+      "D": "The regression testing process is taking too long to run on the production server."
+    },
+    "answer": "C",
+    "explanation": "Alex states that the frontend code is ready, but the backend API is throwing 500 errors. He explicitly says, 'I am waiting on the backend team to merge the PR that fixes this.' Therefore, the unmerged backend PR is the direct bottleneck holding up the release, matching Choice C."
+  },
+  {
+    "id": 9,
+    "question": "Your engineering manager asks you to focus entirely on finishing a critical feature for a client demo tomorrow. Simultaneously, your tech lead messages you to immediately fix a minor cosmetic bug in the onboarding flow. How should you handle this conflict in priorities?",
+    "choices": {
+      "A": "Agree to both requests, work on the minor onboarding bug first, and then work late into the night to finish the demo feature.",
+      "B": "Tell the tech lead that you cannot work on the onboarding bug because your manager's request is much more important.",
+      "C": "Create a group thread with both the manager and tech lead, explain the conflict, and politely ask them to help prioritize: 'I want to align with team priorities. Which of these should I prioritize today?'",
+      "D": "Ignore both direct requests and continue working on your pre-allocated sprint tickets to remain neutral."
+    },
+    "answer": "C",
+    "explanation": "Option C is the most professional and transparent way to resolve conflicting priorities. By bringing both stakeholders into a quick, polite conversation, you facilitate alignment and prevent misunderstandings or missed deadlines, while keeping yourself focused on the highest-value task. Option A risks burnout and late delivery; Option B can cause interpersonal friction; Option D is unprofessional and ignores urgent business needs."
+  },
+  {
+    "id": 10,
+    "question": "A customer support representative reports that the 'Sign Up' button is unresponsive on mobile devices. Which of the following is the most professional, clear, and actionable bug report to submit to the engineering team?",
+    "choices": {
+      "A": "The Sign Up button is broken on phones. I tried clicking it on my mobile device and absolutely nothing happened. Please fix this as soon as possible.",
+      "B": "Bug: Sign Up failure. Steps: Go to signup page on mobile Safari (iOS 17.2), fill in details, and tap 'Sign Up'. Expected: Redirection to dashboard. Actual: Button is unresponsive; no console errors or network requests are triggered.",
+      "C": "Our registration flow is completely down on mobile devices. No one can register for our service. This is a critical blocker that is costing us money.",
+      "D": "The mobile signup button doesn't work. It worked yesterday but it's not working now. I think it might be a CSS styling issue or a problem with the layout."
+    },
+    "answer": "B",
+    "explanation": "Choice B is highly structured, objective, and actionable. It provides the specific environment (mobile Safari, iOS 17.2), clear step-by-step reproduction instructions, expected and actual results, and relevant technical indicators (no network requests or console errors). This allows engineers to diagnose and resolve the bug efficiently without unnecessary back-and-forth communication. The other options are either too vague (A), alarmist and lacking steps (C), or speculative and unhelpful (D)."
+  }
+]

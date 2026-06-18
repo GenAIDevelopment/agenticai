@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "In a certain code language, if the word 'SEND' is coded as '168', and the word 'PURSE' is coded as '395', how will the word 'INSULT' be coded in the same language?",
+    "choices": {
+      "A": "495",
+      "B": "515",
+      "C": "570",
+      "D": "612"
+    },
+    "answer": "C",
+    "explanation": "In this coding scheme, the sum of the alphabetical positions of the letters in the word is multiplied by the number of letters in that word. For 'SEND': S(19) + E(5) + N(14) + D(4) = 42. Since 'SEND' has 4 letters, 42 * 4 = 168. For 'PURSE': P(16) + U(21) + R(18) + S(19) + E(5) = 79. Since 'PURSE' has 5 letters, 79 * 5 = 395. For 'INSULT': I(9) + N(14) + S(19) + U(21) + L(12) + T(20) = 95. Since 'INSULT' has 6 letters, 95 * 6 = 570."
+  },
+  {
+    "id": 2,
+    "question": "Find the missing number in the following mathematical series: 4, 18, 48, 100, 180, ?, 448",
+    "choices": {
+      "A": "248",
+      "B": "294",
+      "C": "312",
+      "D": "280"
+    },
+    "answer": "B",
+    "explanation": "The pattern of the series is based on the formula n^3 - n^2, starting with n = 2. For n=2: 2^3 - 2^2 = 8 - 4 = 4. For n=3: 3^3 - 3^2 = 27 - 9 = 18. For n=4: 4^3 - 4^2 = 64 - 16 = 48. For n=5: 5^3 - 5^2 = 125 - 25 = 100. For n=6: 6^3 - 6^2 = 216 - 36 = 180. For n=7: 7^3 - 7^2 = 343 - 49 = 294. For n=8: 8^3 - 8^2 = 512 - 64 = 448. Hence, the missing number is 294."
+  },
+  {
+    "id": 3,
+    "question": "Given the following statements, which of the conclusions logically follow(s)? Statements: (1) Only a few students are Girls. (2) Some Girls are Boys. (3) No Boy is a Student. Conclusions: I. Some Students are not Girls. II. All Girls can be Students is a possibility.",
+    "choices": {
+      "A": "Only conclusion I follows",
+      "B": "Only conclusion II follows",
+      "C": "Both conclusion I and conclusion II follow",
+      "D": "Neither conclusion I nor conclusion II follows"
+    },
+    "answer": "A",
+    "explanation": "Conclusion I is true because 'Only a few students are Girls' logically implies that some students are Girls and some students are NOT Girls. Conclusion II is false because if all Girls were Students, then because 'Some Girls are Boys', those Girls who are Boys would also have to be Students. This would mean some Boys are Students, which directly contradicts 'No Boy is a Student'. Therefore, only conclusion I follows."
+  },
+  {
+    "id": 4,
+    "question": "If 'A + B' means 'A is the mother of B', 'A - B' means 'A is the brother of B', 'A % B' means 'A is the father of B', and 'A x B' means 'A is the sister of B', which of the following expressions indicates that 'P' is the maternal uncle of 'Q'?",
+    "choices": {
+      "A": "Q - N + M x P",
+      "B": "P + S x N - Q",
+      "C": "P - M + N x Q",
+      "D": "Q - S % P"
+    },
+    "answer": "C",
+    "explanation": "Let's decode Option C: 'P - M + N x Q'. 'P - M' means P is the brother of M. 'M + N' means M is the mother of N. 'N x Q' means N is the sister of Q (showing that N and Q are siblings). Since M is the mother of N, M is also the mother of Q. Since P is the brother of Q's mother M, P is the maternal uncle of Q."
+  },
+  {
+    "id": 5,
+    "question": "One morning after sunrise, Udai and Vishal were talking to each other face-to-face at a crossing. If Vishal's shadow was cast exactly to the left of Udai, which direction was Udai facing?",
+    "choices": {
+      "A": "East",
+      "B": "West",
+      "C": "North",
+      "D": "South"
+    },
+    "answer": "C",
+    "explanation": "In the morning, the sun rises in the East, so all shadows are cast towards the West. This means Vishal's shadow is cast to the West. Since Vishal's shadow is exactly to the left of Udai, Udai's left side must face West. If Udai faces North, his left arm points West and his right arm points East. Therefore, Udai was facing North."
+  },
+  {
+    "id": 6,
+    "question": "Select the option that logically completes the word analogy: COMPUTERS : MOP :: PLATFORM : ?",
+    "choices": {
+      "A": "LAP",
+      "B": "ALT",
+      "C": "LOT",
+      "D": "PAT"
+    },
+    "answer": "B",
+    "explanation": "The word 'MOP' is formed by extracting specific letters of 'COMPUTERS': the 3rd letter ('M'), the 2nd letter ('O'), and the 4th letter ('P'). Applying this exact structural rule to 'PLATFORM': the 3rd letter is 'A', the 2nd letter is 'L', and the 4th letter is 'T'. Combining them in the same order gives 'A-L-T' (ALT)."
+  },
+  {
+    "id": 7,
+    "question": "Three of the following four numbers are alike in a certain way and one is different. Select the odd one out: 135, 175, 518, 246",
+    "choices": {
+      "A": "135",
+      "B": "175",
+      "C": "518",
+      "D": "246"
+    },
+    "answer": "D",
+    "explanation": "Options A, B, and C are Disarium numbers. A Disarium number is a number in which the sum of its digits raised to the power of their respective position (from left to right, 1-indexed) equals the number itself. For 135: 1^1 + 3^2 + 5^3 = 1 + 9 + 125 = 135. For 175: 1^1 + 7^2 + 5^3 = 1 + 49 + 125 = 175. For 518: 5^1 + 1^2 + 8^3 = 5 + 1 + 512 = 518. For 246: 2^1 + 4^2 + 6^3 = 2 + 16 + 216 = 234 != 246. Hence, 246 is the odd one out."
+  },
+  {
+    "id": 8,
+    "question": "What is the next term in the following letter-pair series? AZ, CX, FU, JQ, OL, ?",
+    "choices": {
+      "A": "TG",
+      "B": "UF",
+      "C": "VE",
+      "D": "WD"
+    },
+    "answer": "B",
+    "explanation": "The series consists of pairs of alphabetical opposites (where the sum of their positions is 27): A(1)+Z(26)=27, C(3)+X(24)=27, F(6)+U(21)=27, J(10)+Q(17)=27, O(15)+L(12)=27. The sequence of the first letters increases by an expanding interval: A to C (+2 positions), C to F (+3 positions), F to J (+4 positions), and J to O (+5 positions). Following this pattern, the next first letter must be +6 positions from O (15 + 6 = 21), which is U. The alphabetical opposite of U (21) is F (6), making the next pair 'UF'."
+  },
+  {
+    "id": 9,
+    "question": "Four developers—Alice, Bob, Charlie, and Diana—work on different microservices: Auth, Billing, Database, and Search. They sit in a row of four desks numbered 1 to 4 (left to right). (1) The Auth developer sits at Desk 4. (2) The Billing developer sits at Desk 2. (3) Bob works on Database and sits immediately to the right of Alice. (4) Charlie works on Search. Which developer works on Auth, and at which desk do they sit?",
+    "choices": {
+      "A": "Alice, Desk 2",
+      "B": "Diana, Desk 4",
+      "C": "Charlie, Desk 1",
+      "D": "Bob, Desk 3"
+    },
+    "answer": "B",
+    "explanation": "From Clue 1, Desk 4 is Auth. From Clue 2, Desk 2 is Billing. From Clue 3, Bob works on Database and sits immediately to the right of Alice, forming the block [Alice, Bob]. Bob cannot sit at Desk 2 (Billing) or Desk 4 (Auth). Thus, Bob must sit at Desk 3 and Alice at Desk 2 (Billing). This leaves Desk 1 for Search, where Charlie must sit (Clue 4). Finally, Diana must sit at Desk 4 and work on Auth."
+  },
+  {
+    "id": 10,
+    "question": "In a software startup of 60 employees, 35 employees know Python, 30 know Go, and 20 know Rust. Furthermore, 15 know both Python and Go, 10 know both Go and Rust, and 8 know both Python and Rust. If 5 employees know all three programming languages, how many employees in the startup know exactly one of these three languages?",
+    "choices": {
+      "A": "28",
+      "B": "34",
+      "C": "37",
+      "D": "42"
+    },
+    "answer": "B",
+    "explanation": "Using set theory and a Venn diagram: the number of employees knowing all three languages (P and G and R) is 5. Knowing Python and Go only = 15 - 5 = 10; Go and Rust only = 10 - 5 = 5; Python and Rust only = 8 - 5 = 3. Now, we find those who know only a single language: Python only = 35 - (10 + 3 + 5) = 17; Go only = 30 - (10 + 5 + 5) = 10; Rust only = 20 - (3 + 5 + 5) = 7. The total number of employees who know exactly one language is 17 + 10 + 7 = 34."
+  }
+]
