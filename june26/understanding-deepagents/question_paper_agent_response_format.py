@@ -3,8 +3,33 @@ from deepagents.backends import FilesystemBackend
 from langchain_tavily import TavilySearch
 from dotenv import load_dotenv
 from deepagents import create_deep_agent
+from pydantic import BaseModel, Field
+from typing import Literal
 
 load_dotenv()
+
+class MultipleChoiceQuestion(BaseModel):
+    question: str = Field(description="Question")
+    A: str = Field(description="Choice A")
+    B: str = Field(description="Choice B")
+    C: str = Field(description="Choice C")
+    D: str = Field(description="Choice D")
+
+    answer: Literal["A", "B", "C", "D"] = Field(
+        description="Correct answer"
+    )
+
+    explanation: str = Field(description="Explanation to answer")
+
+class SubAgentResponse(BaseModel):
+    mcqs: list[MultipleChoiceQuestion] = Field(
+        min_length=1,
+        description="List of MCQs"
+    )
+    topic: str = Field(
+        min_length=1,
+        description="Topic name"
+    )
 
 model = get_model()
 backend = FilesystemBackend(
@@ -57,7 +82,8 @@ Instructions:
 
 Return the questions as a numbered list.
 """,
-    "tools": [web_search]
+    "tools": [web_search],
+    "response_format": SubAgentResponse
 }
 
 programming_subagent = {
@@ -92,7 +118,8 @@ Instructions:
 
 Return the result as a numbered list.
 """,
-    "tools": [web_search]
+    "tools": [web_search],
+    "response_format": SubAgentResponse
 }
 
 
@@ -127,7 +154,8 @@ Instructions:
 
 Return the result as a numbered list.
 """,
-    "tools": [web_search]
+    "tools": [web_search],
+    "response_format": SubAgentResponse
 }
 
 
@@ -143,10 +171,13 @@ communications
 
 You have access to subagents, where you can delegate the work
 Ensure you create todos first and store in /todos.md
-Capture the response from every subagent and save in /<subagent-name>.md
+Capture the response from every subagent and save in /<topic>.json
 
-Store the final question paper in /questions.md
+Store the final question paper in /questions.md where for every question we have 4 choices
 Store the final answers in /answers.md
+Store the final explanations in /explanations.md
+
+Ensure you crosschekc the questions, answers and explanations before writing to filesystem
 
 Ensure the final output is in standard markdown format.
 """,

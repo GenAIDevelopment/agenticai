@@ -1,13 +1,6 @@
 {
     "dependencies": ".",
     "graphs": {
-        "deepagent-default": "main:agent",
-        "deepagent-tools": "withsimpletools:agent",
-        "pii": "prebuilt_pii:agent",
-        "todolist": "tododemo:agent",
-        "backend1": "backend1:agent",
-        "test": "test:agent",
-        "skill": "detailed_skills_demo:agent",
-        "subagent": "hello_subagent:agent"
+        "question-answer-subagent": "question_paper_agent:agent"
     }
 }

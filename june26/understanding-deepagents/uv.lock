@@ -2525,6 +2525,7 @@ dependencies = [
     { name = "langchain-community" },
     { name = "langchain-tavily" },
     { name = "langgraph-cli", extra = ["inmem"] },
+    { name = "pydantic" },
     { name = "python-dotenv" },
 ]
 
@@ -2537,6 +2538,7 @@ requires-dist = [
     { name = "langchain-community", specifier = ">=0.4.2" },
     { name = "langchain-tavily", specifier = ">=0.2.18" },
     { name = "langgraph-cli", extras = ["inmem"], specifier = ">=0.4.27" },
+    { name = "pydantic", specifier = ">=2.13.4" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
 ]
 

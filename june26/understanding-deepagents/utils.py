@@ -13,7 +13,7 @@ def get_model() -> BaseChatModel:
     """This model returns the llm
     """
     model = ChatGoogleGenerativeAI(
-        model="gemini-3.1-flash-lite",
+        model=os.getenv('MODEL_NAME'),
         project=os.getenv('PROJECT_ID')
     )
     return model
