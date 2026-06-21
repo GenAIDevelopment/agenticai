@@ -1,0 +1,125 @@
+{
+  "mcqs": [
+    {
+      "id": 1,
+      "question": "If in a certain language, \"PYTHON\" is coded as \"QXUGPM\", how is \"DJANGO\" coded in that same language?",
+      "choices": {
+        "A": "EIBMHN",
+        "B": "EICMHO",
+        "C": "EJBMHN",
+        "D": "DKBMHN"
+      },
+      "answer": "A",
+      "explanation": "The coding pattern is alternating: +1 to the first letter, -1 to the second letter, +1 to the third letter, and so on. Applying this to PYTHON: P+1=Q, Y-1=X, T+1=U, H-1=G, O+1=P, N-1=M. Applying this to DJANGO: D+1=E, J-1=I, A+1=B, N-1=M, G+1=H, O-1=N. Therefore, DJANGO is coded as EIBMHN. [Source: Web]"
+    },
+    {
+      "id": 2,
+      "question": "What is the next number in the sequence: 4, 7, 12, 21, 38, ...?",
+      "choices": {
+        "A": "71",
+        "B": "76",
+        "C": "69",
+        "D": "73"
+      },
+      "answer": "A",
+      "explanation": "The pattern is: term(n) = term(n-1) * 2 - n. Specifically: (4 * 2) - 1 = 7; (7 * 2) - 2 = 12; (12 * 2) - 3 = 21; (21 * 2) - 4 = 38. Following this rule, the next number is (38 * 2) - 5 = 71. [Source: Web]"
+    },
+    {
+      "id": 3,
+      "question": "Pointing to a photograph of a boy, Suresh (a man) says, 'He is the son of the only son of my mother.' How is Suresh related to that boy?",
+      "choices": {
+        "A": "Brother",
+        "B": "Uncle",
+        "C": "Cousin",
+        "D": "Father"
+      },
+      "answer": "D",
+      "explanation": "The only son of Suresh's mother is Suresh himself. Therefore, the boy in the photograph is Suresh's son, which makes Suresh the father of the boy. [Source: Web]"
+    },
+    {
+      "id": 4,
+      "question": "Analyze the following statements and select the correct conclusion:\nStatements:\n1. All developers are creators.\n2. Some creators are artists.\n\nConclusions:\nI. Some developers are artists.\nII. Some artists are creators.",
+      "choices": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Both conclusions I and II follow",
+        "D": "Neither conclusion I nor II follows"
+      },
+      "answer": "B",
+      "explanation": "Since all developers are creators, and some creators are artists, we cannot verify if developers and artists overlap (so conclusion I does not necessarily follow). However, since some creators are artists, it is logically guaranteed that some artists are creators. Therefore, only conclusion II follows. [Source: Web]"
+    },
+    {
+      "id": 5,
+      "question": "A QA engineer starts from the office and walks 4 km South. Then she turns left and walks 3 km. Finally, she turns left again and walks 8 km. How far and in which direction is she now from her starting point?",
+      "choices": {
+        "A": "5 km North-East",
+        "B": "5 km South-East",
+        "C": "7 km North-West",
+        "D": "15 km North-East"
+      },
+      "answer": "A",
+      "explanation": "Starting from (0, 0): going 4 km South brings her to (0, -4). Turning left (East) and walking 3 km brings her to (3, -4). Turning left (North) and walking 8 km brings her to (3, 4). Using the Pythagorean theorem, the distance is sqrt(3^2 + 4^2) = 5 km. The direction from (0, 0) to (3, 4) is North-East. [Source: Web]"
+    },
+    {
+      "id": 6,
+      "question": "An automated script can run in three modes: Fast, Normal, and Safe. The transition rules are:\n1. If in 'Safe' mode, it can only transition to 'Normal' mode.\n2. If in 'Normal' mode, it can transition to 'Fast' mode or 'Safe' mode.\n3. If in 'Fast' mode, it can only transition to 'Safe' mode.\n\nIf the script starts in 'Fast' mode and transitions exactly 4 times, which of the following is NOT a possible sequence of modes?",
+      "choices": {
+        "A": "Fast -> Safe -> Normal -> Fast -> Safe",
+        "B": "Fast -> Safe -> Normal -> Safe -> Normal",
+        "C": "Fast -> Safe -> Normal -> Safe -> Fast",
+        "D": "All of the above are valid sequences"
+      },
+      "answer": "C",
+      "explanation": "Let us trace the transitions step-by-step: 1. From 'Fast' mode, the only possible next state is 'Safe'. (F -> S) 2. From 'Safe' mode, the only possible next state is 'Normal'. (F -> S -> N) 3. From 'Normal' mode, it can transition to either 'Fast' or 'Safe'. Case 3a: F -> S -> N -> F. From 'Fast', it must go to 'Safe'. Final sequence: F -> S -> N -> F -> S (Matches Option A). Case 3b: F -> S -> N -> S. From 'Safe', it must go to 'Normal'. Final sequence: F -> S -> N -> S -> N (Matches Option B). In Option C, the fourth transition is Safe -> Fast, which violates Rule 1 ('Safe' can only transition to 'Normal'). Therefore, Option C is not a possible sequence. [Source: Original]"
+    },
+    {
+      "id": 7,
+      "question": "Complete the analogy based on standard technical taxonomy:\n\nGit : Version Control :: Docker : _________",
+      "choices": {
+        "A": "Virtualization",
+        "B": "Containerization",
+        "C": "Cloud Computing",
+        "D": "Orchestration"
+      },
+      "answer": "B",
+      "explanation": "The analogy represents the relationship: 'Tool : Core Purpose/Technology'. Git is a widely-used tool for Version Control, just as Docker is a widely-used tool for Containerization. While virtualization is related, containerization is the specific technology Docker is known for. [Source: Original]"
+    },
+    {
+      "id": 8,
+      "question": "Observe the pattern in the sequence of 3-letter terms and determine the next term:\n\nABC, BDF, CFI, DHL, ...",
+      "choices": {
+        "A": "EKO",
+        "B": "EJO",
+        "C": "EKP",
+        "D": "EJP"
+      },
+      "answer": "B",
+      "explanation": "The sequence represents arithmetic steps based on the index of the term. In the 1st term (ABC): Letters are at positions 1, 2, 3 (multiples of 1). In the 2nd term (BDF): Letters are at positions 2, 4, 6 (multiples of 2). In the 3rd term (CFI): Letters are at positions 3, 6, 9 (multiples of 3). In the 4th term (DHL): Letters are at positions 4, 8, 12 (multiples of 4). Following this pattern, the 5th term must contain letters at positions 5, 10, 15 (multiples of 5), which correspond to E, J, and O. Thus, the next term is EJO. [Source: Original]"
+    },
+    {
+      "id": 9,
+      "question": "Four developers (Alice, Bob, Charlie, and Dave) are debugging a crash.\n- Alice says: 'Bob did not write the bug.'\n- Bob says: 'Charlie wrote the bug.'\n- Charlie says: 'Dave wrote the bug.'\n- Dave says: 'Charlie is lying when he says I wrote it.'\n\nIf exactly one of them is telling the truth, who wrote the bug?",
+      "choices": {
+        "A": "Alice",
+        "B": "Bob",
+        "C": "Charlie",
+        "D": "Dave"
+      },
+      "answer": "B",
+      "explanation": "Let's analyze the statements. Charlie says Dave wrote the bug, and Dave says Charlie is lying. These two statements are contradictory, meaning one of them must be true and the other must be false. Since we are told that exactly one person is telling the truth, the truth-teller must be either Charlie or Dave. This means Alice and Bob must both be lying. Since Alice's statement ('Bob did not write the bug') is a lie, Bob must have written the bug. Let's verify: if Bob wrote the bug, then Alice is lying (False), Bob is lying (False), Charlie is lying (False), and Dave is telling the truth (True). This matches the condition perfectly. [Source: Original]"
+    },
+    {
+      "id": 10,
+      "question": "A microservices system has 3 types of tasks: Heavy, Medium, and Light.\n- 1 Heavy task requires the same CPU capacity as 2 Medium tasks.\n- 1 Medium task requires the same CPU capacity as 3 Light tasks.\n\nIf a server can run exactly 4 Heavy tasks and 3 Medium tasks simultaneously at maximum capacity, how many Light tasks can it run at maximum capacity instead?",
+      "choices": {
+        "A": "27",
+        "B": "30",
+        "C": "33",
+        "D": "36"
+      },
+      "answer": "C",
+      "explanation": "Let L be the capacity of one Light task. Since 1 Medium task (M) = 3 Light tasks (3L), and 1 Heavy task (H) = 2 Medium tasks (2 * 3L = 6L), we can express the total capacity of the server in terms of Light tasks. The server can run 4 Heavy and 3 Medium tasks: Total capacity = 4H + 3M = 4(6L) + 3(3L) = 24L + 9L = 33L. Thus, the server can run exactly 33 Light tasks at maximum capacity. [Source: Original]"
+    }
+  ],
+  "topic": "Logical Reasoning & Aptitude"
+}

@@ -1,0 +1,125 @@
+{
+  "mcqs": [
+    {
+      "id": 21,
+      "question": "Identify the grammatically correct sentence for an email update to the team.",
+      "choices": {
+        "A": "Neither the product manager nor the developers has approved the new deployment schedule.",
+        "B": "Neither the product manager nor the developers have approved the new deployment schedule.",
+        "C": "Neither the product manager nor the developers was approving the new deployment schedule.",
+        "D": "Neither the product manager nor the developers is approving the new deployment schedule."
+      },
+      "answer": "B",
+      "explanation": "When a compound subject is connected by 'neither... nor...', the verb must agree with the part of the subject that is closest to it. Here, 'developers' is plural and closest to the verb, so the plural verb 'have' is correct."
+    },
+    {
+      "id": 22,
+      "question": "Choose the correct option to fill in the blanks: 'The new UI theme is designed to _______ the overall user experience, and we expect it will have a positive _______ on customer retention.'",
+      "choices": {
+        "A": "compliment; affect",
+        "B": "complement; effect",
+        "C": "complement; affect",
+        "D": "compliment; effect"
+      },
+      "answer": "B",
+      "explanation": "'Complement' means to complete, enhance, or make perfect, whereas 'compliment' means to praise. 'Effect' is a noun meaning the result or consequence of an action, whereas 'affect' is typically a verb meaning to influence. In this context, 'complement' and 'effect' are the correct choices."
+    },
+    {
+      "id": 23,
+      "question": "When should you use BCC (Blind Carbon Copy) in professional email communication?",
+      "choices": {
+        "A": "To secretly include a colleague in a sensitive argument or dispute.",
+        "B": "To protect the privacy of recipients when emailing a large, external group.",
+        "C": "To ensure everyone can reply to all recipients in the thread.",
+        "D": "To archive the email in your personal folder."
+      },
+      "answer": "B",
+      "explanation": "BCC (Blind Carbon Copy) should be used when sending an email to a large list of external recipients to protect their email addresses and privacy, preventing everyone from seeing each other's contact details or accidentally clicking 'Reply All.'"
+    },
+    {
+      "id": 24,
+      "question": "Read the following passage and select the most accurate inference based on it:\n\n'Agile software development emphasizes iterative development, team collaboration, and rapid response to change. While traditional Waterfall projects plan upfront, Agile projects focus on delivering working software in small, frequent increments. This approach allows teams to adapt to shifting user requirements quickly, though it requires constant communication and can sometimes lead to \"scope creep\" if not managed carefully.'\n\nWhat does the passage imply about Agile software development?",
+      "choices": {
+        "A": "It is always faster and cheaper than the traditional Waterfall method.",
+        "B": "It requires disciplined management of project scope to prevent uncontrolled expansion.",
+        "C": "It eliminates the need for formal planning or project documentation entirely.",
+        "D": "It is best suited for small teams that do not require frequent communication."
+      },
+      "answer": "B",
+      "explanation": "The passage states that while Agile allows for rapid adaptation, it 'requires constant communication and can sometimes lead to \"scope creep\" if not managed carefully.' This implies that disciplined management of the project scope is necessary to prevent uncontrolled expansion."
+    },
+    {
+      "id": 25,
+      "question": "In a software startup's daily standup, a teammate says: 'I'm really struggling to integrate this third-party API; the documentation is outdated, and I keep getting unauthorized errors.' Which of the following responses demonstrates the best active listening and collaborative communication?",
+      "choices": {
+        "A": "Your best move is to check their GitHub issues rather than their official documentation website.",
+        "B": "Why didn't you ask for help yesterday? We are falling behind on our sprint goals.",
+        "C": "It sounds like you're frustrated because the API documentation isn't accurate and it's blocking your progress. Let's look at the auth headers together after this meeting.",
+        "D": "Just keep trying; APIs can be tricky but I'm sure you will figure it out eventually."
+      },
+      "answer": "C",
+      "explanation": "Active listening involves paraphrasing and acknowledging the speaker's feelings and situation ('It sounds like you're frustrated...') and offering supportive, constructive feedback. The other options either offer unsolicited advice, place blame, or dismiss the issue entirely."
+    },
+    {
+      "id": 26,
+      "question": "Which of the following sentences is the most professional, clear, and concise way to ask a client for clarification on a vague bug report?",
+      "choices": {
+        "A": "Your bug report is very confusing, so please send us more details so we can understand what is wrong.",
+        "B": "To help us resolve this issue quickly, could you please provide the steps to reproduce the bug and a screenshot of the error message?",
+        "C": "We got your ticket but it doesn't make any sense. Please tell us how you broke it or we can't fix it.",
+        "D": "Please write back and explain what you did in detail because the error you submitted doesn't work on our side."
+      },
+      "answer": "B",
+      "explanation": "Option B is professional, polite, positive, and requests specific, actionable items (steps to reproduce, screenshot) that will help solve the problem, without placing blame on the user."
+    },
+    {
+      "id": 27,
+      "question": "Imagine a software feature release is going to be delayed by two days due to an unexpected bug found during QA. Which email update to the product owner represents the most professional and assertive communication style?",
+      "choices": {
+        "A": "I'm sorry to say that QA found another bug, so the release is ruined and we won't make the deadline. It's not our fault though.",
+        "B": "We found a critical bug during final testing. We are delaying the release by two days to resolve it, ensuring a stable deployment on Wednesday. We will keep you updated.",
+        "C": "We might not release on time because of some issues. We hope to fix it soon, but we aren't completely sure when it will be ready.",
+        "D": "Due to QA failures, we are forced to postpone the release. Hopefully, we can launch it next week if everything goes well."
+      },
+      "answer": "B",
+      "explanation": "Professional and assertive communication acknowledges the issue directly, provides a clear timeline for the resolution (a two-day delay, targeting Wednesday), and focuses on the positive outcome (ensuring stability), rather than blaming others or being vague."
+    },
+    {
+      "id": 28,
+      "question": "During a retrospective, your manager mentions that the team needs to avoid 'siloed working' to improve sprint velocity. What does the term 'siloed working' mean in this context?",
+      "choices": {
+        "A": "Working in a highly structured environment with clear divisions of labor.",
+        "B": "Working in isolation from other team members or departments, leading to a lack of communication and collaboration.",
+        "C": "Working excessively long hours without taking sufficient breaks.",
+        "D": "Working purely on backend tasks without understanding frontend development."
+      },
+      "answer": "B",
+      "explanation": "'Siloed working' refers to individuals or teams working in isolation (like separate storage silos), which prevents the sharing of information, cross-collaboration, and collective problem-solving."
+    },
+    {
+      "id": 29,
+      "question": "When performing a code review, which of the following comments is the most constructive way to suggest a performance improvement to a peer?",
+      "choices": {
+        "A": "This loop is incredibly inefficient. Did you even test this with large datasets?",
+        "B": "I rewritten this section because your approach was too slow. Use my code instead.",
+        "C": "This approach works, but using a hash map here instead of nested loops would improve the time complexity from O(N^2) to O(N). What do you think?",
+        "D": "You should never use nested loops in JavaScript because they slow down the entire system."
+      },
+      "answer": "C",
+      "explanation": "Constructive feedback should be respectful, objective, educational, and collaborative. Option C acknowledges that the current code works, clearly explains why the alternative is better, and invites collaboration ('What do you think?')."
+    },
+    {
+      "id": 30,
+      "question": "You receive a Jira ticket with the description: 'The checkout page needs a better user experience.' The ticket is assigned to you, but there are no design mocks, acceptance criteria, or further details. What is the most appropriate next step?",
+      "choices": {
+        "A": "Implement what you think looks best and deploy it directly to production.",
+        "B": "Reject the ticket and leave a comment saying, 'This ticket is useless; please provide real specifications.'",
+        "C": "Reach out to the product manager or designer to schedule a brief call to clarify the goals, or ask for the missing details in a polite comment on the ticket.",
+        "D": "Wait until the next sprint planning meeting to bring it up, leaving the ticket untouched in the meantime."
+      },
+      "answer": "C",
+      "explanation": "Dealing with ambiguity requires proactive, collaborative communication. Scheduling a quick alignment call or leaving a polite, specific comment asking for acceptance criteria/designs is the most professional way to unblock yourself without causing unnecessary delays or building the wrong feature."
+    }
+  ],
+  "topic": "Entry-Level Communication Skills for Software Startups"
+}

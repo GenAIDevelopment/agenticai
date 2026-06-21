@@ -1,0 +1,10 @@
+{
+    "dependencies": ".",
+    "graphs": {
+        "reasoning": "reasoning:graph",
+        "programming": "programming:graph",
+        "communications": "communications:graph",
+        "supervisor": "main:agent"
+        
+    }
+}

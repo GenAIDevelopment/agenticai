@@ -1,0 +1,125 @@
+{
+  "mcqs": [
+    {
+      "id": 11,
+      "question": "What is the output of the following Python code?\n\ndef append_to_list(value, my_list=[]):\n    my_list.append(value)\n    return my_list\n\nprint(append_to_list(1))\nprint(append_to_list(2))",
+      "choices": {
+        "A": "[1] and [2]",
+        "B": "[1] and [1, 2]",
+        "C": "[1] and [2, 2]",
+        "D": "Error because a list cannot be used as a default argument"
+      },
+      "answer": "B",
+      "explanation": "In Python, default arguments are evaluated once when the function is defined, not each time the function is called. Because a list is a mutable object, the same default list is reused across subsequent function calls. Thus, the first call appends 1 to the default list, and the second call appends 2 to that same list, resulting in [1, 2]."
+    },
+    {
+      "id": 12,
+      "question": "What is the output of the following Python expression?\n\nmy_list = [10, 20, 30, 40, 50]\nprint(my_list[::-2])",
+      "choices": {
+        "A": "[50, 30, 10]",
+        "B": "[10, 30, 50]",
+        "C": "[50, 40, 30, 20, 10]",
+        "D": "[40, 20]"
+      },
+      "answer": "A",
+      "explanation": "Python slicing syntax is list[start:stop:step]. When the step is negative (-2), the list is traversed in reverse starting from the last element. The traversal starts at 50, skips 40, selects 30, skips 20, and selects 10, resulting in the list [50, 30, 10]."
+    },
+    {
+      "id": 13,
+      "question": "What will be the output of the following Python code?\n\ndata = {\"a\": 1, \"b\": 2}\nval = data.get(\"c\", 3)\nprint(val + data.get(\"a\", 0))",
+      "choices": {
+        "A": "4",
+        "B": "3",
+        "C": "KeyError: 'c'",
+        "D": "1"
+      },
+      "answer": "A",
+      "explanation": "The dictionary get() method retrieves the value associated with a key. If the key is absent, it returns the default value specified in the second argument. data.get(\"c\", 3) returns 3 because \"c\" is missing. data.get(\"a\", 0) returns 1 because \"a\" is present with a value of 1. The sum is 3 + 1 = 4."
+    },
+    {
+      "id": 14,
+      "question": "Consider the expression: x = True or False and False. What is the value of x?",
+      "choices": {
+        "A": "True",
+        "B": "False",
+        "C": "None",
+        "D": "SyntaxError"
+      },
+      "answer": "A",
+      "explanation": "In Python, operator precedence dictates that 'and' has a higher precedence than 'or'. Therefore, 'False and False' is evaluated first, resulting in 'False'. The expression then simplifies to 'True or False', which evaluates to 'True'."
+    },
+    {
+      "id": 15,
+      "question": "Consider the following code block:\n\ns1 = \"hello\"\ns2 = s1\ns1 += \" world\"\nprint(s2)\n\nWhat is printed?",
+      "choices": {
+        "A": "\"hello world\"",
+        "B": "\"hello\"",
+        "C": "\"world\"",
+        "D": "AttributeError"
+      },
+      "answer": "B",
+      "explanation": "Strings in Python are immutable objects. When s1 += \" world\" is executed, Python creates a brand-new string object containing \"hello world\" and assigns s1 to it. s2, however, still references the original string object \"hello\". Thus, printing s2 outputs \"hello\"."
+    },
+    {
+      "id": 16,
+      "question": "You are building a feature for a startup where users look up username availability instantly. Which data structure provides an average time complexity of O(1) for checking if a username exists?",
+      "choices": {
+        "A": "A sorted array (List)",
+        "B": "A singly linked list",
+        "C": "A hash set (Set)",
+        "D": "A binary search tree"
+      },
+      "answer": "C",
+      "explanation": "A hash set leverages a hash table structure to lookup values. On average, determining if an element exists in a set requires O(1) constant time, making it the ideal choice for real-time username availability checks."
+    },
+    {
+      "id": 17,
+      "question": "What is the final value of the variable 'count' after running the following loop?\n\ncount = 0\nfor i in range(1, 10):\n    if i % 3 == 0:\n        continue\n    count += 1",
+      "choices": {
+        "A": "9",
+        "B": "6",
+        "C": "3",
+        "D": "10"
+      },
+      "answer": "B",
+      "explanation": "The range(1, 10) function yields numbers from 1 to 9. The 'continue' statement is executed when 'i' is divisible by 3 (3, 6, and 9), skipping the increment step. Thus, the loop only increments 'count' for the remaining 6 numbers: 1, 2, 4, 5, 7, and 8."
+    },
+    {
+      "id": 18,
+      "question": "In Python, what is the value of 'result' after executing the following expression?\n\nresult = (17 // 3) % 2",
+      "choices": {
+        "A": "2",
+        "B": "1",
+        "C": "5",
+        "D": "1.0"
+      },
+      "answer": "B",
+      "explanation": "First, the floor division operator '//' is evaluated: 17 // 3 equals 5. Next, the modulo operator '%' calculates the remainder of 5 divided by 2, which is 1. Therefore, result is 1."
+    },
+    {
+      "id": 19,
+      "question": "A startup is building an 'Undo' feature for their text editor. Which data structure is most appropriate for tracking the history of edits, where the last action performed is the first one to be undone?",
+      "choices": {
+        "A": "Queue (FIFO)",
+        "B": "Stack (LIFO)",
+        "C": "Graph",
+        "D": "Binary Tree"
+      },
+      "answer": "B",
+      "explanation": "An 'Undo' feature requires Last-In, First-Out (LIFO) behavior to revert the most recent action first. A Stack naturally organizes elements sequentially and manages them via push and pop actions, aligning perfectly with LIFO requirements."
+    },
+    {
+      "id": 20,
+      "question": "What is the output of the following Python script?\n\nx = 10\n\ndef update_val():\n    x = 5\n    return x\n\nupdate_val()\nprint(x)",
+      "choices": {
+        "A": "5",
+        "B": "10",
+        "C": "None",
+        "D": "NameError"
+      },
+      "answer": "B",
+      "explanation": "Assigning 'x = 5' inside update_val() creates a local variable 'x' which only exists within the function's scope. It does not modify the global variable 'x' defined outside. Since the return value is not reassigned globally, printing 'x' outputs the global value of 10."
+    }
+  ],
+  "topic": "Entry-Level Programming & Python Basics"
+}
