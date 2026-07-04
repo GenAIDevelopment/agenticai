@@ -1,0 +1,29 @@
+# Data Privacy and Confidentiality Policy
+
+## Purpose
+To protect sensitive company and employee information from unauthorized access or disclosure.
+
+## Confidential Information
+Confidential information includes but is not limited to:
+- Employee personal data (salary, health records, contact details)
+- Client and customer data
+- Business strategies, financial data, and trade secrets
+- Proprietary software and intellectual property
+
+## Employee Obligations
+- Employees must not share confidential information with unauthorized parties.
+- Confidential documents must be stored securely and not left unattended.
+- Employees must sign a Non-Disclosure Agreement (NDA) upon joining.
+- Confidentiality obligations continue after employment ends.
+
+## Data Handling
+- Personal data must be collected and processed in accordance with applicable privacy laws (e.g., GDPR, CCPA).
+- Data should only be accessed on a need-to-know basis.
+- Data breaches must be reported to the IT Security team within 1 hour of discovery.
+
+## Data Retention
+- Employee records are retained for 7 years after termination.
+- Customer data is retained only as long as necessary for business purposes.
+
+## Violations
+Unauthorized disclosure of confidential information may result in disciplinary action and legal proceedings.

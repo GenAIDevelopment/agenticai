@@ -1,0 +1,51 @@
+Policy_ID,Category,Policy_Name,Description,Applies_To,Effective_Date,Review_Cycle,Owner,Compliance_Level
+HR001,Attendance,Attendance Policy,Employees must report to work on time and record attendance daily,All Employees,2026-01-01,Annual,HR Department,High
+HR002,Leave,Annual Leave Policy,Employees are entitled to 24 days of paid annual leave,All Employees,2026-01-01,Annual,HR Department,High
+HR003,Leave,Sick Leave Policy,Employees may avail sick leave upon informing their manager,All Employees,2026-01-01,Annual,HR Department,High
+HR004,Leave,Casual Leave Policy,Employees receive 12 casual leave days annually,All Employees,2026-01-01,Annual,HR Department,Medium
+HR005,Code of Conduct,Professional Behavior Policy,Employees must maintain professional conduct at work,All Employees,2026-01-01,Annual,HR Department,High
+HR006,Remote Work,Work From Home Policy,Eligible employees may work remotely up to three days weekly,Eligible Employees,2026-01-01,Semi-Annual,HR Department,Medium
+HR007,Security,Password Policy,Passwords must be changed every 90 days,All Employees,2026-01-01,Annual,IT Security,High
+HR008,Security,Data Privacy Policy,Personal and company data must be handled securely,All Employees,2026-01-01,Annual,IT Security,High
+HR009,Recruitment,Hiring Policy,Recruitment must follow equal opportunity guidelines,Hiring Managers,2026-01-01,Annual,Talent Acquisition,High
+HR010,Recruitment,Background Verification Policy,All selected candidates undergo background verification,New Hires,2026-01-01,Annual,Talent Acquisition,High
+HR011,Compensation,Salary Revision Policy,Salary reviews occur annually based on performance,All Employees,2026-01-01,Annual,Compensation Team,Medium
+HR012,Benefits,Health Insurance Policy,Employees receive company-sponsored health insurance,Permanent Employees,2026-01-01,Annual,HR Department,High
+HR013,Benefits,Life Insurance Policy,Life insurance coverage is provided to eligible employees,Permanent Employees,2026-01-01,Annual,HR Department,Medium
+HR014,Travel,Business Travel Policy,Travel expenses must follow approved reimbursement guidelines,All Employees,2026-01-01,Annual,Finance,Medium
+HR015,Expenses,Expense Reimbursement Policy,Valid business expenses are reimbursed within 30 days,All Employees,2026-01-01,Annual,Finance,Medium
+HR016,Training,Learning and Development Policy,Employees are encouraged to complete annual training,All Employees,2026-01-01,Annual,Learning Team,Low
+HR017,Performance,Performance Review Policy,Performance reviews are conducted twice a year,All Employees,2026-01-01,Semi-Annual,HR Department,High
+HR018,Performance,Promotion Policy,Promotions are based on merit and business needs,All Employees,2026-01-01,Annual,HR Department,Medium
+HR019,Diversity,Equal Opportunity Policy,Employment decisions are free from discrimination,All Employees,2026-01-01,Annual,HR Department,High
+HR020,Diversity,Anti-Harassment Policy,Harassment of any kind is prohibited,All Employees,2026-01-01,Annual,HR Department,High
+HR021,Ethics,Conflict of Interest Policy,Employees must disclose potential conflicts of interest,All Employees,2026-01-01,Annual,Compliance Team,High
+HR022,Ethics,Gifts and Hospitality Policy,Employees must follow limits on gifts and hospitality,All Employees,2026-01-01,Annual,Compliance Team,Medium
+HR023,IT,Acceptable Use Policy,Company devices must be used for authorized purposes,All Employees,2026-01-01,Annual,IT Department,High
+HR024,IT,Email Usage Policy,Company email should be used professionally,All Employees,2026-01-01,Annual,IT Department,Medium
+HR025,IT,Internet Usage Policy,Internet access should support business activities,All Employees,2026-01-01,Annual,IT Department,Medium
+HR026,Security,Clean Desk Policy,Sensitive documents should not be left unattended,All Employees,2026-01-01,Annual,Security Team,Medium
+HR027,Health,Safety Policy,Employees must comply with workplace safety rules,All Employees,2026-01-01,Annual,Facilities,High
+HR028,Health,Emergency Evacuation Policy,Employees must follow evacuation procedures during emergencies,All Employees,2026-01-01,Annual,Facilities,High
+HR029,Leave,Maternity Leave Policy,Eligible employees receive maternity leave benefits,Eligible Employees,2026-01-01,Annual,HR Department,High
+HR030,Leave,Paternity Leave Policy,Eligible employees receive paternity leave benefits,Eligible Employees,2026-01-01,Annual,HR Department,Medium
+HR031,Leave,Adoption Leave Policy,Leave is available for eligible adoptive parents,Eligible Employees,2026-01-01,Annual,HR Department,Medium
+HR032,Leave,Bereavement Leave Policy,Employees may take leave after the loss of a family member,All Employees,2026-01-01,Annual,HR Department,Medium
+HR033,Attendance,Overtime Policy,Overtime must receive prior approval,Eligible Employees,2026-01-01,Annual,HR Department,Medium
+HR034,Attendance,Flexible Working Hours Policy,Flexible schedules require manager approval,Eligible Employees,2026-01-01,Annual,HR Department,Low
+HR035,Assets,Asset Management Policy,Employees are responsible for company-issued assets,All Employees,2026-01-01,Annual,IT Department,Medium
+HR036,Termination,Exit Process Policy,Employees must complete clearance before leaving,All Employees,2026-01-01,Annual,HR Department,High
+HR037,Termination,Notice Period Policy,Employees must serve the required notice period,All Employees,2026-01-01,Annual,HR Department,High
+HR038,Compliance,Whistleblower Policy,Employees can report misconduct confidentially,All Employees,2026-01-01,Annual,Compliance Team,High
+HR039,Compliance,Anti-Bribery Policy,Bribery and corruption are strictly prohibited,All Employees,2026-01-01,Annual,Compliance Team,High
+HR040,Privacy,Employee Privacy Policy,Employee personal information is protected,All Employees,2026-01-01,Annual,Compliance Team,High
+HR041,Wellness,Employee Assistance Program Policy,Confidential counseling services are available,All Employees,2026-01-01,Annual,HR Department,Low
+HR042,Wellness,Mental Health Policy,The organization promotes mental well-being,All Employees,2026-01-01,Annual,HR Department,Medium
+HR043,Travel,International Travel Policy,International travel requires executive approval,Eligible Employees,2026-01-01,Annual,Finance,Medium
+HR044,Dress Code,Dress Code Policy,Employees should maintain appropriate workplace attire,All Employees,2026-01-01,Annual,HR Department,Low
+HR045,Communication,Social Media Policy,Employees should avoid sharing confidential company information online,All Employees,2026-01-01,Annual,Communications,Medium
+HR046,Communication,Media Interaction Policy,Only authorized spokespeople may interact with the media,All Employees,2026-01-01,Annual,Communications,High
+HR047,Training,Mandatory Compliance Training Policy,Employees must complete mandatory compliance courses,All Employees,2026-01-01,Annual,Learning Team,High
+HR048,Probation,Probation Policy,New employees complete a six-month probation period,New Employees,2026-01-01,Annual,HR Department,Medium
+HR049,Recognition,Employee Recognition Policy,Outstanding performance is recognized through formal programs,All Employees,2026-01-01,Annual,HR Department,Low
+HR050,Records,Document Retention Policy,Employee records are retained according to legal requirements,HR Staff,2026-01-01,Annual,HR Department,High
