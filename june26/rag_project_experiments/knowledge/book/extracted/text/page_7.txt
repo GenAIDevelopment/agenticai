@@ -1,0 +1,57 @@
+Large Numbers Around Us
+(d)	 	66666
+(e)	 	367813
+Creative Chitti has some questions for you —
+(a)	 	You have to make exactly 30 button presses. What is the largest 
+3-digit number you can make? What is the smallest 3-digit 
+number you can make?
+(b)	 	997 can be made using 25 clicks. 
+Can you make 997 with a different 
+number of clicks?
+Create questions like these and challenge 
+your classmates.
+Systematic Sippy is a different kind of 
+calculator. It has the following buttons: +1, 
++10, +100, +1000, +10000, +100000. It wants 
+to be used as minimally as possible.
+How can we get the numbers (a) 5072, (b) 8300 using as few button 
+clicks as possible?
+Find out which buttons should be 
+clicked and how many times to get the 
+desired numbers given in the table. 
+The aim is to click as few buttons as 
+possible.
+Here is one way to get the number 
+5072. This method uses 23 button 
+clicks in total.
+Is there another way to get 5072 
+using less than 23 button clicks?
+Write the expression for the same.
+Figure it Out
+1.	 	For the numbers in the previous 
+exercise, find out how to get each 
+number by making the smallest 
+number of button clicks and write 
+the expression.
+2.	 	Do you see any connection between each number and the 
+corresponding smallest number of button clicks?
+3.	 	If you notice, the expressions for the least button clicks also 
+give the Indian place value notation of the numbers. Think 
+about why this is so. 
+Buttons
+5072
++10,00,000
++1,00,000
++10,000
++1,000 
+5 
++100 
+0
++10
+6
++1
+12
+Math 
+Talk
+7
+Reprint 2026-27

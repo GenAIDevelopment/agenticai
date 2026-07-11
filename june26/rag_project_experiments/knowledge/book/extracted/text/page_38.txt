@@ -1,0 +1,41 @@
+15 
+ 
+Ans:  
+Estimated number of days if it flies 900 km/day   = 12,000 ÷ 900  
+ = 13.3 days 
+Estimated number of days if it flies 1000 km/day = 12,000 ÷ 1000  
+   = 12 days 
+Hence it would take approximately 12 to 14 days for a grey headed 
+albatross to complete a 12,000 km trip to cross an ocean. 
+ 
+13. A bar-tailed godwit holds the record for the longest recorded non-
+stop flight. It travelled 13,560 km from Alaska to Australia without 
+stopping. Its journey started on 13 October 2022 and continued for 
+about 11 days. Find out the approximate distance it covered every 
+day. Find out the approximate distance it covered every hour. 
+Ans:  
+Distance covered per day = 13,560 km ÷ 11 days = 1232.73 km or 1233 km. 
+Distance covered per hour = 1233 ÷ 24 = 51.36 km or 51 km. 
+14. Bald eagles are known to fly as high as 4500 – 6000 m above the ground 
+level. Mount Everest is about 8850 m high. Aeroplanes can fly as high 
+as 10,000 – 12,800 m. How many times bigger are these heights 
+compared to Somu’s building?  
+ 
+Ans:  
+Height of Somu’s building = 40 m 
+(i) Bald eagles’ flight height = 4500 – 6000 m 
+Lower estimate = 4500 ÷ 40 = 112.5 times 
+Upper estimate = 6000 ÷ 40 = 150 times 
+Bald eagles fly about 112 to 150 times higher than Somu’s building. 
+ 
+(ii) Mount Everest height = 8850 m 
+Now, 8850 ÷ 40 = 221.25 
+Mount Everest is approximately 221 times taller than Somu’s 
+building. 
+ 
+(iii) Aeroplanes flight height = 10,000 – 12,000 m 
+Lower estimate = 10,000 ÷ 40 = 250 
+Upper estimate = 12800 ÷ 40 = 320. 
+Airplanes fly about 250 to 320 times as high as Somu’s building. 
+ 
+ 

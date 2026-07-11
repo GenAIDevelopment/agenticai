@@ -1,0 +1,40 @@
+Ganita Prakash | Grade 7
+(a)	 	Largest multiple of 5
+(b)	 	Smallest even number
+2.	 	The number 10,30,285 in words is Ten lakhs thirty thousand two 
+hundred eighty five, which has 42 letters. Give a 7-digit number 
+name which has the maximum number of letters.
+3.	 	Write a 9-digit number where exchanging any two digits results in 
+a bigger number. How many such numbers exist?
+4.	 	Strike out 10 digits from the number 12345123451234512345 so 
+that the remaining number is as large as possible.
+5.	 	The words ‘zero’ and ‘one’ share letters ‘e’ and ‘o’. The words ‘one’ 
+and ‘two’ share a letter ‘o’, and the words ‘two’ and ‘three’ also 
+share a letter ‘t’. How far do you have to count to find two consecutive 
+numbers which do not share an English letter in common?
+6.	 	Suppose you write down all the numbers 1, 2, 3, 4, …, 9, 10, 11, ... 
+The tenth digit you write is ‘1’ and the eleventh digit is ‘0’, as 
+part of the number 10.
+(a)	 	What would the 1000th digit be? At which number would it 
+occur?
+(b)	 	What number would contain the millionth digit?
+(c)	 	When would you have written the digit ‘5’ for the 5000th 
+time? 
+7.	 	A calculator has only ‘+10,000’ and ‘+100’ buttons. Write an 
+expression describing the number of button clicks to be made for 
+the following numbers:
+(a)	 	20,800	
+(b)	 92,100	
+(c)	 	1,20,500
+(d)	 	65,30,000	
+(e)	 	70,25,700
+8.	 	How many lakhs make a billion?
+9.	 	You are given two sets of number cards numbered from 1 – 9. Place 
+a number card in each box below to get the (a) largest possible sum 
+(b) smallest possible difference of the two resulting numbers.
+Try
+This
+Try
+This
+20
+Reprint 2026-27

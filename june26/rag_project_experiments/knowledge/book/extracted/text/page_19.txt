@@ -1,0 +1,31 @@
+Large Numbers Around Us
+The population of Mumbai is more than 1 crore 24 lakhs (we saw 
+this in an earlier table). So, the entire population of Mumbai cannot fit 
+in 1 lakh buses.
+The RMS Titanic ship carried about 2500 passengers. Can the population 
+of Mumbai fit into 5000 such ships?
+Inspired by this strange question, Roxie wondered, “If I could travel 
+100 kilometers every day, could I reach the Moon in 10 years?” (The 
+distance between the Earth and the Moon is 3,84,400 km.)
+How far would she have travelled in a year?
+How far would she have travelled in 10 years?
+Is it not easier to perform these calculations in stages? You can use 
+this method for all large calculations.
+Find out if you can reach the Sun in a lifetime, if you travel 1000 
+kilometers every day. (You had written down the distance between the 
+Earth and the Sun in a previous exercise.)
+Make necessary reasonable assumptions and answer the questions 
+below:
+(a)	 	If a single sheet of paper weighs 5 grams, could you lift one 
+lakh sheets of paper together at the same time?
+(b)	 	If 250 babies are born every minute across the world, will a 
+million babies be born in a day?
+(c)	 	Can you count 1 million coins in a day? Assume you can count 
+1 coin every second.
+Think and create more such fun questions and share them with your 
+class.
+Figure it Out
+1.	 	Using all digits from 0 – 9 exactly once (the first digit cannot be 0) to 
+create a 10-digit number, write the —
+19
+Reprint 2026-27

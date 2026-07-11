@@ -1,0 +1,61 @@
+6 
+ 
+2. Do you see any connection between each number and the 
+corresponding smallest number of button clicks? 
+Ans:  The smallest number of buttons click for each number is the sum of 
+its digit. 
+Page No. 8 
+ How many zeros does a thousand lakh have?  8 zeros   
+ How many zeros does a hundred thousand have? 5 zeros   
+Page No. 9 
+ Figure it out 
+1. Read the numbers and write their number names in both the Indian 
+and American systems:  
+Sl. No. 
+Indian System 
+American System 
+(a) 4050678  
+40,50,678 
+Forty Lakh Fifty Thousand Six 
+Hundred Seventy-Eight 
+4,050,678 
+Four 
+Millions 
+Fifty 
+Thousand Six Hundred 
+Seventy-Eight 
+(b) 48121620  
+4,81,21,620 
+Four 
+Crore 
+Eighty-One 
+Lakh 
+Twenty-One 
+Thousand 
+Six 
+Hundred Twenty 
+48,121,620 
+Forty Eight Millions One 
+Hundred Twenty One 
+Thousand Six Hundred 
+Twenty 
+(c) 20022002  
+2,00,22,002 
+Two Crore Twenty Two Thousand 
+Two 
+20,022,002 
+Twenty millions twenty 
+two thousand and two 
+(d) 246813579  
+24,68,13,579 
+Twenty Four Crore Sixty Eight 
+Lakh Thirteen Thousand Five 
+Hundred Seventy Nine 
+246,813,579 
+Two Hundred Forty Six 
+Millions Eight Hundred 
+Thirteen Thousand Five 
+Hundred Seventy Nine 
+(e) 345000543  
+34,50,00,543 
+345,000,543 

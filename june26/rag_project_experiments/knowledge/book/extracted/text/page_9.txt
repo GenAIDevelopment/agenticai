@@ -1,0 +1,44 @@
+Large Numbers Around Us
+How many zeros does a hundred thousand have? ____
+The number 9876501234 can be easily read by placing commas first:
+(a)	 9,87,65,01,234 → 9 arab 87 crore 65 lakhs 1 thousand and 234 
+or 987 crore 65 lakh 1 thousand 234 (in the Indian system).
+(b)	 9,876,501,234 → 9 billion 876 million 501 thousand 234 (in the 
+American system).
+Figure it Out
+1.	 	Read the following numbers in Indian place value notation and 
+write their number names in both the Indian and American systems:
+(a)	 4050678	
+(b)	
+48121620
+(c)	 20022002	
+(d)	
+246813579
+(e)	 345000543	
+(f)	
+1020304050
+2.	 	Write the following numbers in Indian place value notation:
+(a)	 One crore one lakh one thousand ten
+(b)	 	One billion one million one thousand one
+(c)	 	Ten crore twenty lakh thirty thousand forty
+(d)	 Nine billion eighty million seven hundred thousand six hundred
+3.	 	Compare and write ‘<’, ‘>’ or ‘=’:
+(a)	 	30 thousand ____  3 lakhs
+(b)	 	500 lakhs ______ 5 million
+(c)	 	800 thousand ____ 8 million 
+(d)	 	640 crore ______ 60 billion
+We shall come across even bigger numbers in later grades.
+1.4 Exact and Approximate Values
+1 lakh people 
+visited the 
+book fair.
+Ohh, so 
+many 
+people!
+If I had not gone, 
+they would have 
+written “99,999 
+people visited the 
+book fair last week”.
+9
+Reprint 2026-27

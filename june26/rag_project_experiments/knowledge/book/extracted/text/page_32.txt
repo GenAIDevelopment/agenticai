@@ -1,0 +1,53 @@
+9 
+ 
+5. Are there cities whose population has almost doubled? Which are 
+they?  
+Ans: Yes, they are Bengaluru, Hyderabad, Surat and Vadodara 
+6. By what number should we multiply Patna’s population to get a 
+number/population close to that of Mumbai?  
+Ans: We need to multiply Patna’s population by 7.39 to get a number close to 
+the population of Mumbai. 
+Page No. 14 
+ Using the meaning of multiplication and division, can you explain why 
+multiplying by 5 is the same as dividing by 2 and multiplying by 10? 
+Ans: 10 ÷ 2 is the same as 5. 
+ 
+ Figure it out 
+1. Find quick ways to calculate these products:  
+(a)    2 × 1768 × 50  
+= 2 × 50 × 1768 
+= 100 × 1768 
+ 
+(b)    72 × 125 [Hint: 125 = 
+1000
+8 
+= 72 × 
+1000
+8 
+= 
+72
+8 × 1000 = 9 × 1000 
+ 
+(c)    125 × 40 × 8 × 25  
+= 125 × 8 × 40 × 25 
+= 1000 × 1000 
+ 
+2. Calculate these products quickly.  
+(a) 25 × 12 = _____________  
+25 × 12 =  
+100
+4 × 12 
+ = 100 × 
+12
+4   
+ 
+ = 100 × 3 
+ 
+(b) 25 × 240 = _____________  
+25 × 240 = 
+100
+4 × 240  
+= 100 × 
+240
+4   
+  = 100 × 60 

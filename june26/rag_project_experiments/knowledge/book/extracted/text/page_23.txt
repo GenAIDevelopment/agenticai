@@ -1,0 +1,27 @@
+Toothpick Digits
+We can write digits as shown in the image below:
+0123456789
+You can either use toothpicks or matchsticks, or just write the 
+digits in this way, using lines to represent sticks.
+To make the digit 7, three sticks are needed.
+Write or make the number 5108. How many sticks are required?
+1.	 	Make or write the number 42,019. It would require exactly 
+23 sticks.
+2.	 	Starting with 42,019, add or write two more sticks, and 
+make a bigger number. One example is 42,078. What other 
+numbers bigger than 42,019 can you make in this way?
+3.	 Preetham wants to insert the digit ‘1’ somewhere among 
+the digits ‘4’, ‘2’, ‘0’, ‘1’ and ‘9’. Where should he place the 
+digit ‘1’ to get the biggest possible number?
+4.	 	What other numbers can he make by placing the digit ‘1’?
+1.	 	Make or write the number 63,890.
+2.	 	Starting with 63,890, rearrange exactly four sticks and 
+make a bigger number. One example is 88,078. What other 
+numbers bigger than 63,890 can you make in this way?
+1.	 	Make any number using exactly 24 sticks or lines.
+2.	 	What is the biggest number that can be made using 24 
+sticks or lines?
+3.	 	What is the smallest number that can be made using 24 
+sticks or lines?
+Make your own questions and challenge each other.
+Reprint 2026-27

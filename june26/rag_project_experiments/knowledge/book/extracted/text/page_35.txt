@@ -1,0 +1,44 @@
+12 
+ 
+ Figure it out 
+Page No. 19 
+1. Using all digits from 0 – 9 exactly once (the first digit cannot be 0) to 
+create a 10-digit number, write the —  
+(a) Largest multiple of 5  
+Ans: largest multiple of 5 = 9876543210 
+ 
+(b) Smallest even number  
+Ans: The smallest such even number = 1023456798 
+ 
+2. The number 10,30,285 in words is ten lakhs thirty thousand two 
+hundred eighty-five, which has 42 letters. Give a 7-digit number name 
+which has the maximum number of letters.  
+Ans: One such number is 77,77,777, which has 60 letters. 
+ 
+3. Write a 9-digit number where exchanging any two digits results in a 
+bigger number. How many such numbers exist?  
+Ans: One such number is 987654312. 
+Exchanging last two digits, we get 987654321, which is bigger number 
+than the initial number. 
+Try more! 
+ 
+4. Strike out 10 digits from the number 12345123451234512345 so that 
+the remaining number is as large as possible.  
+Ans: 5534512345 
+ 
+6. Suppose you write down all the numbers 1, 2, 3, 4, …, 9, 10, 11, and so 
+on. The tenth digit you write is ‘1’ and the eleventh digit is ‘0’, as part 
+of the number 10. (This question can be solved in different ways. One 
+of the way is —) 
+(a) What would the 1000th digit be? At which number would it 
+occur?  
+Ans: Digits from 1 to 9 = 9 digits 
+Digits from 10 to 99 = 99-10+1 = 90 numbers × 2 = 180 digits 
+Total digits from 1 to 99 = 9 + 180 = 189 digits 
+Remaining digits to reach 1000th digit = 1000 – 189 = 811 
+Number of 3-digit numbers = 
+811
+3 = 270 full numbers + 1 digit left 
+over. 
+The first 3-digit number is 100 
+270th 3-digit number is 100 + 270 – 1 = 369 

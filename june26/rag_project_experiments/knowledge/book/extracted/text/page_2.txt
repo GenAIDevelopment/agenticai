@@ -1,0 +1,31 @@
+Ganita Prakash | Grade 7
+But how much is one lakh? Observe the pattern and fill in the boxes 
+given below.
+999
+The largest 3-digit number is
+The smallest 4-digit number is
+The largest 4-digit number is
+The smallest 5-digit number is
+The largest 5-digit number is
+1,00,000
+The smallest 6-digit number is
++1
++1
++1
+1,00,000 is read as “One Lakh”
+99,995
+99,996
+99,998
+Roxie and Estu found that if they ate 
+one variety of rice a day, they would come 
+nowhere close to a lakh in a lifetime! Roxie 
+suggests, “What if we ate 2 varieties of 
+rice every day? Would we then be able to 
+eat 1 lakh varieties of rice in 100 years?”
+What if a person ate 3 varieties of rice every day? Will they be able to 
+taste all the lakh varieties in a 100 year lifetime? Find out.
+Estu said, “We know how many days there are in a year — 365, if 
+we ignore leap years. If we live for y years, the number of days in our 
+lifetime will be 365 × y.”
+2
+Reprint 2026-27

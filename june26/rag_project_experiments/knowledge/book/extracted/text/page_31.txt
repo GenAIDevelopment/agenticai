@@ -1,0 +1,48 @@
+8 
+ 
+Page No. 11 
+ Similarly, write the five nearest neighbours for these numbers:  
+(a) 3,87,69,957  
+Nearest thousand  
+3,87,70,000 
+Nearest ten thousand  
+3,87,70,000 
+Nearest lakh 
+3,88,00,000 
+Nearest ten lakh  
+3,90,00,000 
+Nearest crore  
+4,00,00,000 
+ 
+(b) 29,05,32,481  
+Nearest thousand  
+29,05,32,000 
+Nearest ten thousand  
+29,05,30,000 
+Nearest lakh 
+29,05,00,000 
+Nearest ten lakh  
+29,10,00,000 
+Nearest crore  
+29,00,00,000 
+ 
+Page No. 13 
+ From the information given in the table answer the following 
+questions by approximation:  (Refer table on P. 12–13  
+1. What is your general observation about this data? Share with the 
+class.  
+Ans: One of the observations is – 
+Most cities shown in the table have seen a significant rise in population 
+from 2001 to 2011.  
+Think of more observations. 
+2. What is an appropriate title for the above table?  
+Ans: Population of some Indian cities in 2001 and 2011. 
+3. How much is the population of Pune in 2011? Approximately, by how 
+much has it increased compared to 2001?  
+Ans: Population of Pune in 2011 is 31,15,431. 
+The population of Pune has approximately increased by 6 lakh. 
+ 
+4. Which city’s population increased the most between 2001 and -2011?  
+Ans: Bengaluru has shown maximum increase in population which is 
+41,24,644. 
+ 

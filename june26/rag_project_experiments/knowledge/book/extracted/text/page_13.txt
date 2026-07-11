@@ -1,0 +1,54 @@
+Large Numbers Around Us
+15
+Indore
+19,60,631
+14,74,968
+16
+Thane
+18,18,872
+12,62,551
+17
+Bhopal
+17,98,218
+14,37,354
+18
+Visakhapatnam
+17,28,128
+13,45,938
+19
+Pimpri-Chinchwad
+17,27,692
+10,12,472
+20
+Patna
+16,84,222
+13,66,444
+From the information given in the table, answer the following questions 
+by approximation:
+1.	 	What is your general observation about this data? Share it with 
+the class.
+2.	 	What is an appropriate title for the above table?
+3.	 	How much is the population of Pune in 2011? Approximately, by 
+how much has it increased compared to 2001? 
+4.	 	Which city’s population increased the most between 2001 and 2011? 
+5.	 	Are there cities whose population has almost doubled? Which 
+are they?
+6.	 	By what number should we multiply Patna’s population to get a 
+number/population close to that of Mumbai?
+1.5 Patterns in Products
+Roxie and Estu are playing with multiplication. They encounter an 
+interesting technique for multiplying a number by 10, 100, 1000, and 
+so on.
+A Multiplication Shortcut
+Roxie evaluated 116 × 5 as follows:
+116 × 5 	 = 116 × 10
+2
+	
+	
+= 58 × 10
+	
+	
+= 580.
+58
+13
+Reprint 2026-27
