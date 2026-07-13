@@ -22,6 +22,9 @@ import fitz  # PyMuPDF
 
 KNOWLDEDGE_DIR = "./knowledge/book"
 
+MAX_DIMENSION =  1600
+PAGE_NUMBER_PX_SIZE = 81
+
 
 def merge_rectangles(rects, distance=20):
     """
@@ -103,6 +106,14 @@ def extract(book_path="./knowledge/book/chaper1.pdf"):
 
             base = doc.extract_image(xref)
 
+            # filter full page images
+            if base['width'] > MAX_DIMENSION or base['height'] > MAX_DIMENSION:
+                continue
+
+            # skip page number images
+            if base["height"] == PAGE_NUMBER_PX_SIZE and base["width"] == PAGE_NUMBER_PX_SIZE:
+                continue
+
             with open(
                 os.path.join(
                     image_dir,
@@ -169,6 +180,9 @@ def extract(book_path="./knowledge/book/chaper1.pdf"):
                 dpi=300,
                 alpha=False,
             )
+
+            if pix.width > MAX_DIMENSION or pix.height > MAX_DIMENSION:
+                continue
 
             pix.save(
                 os.path.join(
