@@ -86,7 +86,7 @@ def extract(book_path="./knowledge/book/chaper1.pdf"):
         text = page.get_text("text")
 
         with open(
-            os.path.join(text_dir, f"page_{page_num}.txt"),
+            os.path.join(text_dir, f"page_{page_num:02d}.txt"),
             "w",
             encoding="utf-8",
         ) as fp:
@@ -117,7 +117,7 @@ def extract(book_path="./knowledge/book/chaper1.pdf"):
             with open(
                 os.path.join(
                     image_dir,
-                    f"page_{page_num}_img_{img_index}.{base['ext']}",
+                    f"page_{page_num:02d}_img_{img_index}.{base['ext']}",
                 ),
                 "wb",
             ) as fp:
@@ -187,7 +187,7 @@ def extract(book_path="./knowledge/book/chaper1.pdf"):
             pix.save(
                 os.path.join(
                     image_dir,
-                    f"page_{page_num}_vector_{vector_index}.png",
+                    f"page_{page_num:02d}_vector_{vector_index}.png",
                 )
             )
 
