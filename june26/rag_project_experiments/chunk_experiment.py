@@ -23,7 +23,7 @@ def extract_chapter_text(
 
 def split_by_section_with_limits(
         text: str,
-        section_pattern: list[str] = [r"\n(?=\d+\.\d+\s)"],
+        section_pattern: list[str] = [r"\n(?=\d+\.\d+\s)", ". "],
         chunk_size: int = 1000,
         chunk_overlap: int = 150) -> list[str]:
     text_splitter = RecursiveCharacterTextSplitter(
@@ -32,7 +32,6 @@ def split_by_section_with_limits(
         chunk_size=chunk_size,
         chunk_overlap=chunk_overlap
     )
-    # todo: Need to esure sections are further split by chunk_size
     # chunks = text_splitter.create_documents([text])
     chunks = text_splitter.split_text(text)
     print(f"total number of chunks = {len(chunks)}")
@@ -44,5 +43,5 @@ if __name__ == "__main__":
         "./knowledge/book/extracted/text", "page_*.txt")
     chunks = split_by_section_with_limits(chapter1_text)
     for index, chunk in enumerate(chunks):
-        print(f"Chunk {index}: {chunk}\n")
-        input("Press Enter to continue and Ctrl + C to quit")
+        print(f"Chunk {index}: length {len(chunk)}")
+        #input("Press Enter to continue and Ctrl + C to quit")
