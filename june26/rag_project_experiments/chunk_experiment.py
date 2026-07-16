@@ -7,6 +7,13 @@ import os
 import glob
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
+import re
+
+def clean_page_text(text:str) -> str:
+    text = re.sub(r"\nReprint \d{4}-\d{2}\n", "\n", text)
+    text = re.sub(r"\n\d{1,3}\n", "\n", text)
+    # add others if necessary
+    return text.strip()
 
 
 def extract_chapter_text(
@@ -17,7 +24,7 @@ def extract_chapter_text(
     files = glob.glob(f"{chapter_dir}/{pattern}")
     for file in files:
         with open(file, "r", encoding="utf-8") as f:
-            text += f.read() + "\n"
+            text += clean_page_text(f.read()) + "\n"
     return text
 
 
