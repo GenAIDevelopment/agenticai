@@ -100,6 +100,9 @@ def build_rag_chain(retriever):
         "Question: {question}"
     )
     llm = get_model_from_gcp()
+
+    #chain = prompt | llm | StrOutputParser()
+    #chain.invoke()
     return (
         {"context": retriever | format_docs, "question": RunnablePassthrough()}
         | prompt
