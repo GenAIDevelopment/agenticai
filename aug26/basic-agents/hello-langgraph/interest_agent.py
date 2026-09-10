@@ -1,6 +1,7 @@
 from langgraph.graph import StateGraph, START, END
 from typing import TypedDict, Required
 from dataclasses import dataclass
+from pydantic import BaseModel, Field
 # Lets define state using typed dict
 
 # class InterestState(TypedDict, total=False):
@@ -12,13 +13,21 @@ from dataclasses import dataclass
 #     simple_interest: float
 #     compund_interest: float
 
-@dataclass
-class InterestState:
-    principal: float
-    time: float
-    rate: float
+# @dataclass
+# class InterestState:
+#     principal: float
+#     time: float
+#     rate: float
+#     simple_interest: float|None = None
+#     compound_interest: float|None = None
+
+class InterestState(BaseModel):
+    principal: float = Field(gt=0, description="Principal amount")
+    time: float = Field(gt=0, description="Time in years")
+    rate: float = Field(gt=0, description="Annual rate of intrest")
     simple_interest: float|None = None
     compound_interest: float|None = None
+    
 
 
 def simple_interest(state: InterestState) -> InterestState:
