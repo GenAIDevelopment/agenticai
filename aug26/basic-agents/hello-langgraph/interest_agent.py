@@ -1,5 +1,5 @@
 from langgraph.graph import StateGraph, START, END
-from typing import TypedDict
+from typing import TypedDict, NotRequired
 # Lets define state using typed dict
 
 class InterestState(TypedDict):
@@ -8,8 +8,8 @@ class InterestState(TypedDict):
     principal: float|int
     time: int|float
     rate: int|float
-    simple_interest: float
-    compund_interest: float
+    simple_interest: NotRequired[float]
+    compund_interest: NotRequired[float]
 
 
 def simple_interest(state: InterestState) -> InterestState:
