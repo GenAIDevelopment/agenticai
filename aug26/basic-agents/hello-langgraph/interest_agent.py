@@ -1,26 +1,35 @@
 from langgraph.graph import StateGraph, START, END
 from typing import TypedDict, Required
+from dataclasses import dataclass
 # Lets define state using typed dict
 
-class InterestState(TypedDict, total=False):
-    """This represents the state
-    """
-    principal: Required[float|int]
-    time: Required[float|int]
-    rate: Required[float|int]
-    simple_interest: float
-    compund_interest: float
+# class InterestState(TypedDict, total=False):
+#     """This represents the state
+#     """
+#     principal: Required[float|int]
+#     time: Required[float|int]
+#     rate: Required[float|int]
+#     simple_interest: float
+#     compund_interest: float
+
+@dataclass
+class InterestState:
+    principal: float
+    time: float
+    rate: float
+    simple_interest: float|None = None
+    compound_interest: float|None = None
 
 
 def simple_interest(state: InterestState) -> InterestState:
-    state['simple_interest'] = (state['principal'] * state['rate'] * state['time']) / 100
+    state.simple_interest = (state.principal * state.rate * state.time) / 100
     return state
 
 def compound_interest(state: InterestState) -> InterestState:
-    amount = state['principal'] * ((1 + (state['rate'] / 100)) ** state['time'])
+    amount = state.principal* ((1 + (state.rate / 100)) ** state.time)
     
     # Subtract principal to get just the interest
-    state['compund_interest'] = amount - state['principal']
+    state.compound_interest = amount - state.principal
     return state
 
 
@@ -43,5 +52,6 @@ if __name__ == "__main__":
     time = float(collect_input("time", "total time in years"))
     rate = float(collect_input("rate", "annual rate of intrest"))
     state = InterestState(principal=principal, time=time, rate=rate)
+    
     result = graph.invoke(state)
     print(result)
