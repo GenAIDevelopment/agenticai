@@ -1,6 +1,8 @@
 {
   "dependencies": ["."],
   "graphs": {
-    "agent_1": "./hello_agent_1.py:graph"
+    "agent_1": "./hello_agent_1.py:graph",
+    "interest_agent": "./interest_agent.py:graph"
+
   }
 }
