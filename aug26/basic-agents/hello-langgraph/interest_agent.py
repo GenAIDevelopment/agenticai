@@ -47,8 +47,9 @@ state_graph.add_node("si", simple_interest)
 state_graph.add_node("ci", compound_interest)
 
 state_graph.add_edge(START, "si")
-state_graph.add_edge("si", "ci")
+state_graph.add_edge(START, "ci")
 state_graph.add_edge("ci", END)
+state_graph.add_edge("si", END)
 
 graph = state_graph.compile()
 
