@@ -27,7 +27,7 @@ def sub(state: OperationsState):
 
 def mul(state:OperationsState):
     return {
-        "result": [state['a'] + state['b']]
+        "result": [state['a'] * state['b']]
     }
 
 
@@ -36,14 +36,14 @@ state_graph = StateGraph(OperationsState)
 # defining nodes
 state_graph.add_node("add", add)
 state_graph.add_node("sub", sub)
-#state_graph.add_node("mul", mul)
+state_graph.add_node("mul", mul)
 
 # define edges for direction
 
 state_graph.add_edge(START, "add")
 state_graph.add_edge(START, "sub")
-#state_graph.add_edge(START, "mul")
-#state_graph.add_edge("mul", END)
+state_graph.add_edge(START, "mul")
+state_graph.add_edge("mul", END)
 state_graph.add_edge("sub", END)
 state_graph.add_edge("add", END)
 
