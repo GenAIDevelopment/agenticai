@@ -5,7 +5,8 @@
     "interest_agent": "./interest_agent.py:graph",
     "explainer_agent": "./explainer_state.py:graph",
     "conditional_agent": "./conditional_demo.py:graph",
-    "loops": "./loops.py:graph"
+    "loops": "./loops.py:graph",
+    "model_with_tools": "./model_with_tools.py:graph"
 
   }
 }
