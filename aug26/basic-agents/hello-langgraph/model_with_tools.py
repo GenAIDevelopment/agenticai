@@ -56,7 +56,7 @@ llm_with_tools = llm.bind_tools(tools=tools)
 
 def chat(state: MessagesState) -> MessagesState:
     time.sleep(1)
-    state['messages'] = llm_with_tools.invoke(state["messages"])
+    state['messages'] = [llm_with_tools.invoke(state["messages"])]
     time.sleep(1)
     return state
 tool_node = ToolNode(tools=tools)
