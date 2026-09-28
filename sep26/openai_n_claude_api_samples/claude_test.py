@@ -76,3 +76,4 @@ def ask_claude_to_do_something():
     )
     #process_response(response)
     print(response)
+    #messages.append(response)
