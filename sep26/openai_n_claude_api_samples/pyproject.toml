@@ -9,5 +9,6 @@ dependencies = [
     "claude-agent-sdk>=0.2.160",
     "ipykernel>=7.3.0",
     "openai>=3.19.0",
+    "openai-agents>=0.22.3",
     "python-dotenv>=1.2.3",
 ]
