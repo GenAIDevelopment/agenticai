@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-from agents import Agent, Runner, function_tool
+from agents import Agent, Runner, function_tool, SQLiteSession
 
 import asyncio
 import os
@@ -166,6 +166,32 @@ async def main_with_tools():
 
     print(result.final_output)
 
+
+async def main_with_memory():
+    agent = Agent(
+        name="Helpful Assistant",
+        instructions="you are a helpful assistant",
+        model="gpt-5.6-luna",
+        tools=[get_weather]
+    )
+
+    session = SQLiteSession("classroom_29_sep")
+    result = await Runner.run(
+            agent,
+            input="I'm in hyderabad",
+            session=session
+        )
+    #print(result.final_output)
+    result = await Runner.run(
+                agent,
+                input="Can you tell me which city i'm in and whats the state",
+                session=session
+            )
+    print(result.final_output)
+
+
+
 if __name__ == "__main__":
     #asyncio.run(main())
-    asyncio.run(main_with_tools())
+    #asyncio.run(main_with_tools())
+    asyncio.run(main_with_memory())
