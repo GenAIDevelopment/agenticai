@@ -33,4 +33,5 @@ def parse_message(message: Message):
     elif isinstance(message, ResultMessage):
         print(f"duration: {message.duration_ms} ms")
         print(f"cost in usd: {message.total_cost_usd} ms")
+        print(f"session id: {message.session_id}")
 

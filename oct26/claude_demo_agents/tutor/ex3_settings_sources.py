@@ -5,6 +5,8 @@ import asyncio
 from helper import base_options, parse_message
 from typing import Literal
 
+USERS_DICT = {}
+
 TONE_DICT = {
     'DETAILED': """You are a tutor, Explain the question asked in a 
     direct fashion. Ensure you add some examples to answer the question""",
