@@ -1,0 +1,37 @@
+"""
+Step 1: A stateless support agent
+
+New Concepts:
+    working memory   the context window of ONE run 
+    live data
+"""
+from claude_agent_sdk  import query, tool, ToolAnnotations
+from typing import Annotated, Any
+import asyncio
+import json
+from common import ORDERS, ok, fail
+
+RULES = """You are the customer support agent for QuickBite, a food delivery app.
+- For order status, ETA or items, always call get_order_status. Never answer from memory
+"""
+
+
+def build_tools(customer: str) -> list:
+    """Tools for ONE customer. The customer ID comes from here, never from model """
+
+    @tool(
+        "get_order_status",
+        "Look up the live status of one of this customers order. Always use this for"
+        "order status, ETA or items; never answer this from memory",
+        {"order_id": Annotated[str, "Order Id, e.g. 'QB-5521'"]},
+        annotations=ToolAnnotations(readOnlyHint=True)
+    )
+    async def get_order_status(args: dict[str, Any]) -> dict[str, Any]:
+        order = ORDERS.get(customer, {}).get(args['order_id'].strip().upper())
+        if not order:
+            return fail(f"No order {args['order_id'].strip().upper()} for this customer {customer}")
+        return ok(json.dumps(order))
+
+    return [get_order_status]
+        
+
