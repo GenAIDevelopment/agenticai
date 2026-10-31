@@ -7,6 +7,7 @@ from typing import Any, Callable
 from claude_agent_sdk import (
     ClaudeSDKClient, ClaudeAgentOptions, create_sdk_mcp_server,
     AssistantMessage, ResultMessage, TextBlock, ToolUseBlock,
+    SessionStore
 )
 
 ORDERS = {
@@ -31,7 +32,8 @@ def make_options(
         system_prompt: str,
         tools: list,
         resume: str | None = None,
-        max_turns: int = 6) -> ClaudeAgentOptions:
+        max_turns: int = 6,
+        session_store: SessionStore = None) -> ClaudeAgentOptions:
     return ClaudeAgentOptions(
         system_prompt=system_prompt,
         resume=resume,
@@ -45,7 +47,8 @@ def make_options(
         permission_mode="dontAsk",
         setting_sources=[],
         env=ENV,
-        max_turns=max_turns
+        max_turns=max_turns,
+        session_store=session_store,
     )
 
 
