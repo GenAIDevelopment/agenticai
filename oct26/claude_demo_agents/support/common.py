@@ -50,7 +50,6 @@ def make_options(
         env=ENV,
         max_turns=max_turns,
         session_store=session_store,
-        resume=session_id
     )
 
 
