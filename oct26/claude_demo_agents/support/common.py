@@ -33,7 +33,8 @@ def make_options(
         tools: list,
         resume: str | None = None,
         max_turns: int = 6,
-        session_store: SessionStore = None) -> ClaudeAgentOptions:
+        session_store: SessionStore = None,
+        session_id:str = None) -> ClaudeAgentOptions:
     return ClaudeAgentOptions(
         system_prompt=system_prompt,
         resume=resume,
@@ -49,6 +50,7 @@ def make_options(
         env=ENV,
         max_turns=max_turns,
         session_store=session_store,
+        resume=session_id
     )
 
 

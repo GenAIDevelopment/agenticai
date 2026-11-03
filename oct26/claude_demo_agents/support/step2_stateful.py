@@ -17,6 +17,10 @@ RULES = """You are the customer support agent for QuickBite, a food delivery app
 - For order status, ETA or items, always call get_order_status. Never answer from memory
 """
 
+class Threads:
+    pass
+
+
 
 def build_tools(customer: str) -> list:
     """Tools for ONE customer. The customer ID comes from here, never from model """
