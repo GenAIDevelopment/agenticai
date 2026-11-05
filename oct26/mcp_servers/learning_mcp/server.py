@@ -1,7 +1,9 @@
 from mcp.server import MCPServer
 
 # mcp server object
-mcp = MCPServer("hello-mcp")
+mcp = MCPServer(
+    "Calculator", 
+    instructions="Simple Calculator")
 
 @mcp.tool()
 def add(a: int, b: int) -> int:
@@ -87,6 +89,9 @@ def table(number: int) -> str:
     return "\n".join(f"{number} * {i} = {number * i}" for i in range(1, 11))
 
 
+app = mcp.streamable_http_app()
 
 if __name__ == "__main__":
+
     mcp.run("stdio")
+    #mcp.run("streamable-http", host="0.0.0.0", port="8000")

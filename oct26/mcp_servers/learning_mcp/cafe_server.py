@@ -77,8 +77,18 @@ def apply_coupon(order_id: str, code: str) -> OrderConfirmation:
 def track_order(order_id:str) -> OrderStatus:
     pass
 
+@mcp.prompt(title="Daily Sales Summary")
+def daily_summary() -> str:
+    if not ORDERS:
+        return "No orders placed so far"
+    total = sum(ORDERS[order_id]['total_rupees'] for order_id in ORDERS)
+    return f"Sales so far today are {total}"
+
+
 
 
 
 if __name__ == "__main__":
-    mcp.run("stdio")
+    mcp.run("streamable-http", host="0.0.0.0", port="8000")
+    #object
+    
