@@ -93,5 +93,5 @@ app = mcp.streamable_http_app()
 
 if __name__ == "__main__":
 
-    mcp.run("stdio")
-    #mcp.run("streamable-http", host="0.0.0.0", port="8000")
+    #mcp.run("stdio")
+    mcp.run("streamable-http", host="0.0.0.0", port="8000")
